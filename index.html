@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>electrical-web</title>
+
+    <!-- Font Preloads -->
+    <link
+      rel="preload"
+      href="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/fonts/AlbertSans-VariableFont_wght.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/fonts/BricolageGrotesque-VariableFont_opsz.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <script>
+      var heading_animation = true;
+      var preloader = false;
+    </script>
+
+    <!-- Double Buffer Favicon -->
+    <link
+      rel="icon"
+      id="favicon-a"
+      type="image/png"
+      sizes="32x32"
+      href="../wp-content/uploads/2025/10/logo_00000.png"
+    />
+    <link
+      rel="shortcut icon"
+      id="favicon-b"
+      type="image/png"
+      sizes="32x32"
+      href="../wp-content/uploads/2025/10/logo_00000.png"
+    />
+
+    <!-- Animated Favicon -->
+    <script>
+      (function () {
+        const SRC = [
+          "https://phenomenonstudio.com/wp-content/uploads/2025/10/logo_00000.png",
+          "../wp-content/uploads/2025/10/logo_00001.png",
+          "../wp-content/uploads/2025/10/logo_00002.png",
+          "../wp-content/uploads/2025/10/logo_00003.png",
+          "../wp-content/uploads/2025/10/logo_00004.png",
+          "../wp-content/uploads/2025/10/logo_00005.png",
+          "../wp-content/uploads/2025/10/logo_00006.png",
+          "../wp-content/uploads/2025/10/logo_00007.png",
+          "../wp-content/uploads/2025/10/logo_00008.png",
+          "https://phenomenonstudio.com/wp-content/uploads/2025/10/logo_00009.png",
+        ];
+
+        const SIZE = 32;
+        const FPS = 24;
+        const PAUSE_MS = 800;
+
+        if (!Array.isArray(SRC) || SRC.length < 2) return;
+
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        if (isSafari) return;
+
+        const linkA = document.getElementById("favicon-a");
+        const linkB = document.getElementById("favicon-b");
+        if (!linkA || !linkB) return;
+
+        const canvas = document.createElement("canvas");
+        canvas.width = SIZE;
+        canvas.height = SIZE;
+        const ctx = canvas.getContext("2d", { willReadFrequently: true });
+
+        const imgs = new Array(SRC.length);
+        let loaded = 0;
+
+        SRC.forEach((url, i) => {
+          const img = new Image();
+          img.onload = () => {
+            imgs[i] = img;
+            loaded++;
+            if (loaded === SRC.length) start();
+          };
+          img.onerror = () => {
+            loaded++;
+            if (loaded === SRC.length) start();
+          };
+          img.src = url;
+        });
+
+        function drawToBlobURL(img) {
+          ctx.clearRect(0, 0, SIZE, SIZE);
+          const r = Math.min(SIZE / img.width, SIZE / img.height);
+          const w = Math.round(img.width * r);
+          const h = Math.round(img.height * r);
+          const x = (SIZE - w) / 2;
+          const y = (SIZE - h) / 2;
+          ctx.drawImage(img, x, y, w, h);
+
+          return new Promise((resolve) => {
+            canvas.toBlob((blob) => {
+              if (!blob) {
+                resolve(null);
+                return;
+              }
+              const objURL = URL.createObjectURL(blob);
+              resolve(objURL);
+            }, "image/png");
+          });
+        }
+
+        let useA = true;
+        let lastURL = null;
+
+        function setFavicon(href) {
+          const target = useA ? linkA : linkB;
+          target.rel = useA ? "icon" : "shortcut icon";
+          target.type = "image/png";
+          target.sizes = "32x32";
+          target.href = href;
+          try {
+            document.head.appendChild(target);
+          } catch (e) {}
+
+          if (lastURL && lastURL.startsWith("blob:")) {
+            setTimeout(() => {
+              URL.revokeObjectURL(lastURL);
+            }, 200);
+          }
+          lastURL = href;
+          useA = !useA;
+        }
+
+        function start() {
+          if (!imgs.some(Boolean)) return;
+          const FRAME_INTERVAL = Math.max(16, Math.floor(1000 / FPS));
+          let i = 0;
+          let running = true;
+
+          function playCycle() {
+            running = true;
+            i = 0;
+
+            async function step() {
+              if (!running) return;
+              const img = imgs[i];
+              if (img) {
+                const href = await drawToBlobURL(img);
+                if (href) setFavicon(href);
+              }
+              i++;
+              if (i >= imgs.length) {
+                running = false;
+                setTimeout(playCycle, PAUSE_MS);
+                return;
+              }
+              setTimeout(step, FRAME_INTERVAL);
+            }
+
+            step();
+          }
+
+          playCycle();
+        }
+      })();
+    </script>
+
+    <!-- Fonts and Styles -->
+    <style>
+      body {
+        font-family: "Albert Sans", Arial, sans-serif;
+      }
+
+      @font-face {
+        font-family: "Albert Sans";
+        src: url("https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/fonts/AlbertSans-VariableFont_wght.woff2")
+          format("woff2");
+        font-weight: 100 900;
+        font-display: swap;
+        ascent-override: 90%;
+        descent-override: 20%;
+        line-gap-override: 0%;
+      }
+
+      @font-face {
+        font-family: "Bricolage Grotesque";
+        src: url("https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/fonts/BricolageGrotesque-VariableFont_opsz.woff2")
+          format("woff2");
+        font-weight: 100 900;
+        font-display: swap;
+        ascent-override: 90%;
+        descent-override: 20%;
+        line-gap-override: 0%;
+      }
+
+      .isview:not(.visible) {
+        opacity: 0;
+      }
+    </style>
+
+    <!-- Theme Assets -->
+    <link
+      rel="stylesheet"
+      id="main-css"
+      href="../../cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/css/maina67e.css?ver=770474051"
+      media="all"
+    />
+    <script
+      src="../../cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/js/fine-mina67e.js?ver=770474051"
+      id="main-fine-script-js"
+    ></script>
+    <script
+      src="../../cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/js/common-mina67e.js?ver=770474051"
+      id="main-min-scripts-js"
+    ></script>
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      href="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/10/cropped-logo_00009-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/10/cropped-logo_00009-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/10/cropped-logo_00009-180x180.png"
+    />
+
+    <!-- Analytics -->
+    <script>
+      function initAnalytics() {
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+          j.async = true;
+          j.src =
+            "../../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NG5S546");
+
+        (function (ss, ex) {
+          window.ldfdr =
+            window.ldfdr ||
+            function () {
+              (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments));
+            };
+          (function (d, s) {
+            fs = d.getElementsByTagName(s)[0];
+            function ce(src) {
+              var cs = d.createElement(s);
+              cs.src = src;
+              cs.async = 1;
+              fs.parentNode.insertBefore(cs, fs);
+            }
+            ce("https://sc.lfeeder.com/lftracker_v1_" + ss + (ex ? "_" + ex : "") + ".js");
+          })(document, "script");
+        })("lYNOR8xdeJN8WQJZ");
+
+        runMixPanel();
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Main App -->
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Prefetch Rules -->
+    <script type="speculationrules">
+      {
+        "prefetch": [
+          {
+            "source": "document",
+            "where": {
+              "and": [
+                { "href_matches": "/*" },
+                {
+                  "not": {
+                    "href_matches": [
+                      "/wp-*.php",
+                      "/wp-admin/*",
+                      "/wp-content/uploads/*",
+                      "/wp-content/*",
+                      "/wp-content/plugins/*",
+                      "/wp-content/themes/phnmn/*",
+                      "/*\\?(.+)"
+                    ]
+                  }
+                },
+                { "not": { "selector_matches": "a[rel~='nofollow']" } },
+                { "not": { "selector_matches": ".no-prefetch, .no-prefetch a" } }
+              ]
+            },
+            "eagerness": "conservative"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Validation & Swiper -->
+    <script
+      src="../../cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/js/validationa67e.js?ver=770474051"
+      id="main-validation-script-js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="../../cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/css/swiper-bundle.min.css"
+      async
+    />
+    <script
+      src="../../cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/js/swiper-bundle.min.js"
+      async
+    ></script>
+
+    <!-- Initialization -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+          initAnalytics();
+        }, 1500);
+      });
+
+      window.initPageScripts = function () {
+        var config = {
+          container: ".contact-form",
+          validateOnFieldChanges: false,
+          validationBy: "onclick",
+          messages: {
+            required: "Required",
+            email: "Please enter it in the format: name@domain.com",
+            maxLength: "Max 1000 chars",
+            pattern: "Invalid data",
+          },
+          customValidates: {
+            budget: {
+              message: "Please select your approx. budget",
+              fn: function (field, container) {
+                return el(".budget:checked").length > 0;
+              },
+            },
+            need_email: {
+              message: "Please add contact email",
+              fn: function (field, container) {
+                return !!field.value;
+              },
+            },
+            need_text: {
+              message: "Please describe your project briefly",
+              fn: function (field, container) {
+                return !!field.value;
+              },
+            },
+          },
+          onFormSubmit: function (container) {
+            sendAjaxForm(event, container);
+          },
+        };
+
+        var validator = new VanillaValidator(config);
+        initScrollByCss();
+        initMarqueue();
+        initScrollBlock();
+        initAllSliders();
+        initAllTabs();
+
+        setTimeout(function () {
+          var r_captcha =
+            "../../www.google.com/recaptcha/apiadba.js?render=6Ld9iXApAAAAAKP9lhftxCE2wHWzfNu5nxsToBSI";
+          loadScript(r_captcha, function () {
+            grecaptcha.ready(function () {
+              grecaptcha
+                .execute("6Ld9iXApAAAAAKP9lhftxCE2wHWzfNu5nxsToBSI", {
+                  action: "validate_captcha",
+                })
+                .then(function (token) {
+                  el('input[name="g-recaptcha-response"]').val(token);
+                });
+            });
+          });
+        }, 5000);
+      };
+
+      initPageScripts();
+    </script>
+  </body>
+</html>
+
