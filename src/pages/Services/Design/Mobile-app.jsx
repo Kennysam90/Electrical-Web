@@ -1,6 +1,8 @@
 import React from 'react'
 import Topnav from '../../../Component/Topnav'
 import Footer from '../../../Component/Footer'
+import Chat from '../../../Component/Chat'
+import Comment from '../../../Component/Comment'
 
 const Mobileapp = () => {
   return (
@@ -63,15 +65,15 @@ const Mobileapp = () => {
   {/* This site is optimized with the Yoast SEO Premium plugin v24.6 (Yoast SEO v24.6) - https://yoast.com/wordpress/plugins/seo/ */}
   <meta
     name="description"
-    content="🟠 Mobile app design services by Phenomenon Studio: Expertly crafted mobile app design & development with stunning UI/UX. We create intuitive, user-friendly apps tailored to your business needs."
+    content="🟠 Electrical Installation & Commissioning services by Phenomenon Studio: Expertly crafted Electrical Installation & Commissioning & development with stunning UI/UX. We create intuitive, user-friendly apps tailored to your business needs."
   />
   <link rel="canonical" href="index.html" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Mobile App Design" />
+  <meta property="og:title" content="Electrical Installation & Commissioning" />
   <meta
     property="og:description"
-    content="🟠 Mobile app design services by Phenomenon Studio: Expertly crafted mobile app design & development with stunning UI/UX. We create intuitive, user-friendly apps tailored to your business needs."
+    content="🟠 Electrical Installation & Commissioning services by Phenomenon Studio: Expertly crafted Electrical Installation & Commissioning & development with stunning UI/UX. We create intuitive, user-friendly apps tailored to your business needs."
   />
   <meta
     property="og:url"
@@ -118,7 +120,7 @@ const Mobileapp = () => {
     content="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/cropped-logo_00009-270x270.png"
   />
   <title>
-    Mobile App Design | Mobile App Design Services - Phenomenon Studio
+    Electrical Installation & Commissioning | Electrical Installation & Commissioning Services - Phenomenon Studio
   </title>
   <div id="progress-bar-wrapper" className="invisible">
     <div id="progress-bar" />
@@ -151,18 +153,18 @@ const Mobileapp = () => {
       <section className="hero bg--dark clipped-bottom next_block_sticky">
         <div className="container color--white">
           <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop">
-            <h1>MOBILE APP DESIGN</h1>
+            <h1>Electrical Installation & Commissioning</h1>
           </div>{" "}
           <div className="nobr-mob title title--xl mw1040 isview textslide trd02">
             Not every team can{" "}
             <h2>
-              design <span>mobile app</span> UI
+              Install<span>and Deliver</span>
             </h2>{" "}
-            that triples <span>engagement</span>
+            <span>DAMPECON Ltd.</span>
           </div>{" "}
           <div className="txt txt--l mt-48 mw706 isview slidetop trd02 color--white-secondary inner-inherit">
             <div>
-              Our <h1>mobile app design</h1> services have delivered 3x longer
+              Our <h1>Electrical Installation & Commissioning</h1> services have delivered 3x longer
               sessions, 70% user retention, and 40% faster MVP launches. If
               that’s the kind of traction you’re after, we’re the team that
               makes it happen.
@@ -213,8 +215,7 @@ const Mobileapp = () => {
                 style={{ width: "100%" }}
               >
                 <div>
-                  Your next growth stage starts with the right mobile app design
-                  services partner — at launch, or at scale
+                  Your next growth stage starts with the right electrical engineering partner — from project launch to full-scale operations.
                 </div>
               </div>
               <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
@@ -267,25 +268,25 @@ const Mobileapp = () => {
                 <div className="col flex v--center h--center fd--column">
                   <div className="title--l color--white">98%</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>customer satisfaction rate</p>
+                    <p>Completed Projects</p>
                   </div>
                 </div>
                 <div className="col flex v--center h--center fd--column">
-                  <div className="title--l color--white">35%+</div>
+                  <div className="title--l color--white">100%</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>boost in conversions after redesign</p>
+                    <p>On-Time Delivery</p>
                   </div>
                 </div>
                 <div className="col flex v--center h--center fd--column">
                   <div className="title--l color--white">60+</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>top-tier designers and developers on board</p>
+                    <p>Expert Engineers</p>
                   </div>
                 </div>
                 <div className="col flex v--center h--center fd--column">
                   <div className="title--l color--white">500M+</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>investments raised by our clients</p>
+                    <p>Serving Clients Nationwide</p>
                   </div>
                 </div>
               </div>
@@ -296,15 +297,15 @@ const Mobileapp = () => {
       <section className="problems_we_solve bg--white pt-200 pt-100-mob">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>BEFORE YOU HIRE A MOBILE APP DESIGN AGENCY</h2>
+            <h2>BEFORE YOU HIRE A Electrical Installation & Commissioning AGENCY</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02 inner-inherit">
             Read what <span>most founders struggle with</span> — and how our
-            mobile app UI/UX design services fix it
+            services fix it
           </div>{" "}
           <div className="txt txt--l mt-48 mw706 isview slidetop trd02 color--dark-secondary inner-inherit">
             <div>
-              Some mobile apps fail long before launch — not because the idea is
+              Some fail long before launch — not because the idea is
               weak, but because the design misses what real users (and teams)
               need. Here’s how our mobile application design company solves the
               problems you’ve already faced (or are trying to avoid).
@@ -327,11 +328,11 @@ const Mobileapp = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead inner-inherit">
                       <div>
-                        As a top-rated mobile app design agency, we build flows
+                        As a top-rated Electrical Installation & Commissioning agency, we build flows
                         that drive retention from the first tap. Through
                         onboarding logic, habit loops, and emotionally
                         intelligent UX, we turn installs into engagements by
-                        combining modern mobile app design with user behaviour
+                        combining modern Electrical Installation & Commissioning with user behaviour
                         insights.
                       </div>
                     </div>
@@ -355,7 +356,7 @@ const Mobileapp = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead inner-inherit">
                       <div>
-                        We deliver mobile app design &amp; development fast,
+                        We deliver Electrical Installation & Commissioning &amp; development fast,
                         without cutting corners. With lean sprints,
                         cross-functional collaboration, and dev-ready Figma
                         systems, we help startups launch 40% faster, without
@@ -400,16 +401,16 @@ const Mobileapp = () => {
       <section className="serv_custom services_section services_section--light bg--white pt-0 pb-200 pb-100-mob">
         <div className="container">
           <div className="txt txt--caption-m color--dark-secondary uppercase fw-600 isview slidetop">
-            <h2>OUR MOBILE APP DESIGN SERVICES</h2>
+            <h2>OUR Electrical Installation & Commissioning SERVICES</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob color--dark mw1040 title title--xl isview textslide trd02 inner-inherit">
-            Your <span>users don’t care</span> how “slick” your mobile app looks{" "}
+            Your <span>users don’t care</span> how “slick” it looks{" "}
             <span>if it doesn’t work</span>
           </div>{" "}
           <div className="color--dark-secondary txt txt--l mt-48 mw706 isview slidetop trd02 inner-inherit">
             <div>
               From early UX mapping to polished UI and development-ready design,
-              our mobile app design and development services help teams enhance
+              our Electrical Installation & Commissioning and development services help teams enhance
               user engagement, boost in-app conversions, and reduce development
               rework. Here’s exactly how:{" "}
             </div>
@@ -482,7 +483,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          MVP pack
+                          Scheduled servicing and modernization support
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -508,7 +509,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          UX audit
+                          Electrical System Audit
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -525,7 +526,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          User-flow mapping
+                          Power Distribution Mapping
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -559,7 +560,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Visual UI
+                          Installation Execution
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -576,7 +577,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Design system
+                          Standardized Component Integration
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -609,7 +610,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Interface refresh
+                          System Modernization
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -626,7 +627,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Usability overhaul
+                          Performance Optimization
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -643,7 +644,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Brand alignment
+                          Compliance Alignment
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -659,7 +660,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Motion upgrade
+                          Automation Integration
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -676,7 +677,7 @@ const Mobileapp = () => {
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Accessibility tune-up
+                          Safety & Accessibility Enhancements
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -711,7 +712,7 @@ const Mobileapp = () => {
           <div className="color--white-secondary txt txt--l mt-48 mw706 isview slidetop trd02 inner-inherit">
             <div>
               Not every mobile product needs to be native, and not every hybrid
-              should be. Our mobile app design &amp; development company helps
+              should be. Our Electrical Installation & Commissioning &amp; development company helps
               you choose the right format based on your product vision, users,
               and roadmap.
             </div>
@@ -1068,15 +1069,15 @@ const Mobileapp = () => {
       >
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>OUR MOBILE APP DESIGN EXPERTISE</h2>
+            <h2>OUR Electrical Installation & Commissioning EXPERTISE</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02">
             <span>Inside our approach</span> to{" "}
-            <h3>mobile app design &amp; development</h3> across industries we
+            <h3>Electrical Installation & Commissioning &amp; development</h3> across industries we
             build in most
           </div>{" "}
           <div className="txt txt--l color--dark-secondary mt-24 isview slidetop trd02 mw680">
-            Different products call for different mobile app design strategies.
+            Different products call for different Electrical Installation & Commissioning strategies.
             Here’s how our design &amp; mobile app development services adapt to
             real user behaviour, product logic, and go-to-market priorities —
             with examples from 120+ launches.
@@ -1162,10 +1163,10 @@ const Mobileapp = () => {
                       </div>
                       <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
                         <ul>
-                          <li>Feature overload</li>
-                          <li>Cluttered dashboards</li>
-                          <li>No mobile parity</li>
-                          <li>Confusing pricing flows</li>
+                          <li>Healthcare Facilities</li>
+                          <li>Agricultural Operations</li>
+                          <li>Manufacturing & Industrial Plants</li>
+                          <li>Commercial Buildings</li>
                         </ul>
                       </div>
                     </div>
@@ -1330,7 +1331,7 @@ const Mobileapp = () => {
                 </div>
                 <div className="col">
                   <div className="title title--m">
-                    Trust-first fintech mobile app design that converts and
+                    Trust-first fintech Electrical Installation & Commissioning that converts and
                     retains{" "}
                   </div>
                   <div className="grid col-2 col-1-mob gap-24-mob mt-64 cols_wrap">
@@ -1389,7 +1390,7 @@ const Mobileapp = () => {
                 </div>
                 <div className="col">
                   <div className="title title--m">
-                    Mobile app design that makes crypto-native tools usable and
+                    Electrical Installation & Commissioning that makes crypto-native tools usable and
                     human{" "}
                   </div>
                   <div className="grid col-2 col-1-mob gap-24-mob mt-64 cols_wrap">
@@ -1454,7 +1455,7 @@ const Mobileapp = () => {
               Need to launch your mobile app?{" "}
             </div>
             <div className="txt txt--l mt-16 text--center isview slidetop color--dark-secondary fullw inner-inherit">
-              Book a call with Kseniia Shalia, our account executive, to talk
+              Book a call with Leo, our account executive, to talk
               through your goals and get a clear path forward.{" "}
             </div>
             <div className="mt-48 mt-20-mob flex v--center h--center isview slidetop">
@@ -2108,7 +2109,7 @@ const Mobileapp = () => {
       <section className="problems_we_solve pt-200 pb-200 pt-100-mob pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>INSIDE OUR MOBILE APP DESIGN SERVICES</h2>
+            <h2>INSIDE OUR Electrical Installation & Commissioning SERVICES</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02 inner-inherit">
             How our{" "}
@@ -2121,9 +2122,9 @@ const Mobileapp = () => {
           </div>{" "}
           <div className="color--dark-secondary txt txt--l mt-48 mw706 isview slidetop trd02 inner-inherit">
             <div>
-              More than a mobile app design and development services provider,
+              More than a Electrical Installation & Commissioning and development services provider,
               we act as your partner, helping you validate, structure, and
-              launch with speed. Every stage of our mobile app design process is
+              launch with speed. Every stage of our Electrical Installation & Commissioning process is
               built for clarity, usability, and traction.
             </div>
           </div>{" "}
@@ -2202,7 +2203,7 @@ const Mobileapp = () => {
                         behaviour
                       </h3>
                       <p>
-                        Our mobile app design services include competitor
+                        Our Electrical Installation & Commissioning services include competitor
                         reviews, audience expectation mapping, and market
                         alignment to uncover what users actually need and what
                         your product must outperform.
@@ -2307,7 +2308,7 @@ const Mobileapp = () => {
                     <div className="txt txt--m">
                       <h3>Structuring how users move through the app</h3>
                       <p>
-                        As a mobile app design company focused on retention, we
+                        As a Electrical Installation & Commissioning company focused on retention, we
                         map user journeys and translate them into wireframes
                         that solve user goals across devices and user types.
                       </p>
@@ -2604,11 +2605,11 @@ const Mobileapp = () => {
           <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit">
             The results you get when a time-
             <wbr />
-            tested strategy meets <span>great mobile app design</span>
+            tested strategy meets <span>great Electrical Installation & Commissioning</span>
           </div>
           <div className="txt txt--l color--dark mt-24 isview slidetop trd02 mw680">
             <div className="inner-inherit">
-              See how our <h3>mobile app design and development</h3> agency
+              See how our <h3>Electrical Installation & Commissioning and development</h3> agency
               helped fast-growing startups launch products that convert, engage,
               and scale.
             </div>
@@ -2664,7 +2665,7 @@ const Mobileapp = () => {
                 <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                   <div className="col">
                     <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Tech Stack{" "}
+                      Client:{" "}
                     </div>
                     <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                       <p>
@@ -2735,7 +2736,7 @@ const Mobileapp = () => {
               </div>
               <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                 <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#UX audit #Product redesign #web development </p>
+                  <p>#SystemDesign #ElectricalUpgrade</p>
                 </div>
                 <div className="title title--m mt-12 isview textslide fullw">
                   KlickEx – frictionless cross-
@@ -2759,7 +2760,7 @@ const Mobileapp = () => {
                 <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                   <div className="col">
                     <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Tech Stack{" "}
+                      Client:{" "}
                     </div>
                     <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                       <p>Next.js, TypeScript, React Redux</p>
@@ -2909,325 +2910,15 @@ const Mobileapp = () => {
           </div>
         </div>
       </section>
-      <section className="testimonials_section pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="flex v--end h--between heading_wrap flex--block-mob">
-            <div className="left">
-              <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-                <h2>What Our Clients Say</h2>{" "}
-              </div>
-              <div className="title title--xl mt-16 color--dark mw1040 isview textslide trd02">
-                <span> 5.0</span> is our average on clutch &amp; designrush
-              </div>
-            </div>
-            <div className="services_cards grid col-2 gap-8 mt-32-mob">
-              <a
-                href="https://clutch.co/profile/phenomenon-studio"
-                target="_blank"
-                rel="nofollow"
-                className="card bg--gray radius-12 p-12 flex fd--column isview slidetop"
-              >
-                <span className="icon">
-                  <img
-                    className="visible-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/clutch-icon.svg"
-                    alt="Icon - clutch-icon"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                  <img
-                    className="hover-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/Icon.svg"
-                    alt="Icon - Icon"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="ratings flex v--center h--between mt-auto">
-                  <div className="stars flex v--center h--start gap-2">
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                  <div className="txt txt--caption-m color--dark-light fw-600">
-                    5.0
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://www.designrush.com/agency/profile/phenomenon-studio"
-                target="_blank"
-                rel="nofollow"
-                className="card bg--gray radius-12 p-12 flex fd--column isview slidetop"
-              >
-                <span className="icon">
-                  <img
-                    className="visible-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/design-icon.svg"
-                    alt="Icon - design-icon"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                  <img
-                    className="hover-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/icon2.svg"
-                    alt="Icon - icon2"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="ratings flex v--center h--between mt-auto">
-                  <div className="stars flex v--center h--start gap-2">
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                  <div className="txt txt--caption-m color--dark-light fw-600">
-                    4.9
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="mt-40 mt-12-mob testimonials_wrap grid col-3 col-2-tablet col-1-mob gap-12">
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/03/1516924597216.jpg"
-                  alt="Image - Craig Tortolani"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: 1 }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Craig Tortolani</p>
-                    <span>CPO at Dekryption Labs </span>
-                  </div>
-                </div>
-              </div>
-              <div className="video_wrap mt-auto">
-                <div className="video_player radius-12 clipped-right-hover clipped-right-mob">
-                  <video
-                    preload="none"
-                    className="fullw"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/review-craig.mp4"
-                    poster="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-craig.webp"
-                  />{" "}
-                  <div className="btn-wrap">
-                    <button className="btn btn--play" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/av.png"
-                  alt="Image - Alex Friedman"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.0064102564103" }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Alex Friedman</p>
-                    <span>CEO at Open Path</span>
-                  </div>
-                </div>
-              </div>
-              <div className="txt txt--l mt-auto pt-24 text_wrap">
-                <p>
-                  Not only is the team extremely communicative, their work is
-                  exceptional. I have never worked with a team so talented while
-                  also being competitively priced and communicative.
-                </p>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/03/KlickEx.jpg"
-                  alt="Image - KlickEx"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: 1 }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>KlickEx Team </p>
-                    <span />
-                  </div>
-                </div>
-              </div>
-              <div className="video_wrap mt-auto">
-                <div className="video_player radius-12 clipped-right-hover clipped-right-mob">
-                  <video
-                    preload="none"
-                    className="fullw"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/klickex-review.mp4"
-                    poster="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/klickex-cover.webp"
-                  />{" "}
-                  <div className="btn-wrap">
-                    <button className="btn btn--play" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/Rectangle-34624326.png"
-                  alt="Image - George Fry"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.0064102564103" }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>George Fry</p>
-                    <span>Founder at Neap</span>
-                  </div>
-                </div>
-              </div>
-              <div className="txt txt--l mt-auto pt-24 text_wrap">
-                <p>
-                  The quality of the designs is fantastic. Phenomenon Studio
-                  works at speed and is extremely punctual with timelines. They
-                  deliver top-notch outcomes with exceptional designs.
-                </p>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/image.png"
-                  alt="Image - Andre Guerra"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.0064102564103" }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Andre Guerra</p>
-                    <span>Co-Owner at RADCAT Design</span>
-                  </div>
-                </div>
-              </div>
-              <div className="video_wrap mt-auto">
-                <div className="video_player radius-12 clipped-right-hover clipped-right-mob">
-                  <video
-                    preload="none"
-                    className="fullw"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/radcat-review.mp4"
-                    poster="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-andre-scaled.webp"
-                  />{" "}
-                  <div className="btn-wrap">
-                    <button className="btn btn--play" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/03/1683997337066.jpg"
-                  alt="Image - Kevin Alvarez"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: 1 }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Kevin Alvarez</p>
-                    <span>Founder &amp; General Partner, Predictive</span>
-                  </div>
-                </div>
-              </div>
-              <div className="txt txt--l mt-auto pt-24 text_wrap">
-                <p>
-                  Phenomenon Studio's ability to translate concepts and rough
-                  design mock-ups into high-fidelity assets, designs, and
-                  visuals was very impressive. The goal was to maintain simple
-                  elegance in the design aesthetic, and they did it very well.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Comment />
       <section className="services_section bg--white pb-200 pb-100-mob">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>MOBILE APP DESIGN COST</h2>
+            <h2>Electrical Installation & Commissioning COST</h2>
           </div>{" "}
           <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02 inner-inherit">
-            What <span>shapes the price</span> of mobile app design &amp;
-            development at Phenomenon Studio?
+            What <span>shapes the price</span> of Electrical Installation & Commissioning
+
           </div>{" "}
           <div className="txt txt--l color--dark-secondary mt-24 isview slidetop trd02 mw680">
             <p>
@@ -3243,7 +2934,7 @@ const Mobileapp = () => {
             </p>
           </div>{" "}
           <div className="title title--l color--dark mt-100 mt-64-mob isview slidetop trd02 mw760">
-            <h3>What affects your mobile app design cost?</h3>
+            <h3>What affects your Electrical Installation & Commissioning cost?</h3>
           </div>{" "}
         </div>
         <div className="how_we_do_it_items mt-32 mt-32-mob">
@@ -3278,7 +2969,7 @@ const Mobileapp = () => {
                 <div className="h6 color--dark-tertiary">02</div>
                 <div className="pt-100 pt-48-mob">
                   <div className="title title--s color--dark">
-                    App type &amp; tech stack
+                    App type &amp; Client:
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
                     <p>
@@ -3368,11 +3059,11 @@ const Mobileapp = () => {
               />{" "}
             </span>
             <div className="title title--m title--with-mark mt-24 mt-20-mob text--center isview textslide">
-              <h2>Get a custom mobile app design estimate</h2>{" "}
+              <h2>Get a custom Electrical Installation & Commissioning estimate</h2>{" "}
             </div>
             <div className="txt txt--l mt-16 text--center isview slidetop color--dark-secondary fullw inner-inherit">
               Our pricing and your product are not prepackaged. Book a free
-              consultation and get a tailored quote for mobile app design,
+              consultation and get a tailored quote for Electrical Installation & Commissioning,
               UI/UX, or full mobile app development services.{" "}
             </div>
             <div className="mt-48 mt-20-mob flex v--center h--center isview slidetop">
@@ -3395,7 +3086,7 @@ const Mobileapp = () => {
             <h2>How to work with us</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob color--white mw1040 title title--xl isview textslide trd02 inner-inherit">
-            Move your <span>mobile app design</span> forward — at your pace,
+            Move your <span>Electrical Installation & Commissioning</span> forward — at your pace,
             with the right <span>level of support</span>
           </div>
           <div className="mt-100 mt-32-mob">
@@ -3433,14 +3124,11 @@ const Mobileapp = () => {
               <div className="right color--white gap-100 flex fd--column gap-80-mob mt-40-mob pt-8-mob isview fadein">
                 <div className="scroll_slide row-1" id="slide-1">
                   <div className="title main_title title--l pl-32 pr-32 pl-12-mob pr-12-mob isview textslide">
-                    Partner with a full-cycle product design company
+                    Your trusted partner for reliable, scalable, and standards-compliant electrical engineering solutions.
                   </div>
                   <div className="pl-32 pr-32 pl-12-mob pr-12-mob">
                     <div className="txt txt--m mt-24 color--white-secondary mw706">
-                      We work as your long-term product design and development
-                      partner, owning strategy, discovery, design, dev, QA, and
-                      scaling iterations. This is not a “project”— it’s your
-                      full product team.{" "}
+                      We’re not just a contractor — we’re your ongoing electrical partner, ensuring performance, compliance, and system reliability long after installation.{" "}
                     </div>
                   </div>
                   <div className="colums_wrap mt-32 ov-hidden">
@@ -3480,7 +3168,7 @@ const Mobileapp = () => {
                               Expert team aligned with your roadmap, KPIs, and
                               business goals
                             </li>
-                            <li>Strategic discovery, UX systems</li>
+                            <li>Strategic discovery</li>
                           </ul>
                         </div>
                       </div>
@@ -3500,13 +3188,11 @@ const Mobileapp = () => {
                 </div>
                 <div className="scroll_slide row-2" id="slide-2">
                   <div className="title main_title title--l pl-32 pr-32 pl-12-mob pr-12-mob isview textslide">
-                    Hire a full-stack dedicated team
+                    Hire a dedicated team
                   </div>
                   <div className="pl-32 pr-32 pl-12-mob pr-12-mob">
                     <div className="txt txt--m mt-24 color--white-secondary mw706">
-                      We deliver your product from idea to launch—fast and lean.
-                      You get execution-ready design and development support
-                      with a clear project scope and delivery timeline.{" "}
+                      We deliver your electrical project from concept to completion — efficiently and safely. You receive a fully designed, installed, and tested system supported by a clear project plan, defined scope, and transparent delivery schedule.{" "}
                     </div>
                   </div>
                   <div className="colums_wrap mt-32 ov-hidden">
@@ -3654,7 +3340,7 @@ const Mobileapp = () => {
       <section className="services_section bg--white pt-200 pt-100-mob pb-200 pb-100-mob">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>WHY CHOOSE PHENOMENON STUDIO FOR YOUR MOBILE APP DESIGN</h2>
+            <h2>WHY CHOOSE PHENOMENON STUDIO FOR YOUR Electrical Installation & Commissioning</h2>
           </div>{" "}
           <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02 inner-inherit">
             Your success is <span>our priority</span>
@@ -3662,17 +3348,15 @@ const Mobileapp = () => {
           <div className="mt-40 mt-32-mob grid col-2 col-1-mob gap-12 benefits_container">
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that meets regulation{" "}
+                Engineering that meets standards{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                HIPAA- and GDPR-certified expertise for Healthcare and beyond.
+                Certified expertise in electrical safety and compliance — meeting IEC, ISO, and industry-specific standards across sectors.
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Since 2019, we’ve gained HIPAA and GDPR certifications and
-                  industry recognition, delivering hundreds of products in
-                  Healthcare, SaaS, FinTech, and EdTech — where compliance and
-                  UX go hand in hand.
+                  At DAMPECON LTD., safety and compliance come first.
+We strictly adhere to Nigerian Electrical Standards and international best practices in every project — from healthcare facilities to manufacturing plants. Our certified engineers ensure every installation is efficient, durable, and built to last.
                 </p>
               </div>
               {/*  <div class="mob-visible mt-64">
@@ -3686,15 +3370,19 @@ const Mobileapp = () => {
                 Design that lasts beyond trends{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                We don’t chase fads. We build digital products that stay
-                relevant.
+                We don’t follow trends — we build electrical systems that last..
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Our work looks sharp today and stays usable tomorrow —
-                  designed around long-term value, not short-term gimmicks.
-                  Scalable systems, brand consistency, and smart UX that grows
-                  with your product.
+                  Our installations are designed for long-term reliability, safety, and efficiency — engineered to meet today’s standards and tomorrow’s demands. Every project we deliver is scalable, compliant, and built for sustained performance — not just short-term fixes.
+
+
+⚙️ Optional Shorter Version (for tagline or highlight box):
+
+We engineer electrical systems that stand the test of time — safe, efficient, and ready for the future.
+
+
+Would you like me to now help you rewrite the next paragraph or tagline that appears right after this (for example, the one that transitions into your “Industries We Serve” section)? That will keep your tone consistent across the homepage.
                 </p>
               </div>
               {/*  <div class="mob-visible mt-64">
@@ -3705,14 +3393,14 @@ const Mobileapp = () => {
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that’s developer-ready{" "}
+                Engineering that’s installation-ready{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                We design for implementation, not handoff.{" "}
+                We design for implementation, not just documentation.{" "}
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Every component is built with devs in mind: design tokens,
+                  Every electrical layout and system specification is developed with installation teams in mind — focusing on efficiency, safety, and compliance. We coordinate closely with your contractors or facility managers to ensure every component is accurately installed, tested, and commissioned to specification.ilt with devs in mind: design tokens,
                   accessibility, reusability, and real-world constraints. We
                   collaborate with your team, reuse existing elements, and stay
                   involved until everything’s live.
@@ -3726,14 +3414,14 @@ const Mobileapp = () => {
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Local presence. Global delivery{" "}
+                Local expertise. Global capability{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                Work directly with the doers — not a chain of account managers.
+                Work directly with experienced engineers and project managers — not layers of intermediaries.
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Collaborate with UX strategists in North America, while our
+                  Our regional teams provide on-site coordination, while our technical and procurement units ensure international-quality standards and timely delivery. We integrate seamlessly into your project workflow, from design and procurement to installation and maintenance, acting as an extension of your engineering team.in North America, while our
                   senior design and development teams in Europe deliver fast,
                   consistent results. We integrate into your tools and workflow,
                   working as part of your team — from a single embedded designer
@@ -3752,7 +3440,7 @@ const Mobileapp = () => {
       <section className="awards_section pb-200 pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h3>Among award-winning product design firms</h3>{" "}
+            <h3>Awards & Winning</h3>{" "}
           </div>
           <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02">
             Wins that inspire us <span>forward</span>
@@ -3772,7 +3460,7 @@ const Mobileapp = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Top product design company 2024</p>
+                <p>Professional & Credibility-Focused</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -3798,7 +3486,7 @@ const Mobileapp = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Top rated plus agency by Upwork</p>
+                <p>Short & Impactful</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -3824,7 +3512,7 @@ const Mobileapp = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Professional partner by Webflow</p>
+                <p>Industry-Award Tone</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -3851,8 +3539,8 @@ const Mobileapp = () => {
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
                 <p>
-                  Nominee 2024 <br />
-                  Isora - GRC Platform
+                  Technical Authority Version <br />
+                  
                 </p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
@@ -3921,8 +3609,8 @@ const Mobileapp = () => {
             <h2>Related Services</h2>
           </div>{" "}
           <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02">
-            Services that <span>pair well</span> with your{" "}
-            <span>mobile app design</span>
+            Services that <span>pair well</span>{" "}
+            <span></span>
           </div>{" "}
         </div>
         <div className="mt-100 mt-32-mob services_items ov-hidden">
@@ -3930,11 +3618,11 @@ const Mobileapp = () => {
             <div className="grid awards_wrap col-3 col-2-tablet col-1-mob">
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1 isview slidetop">
                 <div className="title title--s color--dark">
-                  Website design services
+                  Electrical Engineering Design
                 </div>
                 <div className="txt txt--s mt-8 mt-4-mob color--dark-light">
                   <p>
-                    Custom website layouts and UX/UI strategies to improve
+                    Comprehensive electrical system design — from load analysis and schematics to control and automation layouts for industrial and commercial projects. UX/UI strategies to improve
                     engagement and conversions.
                   </p>
                 </div>
@@ -3967,16 +3655,16 @@ const Mobileapp = () => {
                 </div>
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3 isview slidetop">
-                <div className="title title--s color--dark">Branding</div>
+                <div className="title title--s color--dark">Procurement & Supply</div>
                 <div className="txt txt--s mt-8 mt-4-mob color--dark-light">
                   <p>
-                    Develop a brand that resonates — visually, emotionally, and
+                    Reliable sourcing of certified electrical materials and equipment, managed through trusted suppliers to ensure cost-effectiveness and timely delivery. — visually, emotionally, and
                     strategically.
                   </p>
                 </div>
                 <div className="btn-wrap mt-auto pt-48">
                   <a
-                    href="../service/branding-and-identity-services/index.html"
+                    href="../service/Procurement & Supply-and-identity-services/index.html"
                     className="btn btn--simple dark arr"
                   >
                     <span>Explore</span>
@@ -4011,7 +3699,7 @@ const Mobileapp = () => {
                 </div>
                 <div className="center">
                   <div className="txt txt--l question inner-inherit">
-                    <div> How do you design a mobile app at Phenomenon?</div>
+                    <div> How to install an electrical system? you design a mobile app at Phenomenon?</div>
                   </div>
                   <div className="answer_wrap">
                     <div className="answer">
@@ -4021,7 +3709,7 @@ const Mobileapp = () => {
                           user behavior. Then we move through user journey
                           mapping, wireframes, visual direction, and full UI
                           delivery. Every step is built for clarity, reuse, and
-                          launch-readiness. As a mobile app design company, we
+                          launch-readiness. As a Electrical Installation & Commissioning company, we
                           deliver dev-ready Figma files, interactive prototypes,
                           and scalable component libraries — tailored to your
                           app type and stack.
@@ -4056,7 +3744,7 @@ const Mobileapp = () => {
                     <div className="answer">
                       <div className="txt txt--m">
                         <p>
-                          The best mobile app design process starts with
+                          The best Electrical Installation & Commissioning process starts with
                           understanding real user problems. We focus on
                           structure, not just visuals — designing mobile app UI
                           that aligns with platform behaviours (iOS, Android, or
@@ -4089,13 +3777,13 @@ const Mobileapp = () => {
                 </div>
                 <div className="center">
                   <div className="txt txt--l question inner-inherit">
-                    <div>Do you offer mobile app design and development?</div>
+                    <div>Do you offer Electrical Installation & Commissioning and development?</div>
                   </div>
                   <div className="answer_wrap">
                     <div className="answer">
                       <div className="txt txt--m">
                         <p>
-                          Yes. Phenomenon is your partner for mobile app design,
+                          Yes. Phenomenon is your partner for Electrical Installation & Commissioning,
                           development, and full-stack execution. Our in-house
                           developers and QA engineers work alongside our
                           designers to deliver complete apps across iOS,
@@ -4129,7 +3817,7 @@ const Mobileapp = () => {
                 <div className="center">
                   <div className="txt txt--l question inner-inherit">
                     <div>
-                      What affects the cost of mobile app design &amp;
+                      What affects the cost of Electrical Installation & Commissioning &amp;
                       development?
                     </div>
                   </div>
@@ -4141,7 +3829,7 @@ const Mobileapp = () => {
                           feature complexity, app type (native vs
                           cross-platform), number of screens, design system
                           depth, and validation needs. For example, a modern
-                          mobile app design with animations, multiple user
+                          Electrical Installation & Commissioning with animations, multiple user
                           roles, and custom components will cost more than a
                           simple 5-screen MVP. We break this down transparently
                           in our cost section.
@@ -4177,7 +3865,7 @@ const Mobileapp = () => {
                       <div className="txt txt--m">
                         <p>
                           Yes — mobile app responsive design is a standard part
-                          of our process. As part of the best mobile app design
+                          of our process. As part of the best Electrical Installation & Commissioning
                           practices, we create screen variants for multiple
                           breakpoints, including mobile, tablet, and small
                           desktop, where applicable. Whether it’s mobile-first
@@ -4217,19 +3905,19 @@ const Mobileapp = () => {
                     <div className="answer">
                       <div className="txt txt--m">
                         <p>
-                          Modern mobile app design is moving toward clarity,
+                          Modern Electrical Installation & Commissioning is moving toward clarity,
                           motion, and modularity. Users expect
                           microinteractions, gesture-based flows, and a clean
                           mobile app interface design that adapts across
                           devices.
                         </p>
                         <p>
-                          As a mobile app design agency, we also see a shift
+                          As a Electrical Installation & Commissioning agency, we also see a shift
                           toward mobile app user interface design systems that
                           are flexible, scalable, and dev-aligned — especially
                           for products planning frequent releases. At
                           Phenomenon, we build UI kits and flows that reflect
-                          these great mobile app design trends while staying
+                          these great Electrical Installation & Commissioning trends while staying
                           grounded in your app’s specific goals and audience.
                         </p>
                       </div>
@@ -4262,10 +3950,10 @@ const Mobileapp = () => {
                     <div className="answer">
                       <div className="txt txt--m">
                         <p>
-                          Effective mobile app design projects go beyond screens
+                          Effective Electrical Installation & Commissioning projects go beyond screens
                           — they include user flows, wireframes, visual systems,
                           and interaction logic. Whether you’re building a
-                          brand-new mobile app design app or reworking an
+                          brand-new Electrical Installation & Commissioning app or reworking an
                           existing product, we design structure-first to support
                           both user behavior and business outcomes.
                         </p>
@@ -4290,389 +3978,9 @@ const Mobileapp = () => {
             </div>
           </div>
         </div>
+        <Chat />
       </section>
-      <section
-        className="contact_form_section pt-200 pb-200 pt-100-mob pb-100-mob bg--dark clipped-bottom clipped-top radius-80 radius-32-mob ov--hidden"
-        id="contact-form"
-      >
-        <div className="container">
-          <div className="txt txt--caption-m color--white-light uppercase fw-600 isview slidetop">
-            Contact us{" "}
-          </div>
-          <h2 className="title title--xl mt-16 color--white mw1040 nobr-mob isview textslide trd02">
-            Have a project in mind? <br />
-            <span>Let's chat</span>
-          </h2>
-        </div>
-        <div className="mt-40 mt-48-mob contact_form_wrap">
-          <div className="container">
-            <div className="flex v--stretch h--between flex--block-mob">
-              <form
-                action="https://phenomenonstudio.com/?form-action=request"
-                autoComplete="off"
-                className="contact-form"
-              >
-                <div className="relative">
-                  <div className="flex h--wrap v--start h--between row-gap-32 row-gap-24-mob form_wrap">
-                    <input type="hidden" name="g-recaptcha-response" />
-                    <input
-                      type="hidden"
-                      name="action"
-                      defaultValue="validate_captcha"
-                    />
-                    <input type="hidden" name="form_type" defaultValue={1} />
-                    <input
-                      type="hidden"
-                      name="source_page"
-                      defaultValue="index.html"
-                    />{" "}
-                    <div className="input-wrap w50 isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Your Name{" "}
-                      </div>
-                      <input
-                        type="text"
-                        name="your_name"
-                        placeholder=" "
-                        className="required"
-                        data-max-length={40}
-                        data-pattern="[A-Za-z]"
-                      />
-                      <p>
-                        Enter your name <sup>*</sup>
-                      </p>
-                    </div>
-                    <div className="input-wrap w50 isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Your Email{" "}
-                      </div>
-                      <input
-                        type="text"
-                        name="your_email"
-                        placeholder=" "
-                        className="required email"
-                        data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$"
-                        data-message-error="Your Email is invalid"
-                      />
-                      <p>
-                        Enter your email <sup>*</sup>
-                      </p>
-                    </div>
-                    <div className="input-wrap isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Message{" "}
-                      </div>
-                      <textarea
-                        name="your_text"
-                        className="max-length"
-                        placeholder=" "
-                        data-max-length={1000}
-                        defaultValue={""}
-                      />
-                      <p>Tell us about your project</p>
-                    </div>
-                    <div className="attach_wrap mt--8 mt-0-mob isview slidetop">
-                      <input
-                        type="file"
-                        accept=".jpg, .png, .webp, .doc, .docx, .pdf, .csv, .xlsx"
-                        id="attach_1"
-                        className="attach_input"
-                        multiple=""
-                        name="files_arr[]"
-                      />
-                      <label
-                        htmlFor="attach_1"
-                        className="btn btn--white-light hover--dark-light clip"
-                      >
-                        <span>
-                          <b>Attach file</b>
-                        </span>
-                      </label>
-                      <div id="inner_1" className="attach_inner" />
-                      <div className="file-err err fe1">
-                        You can upload maximum 5 files
-                      </div>
-                      <div className="file-err err fe2">
-                        Some of your file not loaded, because maximum file size
-                        - 5 mb
-                      </div>
-                    </div>
-                    <div className="budget_wrap mt-8-mob isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Your budget for this project?{" "}
-                      </div>
-                      <div className="budgets flex v--start h--start h--wrap mt-20 gap-8">
-                        <input
-                          type="radio"
-                          id="budget_1"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="up to $10k"
-                        />
-                        <label htmlFor="budget_1" className="btn btn--label">
-                          up to $10k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_2"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$10-$20k"
-                        />
-                        <label htmlFor="budget_2" className="btn btn--label">
-                          $10-$20k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_3"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$20-$50k"
-                        />
-                        <label htmlFor="budget_3" className="btn btn--label">
-                          $20-$50k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_4"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$50-$100k"
-                        />
-                        <label htmlFor="budget_4" className="btn btn--label">
-                          $50-$100k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_5"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue=">$100k"
-                        />
-                        <label htmlFor="budget_5" className="btn btn--label">
-                          &gt;$100k
-                        </label>
-                      </div>
-                    </div>
-                    <div className="btn_wrap flex v--center h--start pt-8 flex--block-mob isview slidetop w-full-mob">
-                      <button className="btn btn--orange btn--lg-desk arr fullw-mob hover--white">
-                        <span>
-                          <b>Submit</b>
-                        </span>
-                      </button>
-                      <div className="txt txt--control-m color--white-light uppercase fw-600 mt-24-mob text--center-mob">
-                        <p>
-                          By clicking this button you accept{" "}
-                          <a href="../terms-of-use/index.html">
-                            Terms of Service
-                          </a>{" "}
-                          and
-                          <br />
-                          <a href="../privacy-policy/index.html">
-                            Privacy Policy
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form_state text--center success type-1 color--white bg--dark">
-                    <div className="icon">
-                      <img
-                        className=""
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/circle-check-svgrepo-com-1.svg"
-                        alt="Icon - circle-check-svgrepo-com 1"
-                        loading="lazy"
-                        decoding="async"
-                        style={{}}
-                      />{" "}
-                    </div>
-                    <div className="title title--m mt-24">
-                      <span>Thanks</span> for taking time to reachout!{" "}
-                    </div>
-                    <div className="txt txt--l mt-12 color--white-light">
-                      Stay connected with us by subscribing to our LinkedIn
-                      account. By following, you’l be the first to hear about
-                      our latest updates, news, and exciting development. We
-                      look forward to sharing our journey with you!{" "}
-                    </div>
-                    <div className="btn_wrap mt-24 w-full-mob">
-                      <a
-                        href="https://www.linkedin.com/company/phenomenonstudio/"
-                        target="_blank"
-                        rel="nofollow"
-                        className="btn btn--orange hover--white btn--lg-desk"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={16}
-                          height={17}
-                          viewBox="0 0 16 17"
-                          fill="none"
-                        >
-                          <path
-                            d="M13.8661 9.82749V14.3671H11.3513V10.1315C11.3513 9.06751 10.9876 8.34136 10.0773 8.34136C9.3824 8.34136 8.96887 8.83073 8.78694 9.30411C8.7206 9.47335 8.70352 9.7089 8.70352 9.94579V14.3671H6.18784C6.18784 14.3671 6.22172 7.19341 6.18784 6.45016H8.70327V7.57236C8.69817 7.58075 8.69154 7.5898 8.68674 7.59794H8.70327V7.57236C9.03747 7.03368 9.63432 6.26417 10.9702 6.26417C12.6254 6.26414 13.8661 7.3957 13.8661 9.82749ZM3.55633 2.63379C2.69572 2.63379 2.13281 3.22454 2.13281 4.00139C2.13281 4.76131 2.67944 5.36998 3.52294 5.36998H3.53975C4.41703 5.36998 4.96261 4.76142 4.96261 4.00139C4.94608 3.22454 4.41703 2.63379 3.55633 2.63379ZM2.28222 14.3671H4.79695V6.45016H2.28222V14.3671Z"
-                            fill="currentColor"
-                            fillOpacity="0.4"
-                          />
-                        </svg>
-                        <span>
-                          <b>Follow us</b>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="form_state text--center success type-2 color--white bg--dark">
-                    <div className="icon">
-                      <img
-                        className=""
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/circle-check-svgrepo-com-1.svg"
-                        alt="Icon - circle-check-svgrepo-com 1"
-                        loading="lazy"
-                        decoding="async"
-                        style={{}}
-                      />{" "}
-                    </div>
-                    <div className="title title--m mt-24">
-                      <span>Thanks</span> for taking time to reachout!{" "}
-                    </div>
-                    <div className="txt txt--l mt-12 color--white-light">
-                      We’d love to hear more about your project! Feel free to
-                      schedule a call using the link provided. This will help us
-                      better understand your vision and ensure we’re aligned on
-                      all the details.{" "}
-                    </div>
-                    <div className="btn_wrap mt-24 w-full-mob">
-                      <a
-                        href="https://calendly.com/hello-phenomenon-studio/30min"
-                        target="_blank"
-                        rel="nofollow"
-                        className="btn btn--orange hover--white arr btn--lg-desk"
-                      >
-                        <span>
-                          <b>Book a Call</b>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div className="contacts ov-hidden">
-                <div className="contact_wrap color--white flex fd--column isview slidetop">
-                  <div className="title title--s nobr-mob">
-                    Have a project to <br />
-                    discuss?
-                  </div>
-                  <div className="contact flex v--stretch h--between mt-auto mt-32-mob">
-                    <img
-                      className="radius-6 photo"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/ksenia.jpg"
-                      alt="Image - ksenia"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: "0.75555555555556" }}
-                    />{" "}
-                    <div className="bio flex fd--column v--start">
-                      <a
-                        href="https://www.linkedin.com/in/kseniia-shalia-a21921240/"
-                        target="_blank"
-                        rel="nofollow"
-                        className="soc"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
-                          loading="lazy"
-                          decoding="async"
-                          alt=""
-                        />
-                      </a>
-                      <div className="txt txt--m">Kseniia Shalia </div>
-                      <div className="txt txt--s color--white-light">
-                        Account Executive{" "}
-                      </div>
-                      <div className="email_wrap flex v--start h--start gap-8 mt-10 pt-8">
-                        <div className="copy_wrap">
-                          <img
-                            src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
-                            loading="lazy"
-                            decoding="async"
-                            data-text="hello@phenomenon-studio.com"
-                            alt=""
-                            className="copyme"
-                          />
-                        </div>
-                        <a
-                          href="mailto:hello@phenomenon-studio.com"
-                          className="btn btn--simple"
-                        >
-                          <span>hello@phenomenon-studio.com</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="contact_wrap color--white flex fd--column isview slidetop">
-                  <div className="title title--s nobr-mob">
-                    Have a partnership in <br />
-                    mind?
-                  </div>
-                  <div className="contact flex v--stretch h--between mt-auto mt-32-mob">
-                    <img
-                      className="radius-6 photo"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/polina.jpg"
-                      alt="Image - polina"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: "0.75555555555556" }}
-                    />{" "}
-                    <div className="bio flex fd--column v--start">
-                      <a
-                        href="https://www.linkedin.com/in/polina-chebanova/"
-                        target="_blank"
-                        rel="nofollow"
-                        className="soc"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
-                          loading="lazy"
-                          decoding="async"
-                          alt=""
-                        />
-                      </a>
-                      <div className="txt txt--m">Polina Chebanova </div>
-                      <div className="txt txt--s color--white-light">
-                        Co-Founder &amp; CPO{" "}
-                      </div>
-                      <div className="email_wrap flex v--start h--start gap-8 mt-10 pt-8">
-                        <div className="copy_wrap">
-                          <img
-                            src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
-                            loading="lazy"
-                            decoding="async"
-                            data-text="polina@phenomenon-studio.com"
-                            alt=""
-                            className="copyme"
-                          />
-                        </div>
-                        <a
-                          href="mailto:polina@phenomenon-studio.com"
-                          className="btn btn--simple"
-                        >
-                          <span>polina@phenomenon-studio.com</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
        <Footer />
     </main>
    

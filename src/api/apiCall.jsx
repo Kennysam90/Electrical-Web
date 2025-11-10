@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+
 // Base URL for your API
-const base = 'https://162.0.228.253:5000/api';
+const base = 'http://162.0.228.253:5000/api';
 
 
 // Axios instance with token interceptor
@@ -46,8 +47,8 @@ const axiosInstance = axios.create({
 
 export const getProjects = async () => {
   try {
-    const response = await axiosInstance.get('/projects/');
-    return response.data; // JSON data from the API
+    const response = await axiosInstance.get(`/projects/`);
+    return response.data;
   } catch (error) {
     console.error('Error fetching projects:', error);
     throw error;

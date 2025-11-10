@@ -232,7 +232,7 @@ const Teams = () => {
                   />{" "}
                 </div>
                 <div className="bio mt-24">
-                  <div className="bio-name color--dark">Polina Chebanova</div>
+                  <div className="bio-name color--dark">John</div>
                   <div className="bio-position color--dark-secondary">
                     Co-founder &amp; Chief Partnership Officer
                   </div>
@@ -582,14 +582,14 @@ const Teams = () => {
                   />{" "}
                 </div>
                 <div className="bio mt-24">
-                  <div className="bio-name color--dark">Craig Tortolani</div>
+                  <div className="bio-name color--dark">John Ikechukwu</div>
                   <div className="bio-position color--dark-secondary">
                     Head of US Marketing
                   </div>
                 </div>
               </div>
               <div className="txt txt--m color--white description pt-20 pt-8-mob">
-                Craig Tortolani, Head of US Marketing, is a visionary founder of
+                John Ikechukwu, Head of US Marketing, is a visionary founder of
                 Dekryption Labs, a leading blockchain firm. With nearly five
                 years' experience, Craig led Dekryption Labs, innovating and
                 building advanced systems. He excels in global sales team
@@ -860,7 +860,7 @@ const Teams = () => {
                   />{" "}
                 </div>
                 <div className="bio mt-24">
-                  <div className="bio-name color--dark">Kseniia Shalia</div>
+                  <div className="bio-name color--dark">Leo</div>
                   <div className="bio-position color--dark-secondary">
                     Account Executive
                   </div>
@@ -2042,7 +2042,7 @@ const Teams = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Top product design company 2024</p>
+                <p>Professional & Credibility-Focused</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -2068,7 +2068,7 @@ const Teams = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Top rated plus agency by Upwork</p>
+                <p>Short & Impactful</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -2094,7 +2094,7 @@ const Teams = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Professional partner by Webflow</p>
+                <p>Industry-Award Tone</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -2121,8 +2121,8 @@ const Teams = () => {
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
                 <p>
-                  Nominee 2024 <br />
-                  Isora - GRC Platform
+                  Technical Authority Version <br />
+                
                 </p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
@@ -2479,7 +2479,7 @@ const Teams = () => {
                           alt=""
                         />
                       </a>
-                      <div className="txt txt--m">Kseniia Shalia </div>
+                      <div className="txt txt--m">Leo </div>
                       <div className="txt txt--s color--white-light">
                         Account Executive{" "}
                       </div>
@@ -2489,16 +2489,16 @@ const Teams = () => {
                             src="/cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
                             loading="lazy"
                             decoding="async"
-                            data-text="hello@phenomenon-studio.com"
+                            data-text="dampecon0504@gmail.comio.com"
                             alt=""
                             className="copyme"
                           />
                         </div>
                         <a
-                          href="mailto:hello@phenomenon-studio.com"
+                          href="mailto:dampecon0504@gmail.comio.com"
                           className="btn btn--simple"
                         >
-                          <span>hello@phenomenon-studio.com</span>
+                          <span>dampecon0504@gmail.comio.com</span>
                         </a>
                       </div>
                     </div>
@@ -2532,7 +2532,7 @@ const Teams = () => {
                           alt=""
                         />
                       </a>
-                      <div className="txt txt--m">Polina Chebanova </div>
+                      <div className="txt txt--m">John </div>
                       <div className="txt txt--s color--white-light">
                         Co-Founder &amp; CPO{" "}
                       </div>
@@ -2542,16 +2542,16 @@ const Teams = () => {
                             src="/cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
                             loading="lazy"
                             decoding="async"
-                            data-text="polina@phenomenon-studio.com"
+                            data-text="mailto:dampecon0504@yahoo.comudio.com"
                             alt=""
                             className="copyme"
                           />
                         </div>
                         <a
-                          href="mailto:polina@phenomenon-studio.com"
+                          href="mailto:mailto:dampecon0504@yahoo.comudio.com"
                           className="btn btn--simple"
                         >
-                          <span>polina@phenomenon-studio.com</span>
+                          <span>mailto:dampecon0504@yahoo.comudio.com</span>
                         </a>
                       </div>
                     </div>

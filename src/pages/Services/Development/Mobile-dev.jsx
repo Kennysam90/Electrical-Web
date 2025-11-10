@@ -1,6 +1,8 @@
 import React from 'react'
 import Topnav from '../../../Component/Topnav'
 import Footer from '../../../Component/Footer'
+import Chat from '../../../Component/Chat'
+import Comment from '../../../Component/Comment'
 
 const Mobiledev = () => {
   return (
@@ -289,25 +291,25 @@ const Mobiledev = () => {
                 <div className="col flex v--center h--center fd--column">
                   <div className="title--l color--white">98%</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>customer satisfaction rate</p>
+                    <p>Completed Projects</p>
                   </div>
                 </div>
                 <div className="col flex v--center h--center fd--column">
-                  <div className="title--l color--white">35%+</div>
+                  <div className="title--l color--white">100%</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>boost in conversions after redesign</p>
+                    <p>On-Time Delivery</p>
                   </div>
                 </div>
                 <div className="col flex v--center h--center fd--column">
                   <div className="title--l color--white">60+</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>top-tier designers and developers on board</p>
+                    <p>Expert Engineers</p>
                   </div>
                 </div>
                 <div className="col flex v--center h--center fd--column">
                   <div className="title--l color--white">500M+</div>
                   <div className="txt color--white-light txt--s minh-2lh minh-3lh-mob">
-                    <p>investments raised by our clients</p>
+                    <p>Serving Clients Nationwide</p>
                   </div>
                 </div>
               </div>
@@ -739,7 +741,7 @@ const Mobiledev = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead">
                       <p>
-                        Our team defines architecture, tech stack, and key
+                        Our team defines architecture, Client:, and key
                         implementation strategies to ensure technical
                         feasibility.
                       </p>
@@ -1207,7 +1209,7 @@ const Mobiledev = () => {
               </div>
               <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                 <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#Mobile app design </p>
+                  <p>#Electrical Installation & Commissioning </p>
                 </div>
                 <div className="title title--m mt-12 isview textslide fullw">
                   Sway Finance – cash management application
@@ -1278,7 +1280,7 @@ const Mobiledev = () => {
               </div>
               <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                 <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#MVP development #Mobile app design </p>
+                  <p>#MVP development #Electrical Installation & Commissioning </p>
                 </div>
                 <div className="title title--m mt-12 isview textslide fullw">
                   BOOST – income tracker mobile app for freelancers
@@ -1349,17 +1351,15 @@ const Mobiledev = () => {
           <div className="mt-40 mt-32-mob grid col-2 col-1-mob gap-12 benefits_container">
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that meets regulation{" "}
+                Engineering that meets standards{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                HIPAA- and GDPR-certified expertise for Healthcare and beyond.
+                Certified expertise in electrical safety and compliance — meeting IEC, ISO, and industry-specific standards across sectors.
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Since 2019, we’ve gained HIPAA and GDPR certifications and
-                  industry recognition, delivering hundreds of products in
-                  Healthcare, SaaS, FinTech, and EdTech — where compliance and
-                  UX go hand in hand.
+                  At DAMPECON LTD., safety and compliance come first.
+We strictly adhere to Nigerian Electrical Standards and international best practices in every project — from healthcare facilities to manufacturing plants. Our certified engineers ensure every installation is efficient, durable, and built to last.
                 </p>
               </div>
               {/*  <div class="mob-visible mt-64">
@@ -1373,15 +1373,19 @@ const Mobiledev = () => {
                 Design that lasts beyond trends{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                We don’t chase fads. We build digital products that stay
-                relevant.
+                We don’t follow trends — we build electrical systems that last.
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Our work looks sharp today and stays usable tomorrow —
-                  designed around long-term value, not short-term gimmicks.
-                  Scalable systems, brand consistency, and smart UX that grows
-                  with your product.
+                 Our installations are designed for long-term reliability, safety, and efficiency — engineered to meet today’s standards and tomorrow’s demands. Every project we deliver is scalable, compliant, and built for sustained performance — not just short-term fixes.
+
+
+⚙️ Optional Shorter Version (for tagline or highlight box):
+
+We engineer electrical systems that stand the test of time — safe, efficient, and ready for the future.
+
+
+Would you like me to now help you rewrite the next paragraph or tagline that appears right after this (for example, the one that transitions into your “Industries We Serve” section)? That will keep your tone consistent across the homepage.
                 </p>
               </div>
               {/*  <div class="mob-visible mt-64">
@@ -1392,14 +1396,14 @@ const Mobiledev = () => {
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that’s developer-ready{" "}
+                Engineering that’s installation-ready{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                We design for implementation, not handoff.{" "}
+                We design for implementation, not just documentation.{" "}
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Every component is built with devs in mind: design tokens,
+                  Every electrical layout and system specification is developed with installation teams in mind — focusing on efficiency, safety, and compliance. We coordinate closely with your contractors or facility managers to ensure every component is accurately installed, tested, and commissioned to specification.ilt with devs in mind: design tokens,
                   accessibility, reusability, and real-world constraints. We
                   collaborate with your team, reuse existing elements, and stay
                   involved until everything’s live.
@@ -1413,14 +1417,14 @@ const Mobiledev = () => {
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Local presence. Global delivery{" "}
+                Local expertise. Global capability{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                Work directly with the doers — not a chain of account managers.
+                Work directly with experienced engineers and project managers — not layers of intermediaries.
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
-                  Collaborate with UX strategists in North America, while our
+                  Our regional teams provide on-site coordination, while our technical and procurement units ensure international-quality standards and timely delivery. We integrate seamlessly into your project workflow, from design and procurement to installation and maintenance, acting as an extension of your engineering team.in North America, while our
                   senior design and development teams in Europe deliver fast,
                   consistent results. We integrate into your tools and workflow,
                   working as part of your team — from a single embedded designer
@@ -1436,320 +1440,7 @@ const Mobiledev = () => {
           </div>
         </div>
       </section>
-      <section className="testimonials_section pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="flex v--end h--between heading_wrap flex--block-mob">
-            <div className="left">
-              <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-                what our clients say{" "}
-              </div>
-              <div className="title title--xl mt-16 color--dark mw1040 isview textslide trd02">
-                <h2>
-                  <span>5.0</span> is our average <br />
-                  on clutch &amp; designrush
-                </h2>
-              </div>
-            </div>
-            <div className="services_cards grid col-2 gap-8 mt-32-mob">
-              <a
-                href="https://clutch.co/profile/phenomenon-studio"
-                target="_blank"
-                rel="nofollow"
-                className="card bg--gray radius-12 p-12 flex fd--column isview slidetop"
-              >
-                <span className="icon">
-                  <img
-                    className="visible-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/clutch-icon.svg"
-                    alt="Icon - clutch-icon"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                  <img
-                    className="hover-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/Icon.svg"
-                    alt="Icon - Icon"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="ratings flex v--center h--between mt-auto">
-                  <div className="stars flex v--center h--start gap-2">
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                  <div className="txt txt--caption-m color--dark-light fw-600">
-                    5.0
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://www.designrush.com/agency/profile/phenomenon-studio"
-                target="_blank"
-                rel="nofollow"
-                className="card bg--gray radius-12 p-12 flex fd--column isview slidetop"
-              >
-                <span className="icon">
-                  <img
-                    className="visible-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/design-icon.svg"
-                    alt="Icon - design-icon"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                  <img
-                    className="hover-icon"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/icon2.svg"
-                    alt="Icon - icon2"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="ratings flex v--center h--between mt-auto">
-                  <div className="stars flex v--center h--start gap-2">
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <img
-                      src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/star.svg"
-                      alt="star"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                  <div className="txt txt--caption-m color--dark-light fw-600">
-                    4.9
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="mt-40 mt-12-mob testimonials_wrap grid col-3 col-2-tablet col-1-mob gap-12">
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/1516924597216.jpeg.webp"
-                  alt="Image - Craig Tortolani"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: 1 }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Craig Tortolani</p>
-                    <span>CPO at Dekryption Labs </span>
-                  </div>
-                </div>
-              </div>
-              <div className="video_wrap mt-auto">
-                <div className="video_player radius-12 clipped-right-hover clipped-right-mob">
-                  <video
-                    preload="none"
-                    className="fullw"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/review-craig.mp4"
-                    poster="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-craig.webp"
-                  />{" "}
-                  <div className="btn-wrap">
-                    <button className="btn btn--play" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/02/av.png.webp"
-                  alt="Image - Alex Friedman"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.0064102564103" }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Alex Friedman</p>
-                    <span>CEO at Open Path</span>
-                  </div>
-                </div>
-              </div>
-              <div className="txt txt--l mt-auto pt-24 text_wrap">
-                <p>
-                  Not only is the team extremely communicative, their work is
-                  exceptional. I have never worked with a team so talented while
-                  also being competitively priced and communicative.
-                </p>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/KlickEx.jpeg.webp"
-                  alt="Image - KlickEx"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: 1 }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>KlickEx Team </p>
-                    <span />
-                  </div>
-                </div>
-              </div>
-              <div className="video_wrap mt-auto">
-                <div className="video_player radius-12 clipped-right-hover clipped-right-mob">
-                  <video
-                    preload="none"
-                    className="fullw"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/klickex-review.mp4"
-                    poster="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/klickex-cover.webp"
-                  />{" "}
-                  <div className="btn-wrap">
-                    <button className="btn btn--play" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/02/Rectangle-34624326.png.webp"
-                  alt="Image - George Fry"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.0064102564103" }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>George Fry</p>
-                    <span>Founder at Neap</span>
-                  </div>
-                </div>
-              </div>
-              <div className="txt txt--l mt-auto pt-24 text_wrap">
-                <p>
-                  The quality of the designs is fantastic. Phenomenon Studio
-                  works at speed and is extremely punctual with timelines. They
-                  deliver top-notch outcomes with exceptional designs.
-                </p>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/02/image.png.webp"
-                  alt="Image - Andre Guerra"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.0064102564103" }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Andre Guerra</p>
-                    <span>Co-Owner at RADCAT Design</span>
-                  </div>
-                </div>
-              </div>
-              <div className="video_wrap mt-auto">
-                <div className="video_player radius-12 clipped-right-hover clipped-right-mob">
-                  <video
-                    preload="none"
-                    className="fullw"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/radcat-review.mp4"
-                    poster="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-andre-scaled.webp"
-                  />{" "}
-                  <div className="btn-wrap">
-                    <button className="btn btn--play" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col radius-12 bg--gray flex fd--column isview slidetop">
-              <div className="top auth_wrap flex v--center h--start gap-16">
-                <img
-                  className="md"
-                  src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/1683997337066.jpeg.webp"
-                  alt="Image - Kevin Alvarez"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: 1 }}
-                />{" "}
-                <div className="bio">
-                  <div className="txt txt--m gap-0">
-                    <p>Kevin Alvarez</p>
-                    <span>Founder &amp; General Partner, Predictive</span>
-                  </div>
-                </div>
-              </div>
-              <div className="txt txt--l mt-auto pt-24 text_wrap">
-                <p>
-                  Phenomenon Studio's ability to translate concepts and rough
-                  design mock-ups into high-fidelity assets, designs, and
-                  visuals was very impressive. The goal was to maintain simple
-                  elegance in the design aesthetic, and they did it very well.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Comment />
       <section className="awards_section pb-200 pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
@@ -1773,7 +1464,7 @@ const Mobiledev = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Top product design company 2024</p>
+                <p>Professional & Credibility-Focused</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -1799,7 +1490,7 @@ const Mobiledev = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Top rated plus agency by Upwork</p>
+                <p>Short & Impactful</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -1825,7 +1516,7 @@ const Mobiledev = () => {
                 />{" "}
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Professional partner by Webflow</p>
+                <p>Industry-Award Tone</p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
                 <a
@@ -1852,8 +1543,8 @@ const Mobiledev = () => {
               </div>
               <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
                 <p>
-                  Nominee 2024 <br />
-                  Isora - GRC Platform
+                  Technical Authority Version <br />
+                  
                 </p>
               </div>
               <div className="btn-wrap mt-auto pt-24">
@@ -1932,12 +1623,12 @@ const Mobiledev = () => {
             <div className="grid awards_wrap col-3 col-2-tablet col-1-mob">
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1 isview slidetop">
                 <div className="title title--s color--dark">
-                  Mobile app design
+                  Electrical Installation & Commissioning
                 </div>
                 <div className="txt txt--s mt-8 mt-4-mob color--dark-light">
                   <p>
-                    Create intuitive, performance-optimized mobile apps for iOS
-                    and Android.
+                    Expert installation, testing, and commissioning of power systems, ensuring safe, efficient, and standards-compliant operation across all environments.
+                    
                   </p>
                 </div>
                 <div className="btn-wrap mt-auto pt-48">
@@ -2098,7 +1789,7 @@ const Mobiledev = () => {
                 <div className="center">
                   <div className="txt txt--l question inner-inherit">
                     <div>
-                      How does cross-platform mobile app development work?
+                      How to install an electrical system?es cross-platform mobile app development work?
                     </div>
                   </div>
                   <div className="answer_wrap">
@@ -2224,7 +1915,7 @@ const Mobiledev = () => {
                 <div className="center">
                   <div className="txt txt--l question inner-inherit">
                     <div>
-                      How do I choose between native and cross-platform mobile
+                      How to install an electrical system? I choose between native and cross-platform mobile
                       app development?
                     </div>
                   </div>
@@ -2295,383 +1986,7 @@ const Mobiledev = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section
-        className="contact_form_section pt-200 pb-200 pt-100-mob pb-100-mob bg--dark clipped-bottom clipped-top radius-80 radius-32-mob ov--hidden"
-        id="contact-form"
-      >
-        <div className="container">
-          <div className="txt txt--caption-m color--white-light uppercase fw-600 isview slidetop">
-            Contact us{" "}
-          </div>
-          <h2 className="title title--xl mt-16 color--white mw1040 nobr-mob isview textslide trd02">
-            Have a project in mind? <br />
-            <span>Let's chat</span>
-          </h2>
-        </div>
-        <div className="mt-40 mt-48-mob contact_form_wrap">
-          <div className="container">
-            <div className="flex v--stretch h--between flex--block-mob">
-              <form
-                action="/?form-action=request"
-                autoComplete="off"
-                className="contact-form"
-              >
-                <div className="relative">
-                  <div className="flex h--wrap v--start h--between row-gap-32 row-gap-24-mob form_wrap">
-                    <input type="hidden" name="g-recaptcha-response" />
-                    <input
-                      type="hidden"
-                      name="action"
-                      defaultValue="validate_captcha"
-                    />
-                    <input type="hidden" name="form_type" defaultValue={1} />
-                    <input
-                      type="hidden"
-                      name="source_page"
-                      defaultValue="https://phenomenonstudio.com/service/mobile-app-development-services/"
-                    />{" "}
-                    <div className="input-wrap w50 isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Your Name{" "}
-                      </div>
-                      <input
-                        type="text"
-                        name="your_name"
-                        placeholder=" "
-                        className="required"
-                        data-max-length={40}
-                        data-pattern="[A-Za-z]"
-                      />
-                      <p>
-                        Enter your name <sup>*</sup>
-                      </p>
-                    </div>
-                    <div className="input-wrap w50 isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Your Email{" "}
-                      </div>
-                      <input
-                        type="text"
-                        name="your_email"
-                        placeholder=" "
-                        className="required email"
-                        data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$"
-                        data-message-error="Your Email is invalid"
-                      />
-                      <p>
-                        Enter your email <sup>*</sup>
-                      </p>
-                    </div>
-                    <div className="input-wrap isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Message{" "}
-                      </div>
-                      <textarea
-                        name="your_text"
-                        className="max-length"
-                        placeholder=" "
-                        data-max-length={1000}
-                        defaultValue={""}
-                      />
-                      <p>Tell us about your project</p>
-                    </div>
-                    <div className="attach_wrap mt--8 mt-0-mob isview slidetop">
-                      <input
-                        type="file"
-                        accept=".jpg, .png, .webp, .doc, .docx, .pdf, .csv, .xlsx"
-                        id="attach_1"
-                        className="attach_input"
-                        multiple=""
-                        name="files_arr[]"
-                      />
-                      <label
-                        htmlFor="attach_1"
-                        className="btn btn--white-light hover--dark-light clip"
-                      >
-                        <span>
-                          <b>Attach file</b>
-                        </span>
-                      </label>
-                      <div id="inner_1" className="attach_inner" />
-                      <div className="file-err err fe1">
-                        You can upload maximum 5 files
-                      </div>
-                      <div className="file-err err fe2">
-                        Some of your file not loaded, because maximum file size
-                        - 5 mb
-                      </div>
-                    </div>
-                    <div className="budget_wrap mt-8-mob isview slidetop">
-                      <div className="txt txt--control-s color--white-light uppercase fw-600">
-                        Your budget for this project?{" "}
-                      </div>
-                      <div className="budgets flex v--start h--start h--wrap mt-20 gap-8">
-                        <input
-                          type="radio"
-                          id="budget_1"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="up to $10k"
-                        />
-                        <label htmlFor="budget_1" className="btn btn--label">
-                          up to $10k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_2"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$10-$20k"
-                        />
-                        <label htmlFor="budget_2" className="btn btn--label">
-                          $10-$20k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_3"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$20-$50k"
-                        />
-                        <label htmlFor="budget_3" className="btn btn--label">
-                          $20-$50k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_4"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$50-$100k"
-                        />
-                        <label htmlFor="budget_4" className="btn btn--label">
-                          $50-$100k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_5"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue=">$100k"
-                        />
-                        <label htmlFor="budget_5" className="btn btn--label">
-                          &gt;$100k
-                        </label>
-                      </div>
-                    </div>
-                    <div className="btn_wrap flex v--center h--start pt-8 flex--block-mob isview slidetop w-full-mob">
-                      <button className="btn btn--orange btn--lg-desk arr fullw-mob hover--white">
-                        <span>
-                          <b>Submit</b>
-                        </span>
-                      </button>
-                      <div className="txt txt--control-m color--white-light uppercase fw-600 mt-24-mob text--center-mob">
-                        <p>
-                          By clicking this button you accept{" "}
-                          <a href="/terms-of-use/">Terms of Service</a> and
-                          <br />
-                          <a href="/privacy-policy/">Privacy Policy</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form_state text--center success type-1 color--white bg--dark">
-                    <div className="icon">
-                      <img
-                        className=""
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/circle-check-svgrepo-com-1.svg"
-                        alt="Icon - circle-check-svgrepo-com 1"
-                        loading="lazy"
-                        decoding="async"
-                        style={{}}
-                      />{" "}
-                    </div>
-                    <div className="title title--m mt-24">
-                      <span>Thanks</span> for taking time to reachout!{" "}
-                    </div>
-                    <div className="txt txt--l mt-12 color--white-light">
-                      Stay connected with us by subscribing to our LinkedIn
-                      account. By following, you’l be the first to hear about
-                      our latest updates, news, and exciting development. We
-                      look forward to sharing our journey with you!{" "}
-                    </div>
-                    <div className="btn_wrap mt-24 w-full-mob">
-                      <a
-                        href="https://www.linkedin.com/company/phenomenonstudio/"
-                        target="_blank"
-                        rel="nofollow"
-                        className="btn btn--orange hover--white btn--lg-desk"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={16}
-                          height={17}
-                          viewBox="0 0 16 17"
-                          fill="none"
-                        >
-                          <path
-                            d="M13.8661 9.82749V14.3671H11.3513V10.1315C11.3513 9.06751 10.9876 8.34136 10.0773 8.34136C9.3824 8.34136 8.96887 8.83073 8.78694 9.30411C8.7206 9.47335 8.70352 9.7089 8.70352 9.94579V14.3671H6.18784C6.18784 14.3671 6.22172 7.19341 6.18784 6.45016H8.70327V7.57236C8.69817 7.58075 8.69154 7.5898 8.68674 7.59794H8.70327V7.57236C9.03747 7.03368 9.63432 6.26417 10.9702 6.26417C12.6254 6.26414 13.8661 7.3957 13.8661 9.82749ZM3.55633 2.63379C2.69572 2.63379 2.13281 3.22454 2.13281 4.00139C2.13281 4.76131 2.67944 5.36998 3.52294 5.36998H3.53975C4.41703 5.36998 4.96261 4.76142 4.96261 4.00139C4.94608 3.22454 4.41703 2.63379 3.55633 2.63379ZM2.28222 14.3671H4.79695V6.45016H2.28222V14.3671Z"
-                            fill="currentColor"
-                            fillOpacity="0.4"
-                          />
-                        </svg>
-                        <span>
-                          <b>Follow us</b>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="form_state text--center success type-2 color--white bg--dark">
-                    <div className="icon">
-                      <img
-                        className=""
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/circle-check-svgrepo-com-1.svg"
-                        alt="Icon - circle-check-svgrepo-com 1"
-                        loading="lazy"
-                        decoding="async"
-                        style={{}}
-                      />{" "}
-                    </div>
-                    <div className="title title--m mt-24">
-                      <span>Thanks</span> for taking time to reachout!{" "}
-                    </div>
-                    <div className="txt txt--l mt-12 color--white-light">
-                      We’d love to hear more about your project! Feel free to
-                      schedule a call using the link provided. This will help us
-                      better understand your vision and ensure we’re aligned on
-                      all the details.{" "}
-                    </div>
-                    <div className="btn_wrap mt-24 w-full-mob">
-                      <a
-                        href="https://calendly.com/hello-phenomenon-studio/30min"
-                        target="_blank"
-                        rel="nofollow"
-                        className="btn btn--orange hover--white arr btn--lg-desk"
-                      >
-                        <span>
-                          <b>Book a Call</b>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div className="contacts ov-hidden">
-                <div className="contact_wrap color--white flex fd--column isview slidetop">
-                  <div className="title title--s nobr-mob">
-                    Have a project to <br />
-                    discuss?
-                  </div>
-                  <div className="contact flex v--stretch h--between mt-auto mt-32-mob">
-                    <img
-                      className="radius-6 photo"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/02/ksenia.jpg.webp"
-                      alt="Image - ksenia"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: "0.75555555555556" }}
-                    />{" "}
-                    <div className="bio flex fd--column v--start">
-                      <a
-                        href="https://www.linkedin.com/in/kseniia-shalia-a21921240/"
-                        target="_blank"
-                        rel="nofollow"
-                        className="soc"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
-                          loading="lazy"
-                          decoding="async"
-                          alt=""
-                        />
-                      </a>
-                      <div className="txt txt--m">Kseniia Shalia </div>
-                      <div className="txt txt--s color--white-light">
-                        Account Executive{" "}
-                      </div>
-                      <div className="email_wrap flex v--start h--start gap-8 mt-10 pt-8">
-                        <div className="copy_wrap">
-                          <img
-                            src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
-                            loading="lazy"
-                            decoding="async"
-                            data-text="hello@phenomenon-studio.com"
-                            alt=""
-                            className="copyme"
-                          />
-                        </div>
-                        <a
-                          href="mailto:hello@phenomenon-studio.com"
-                          className="btn btn--simple"
-                        >
-                          <span>hello@phenomenon-studio.com</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="contact_wrap color--white flex fd--column isview slidetop">
-                  <div className="title title--s nobr-mob">
-                    Have a partnership in <br />
-                    mind?
-                  </div>
-                  <div className="contact flex v--stretch h--between mt-auto mt-32-mob">
-                    <img
-                      className="radius-6 photo"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/02/polina.jpg.webp"
-                      alt="Image - polina"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: "0.75555555555556" }}
-                    />{" "}
-                    <div className="bio flex fd--column v--start">
-                      <a
-                        href="https://www.linkedin.com/in/polina-chebanova/"
-                        target="_blank"
-                        rel="nofollow"
-                        className="soc"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
-                          loading="lazy"
-                          decoding="async"
-                          alt=""
-                        />
-                      </a>
-                      <div className="txt txt--m">Polina Chebanova </div>
-                      <div className="txt txt--s color--white-light">
-                        Co-Founder &amp; CPO{" "}
-                      </div>
-                      <div className="email_wrap flex v--start h--start gap-8 mt-10 pt-8">
-                        <div className="copy_wrap">
-                          <img
-                            src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
-                            loading="lazy"
-                            decoding="async"
-                            data-text="polina@phenomenon-studio.com"
-                            alt=""
-                            className="copyme"
-                          />
-                        </div>
-                        <a
-                          href="mailto:polina@phenomenon-studio.com"
-                          className="btn btn--simple"
-                        >
-                          <span>polina@phenomenon-studio.com</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Chat />
       </section>
       <Footer />
     </main>

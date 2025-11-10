@@ -51,7 +51,7 @@ const Topnav = () => {
                                         to="/mobile-app"
                                         target="_self">
                                         <span>
-                                          <b>Mobile app design</b>
+                                          <b>Electrical Installation & Commissioning</b>
                                         </span>
                                       </Link>
                                     </li>
@@ -258,7 +258,7 @@ const Topnav = () => {
                           to="/mobile-app"
                           target="_self">
                           <span>
-                            <b>Mobile app design</b>
+                            <b>Electrical Installation & Commissioning</b>
                           </span>
                         </Link>
                       </li>
@@ -304,7 +304,7 @@ const Topnav = () => {
                           href="service/ux-design-audit/index.html"
                           target="_self">
                           <span>
-                            <b>UX audit</b>
+                            <b>Electrical System Audit</b>
                           </span>
                         </a>
                       </li>
@@ -377,10 +377,10 @@ const Topnav = () => {
                       <li>
                         <a
                           className="btn btn--simple arr dark"
-                          href="service/branding-and-identity-agency/index.html"
+                          href="service/Procurement & Supply-and-identity-agency/index.html"
                           target="_self">
                           <span>
-                            <b>Branding </b>
+                            <b>Procurement & Supply </b>
                           </span>
                         </a>
                       </li>
@@ -438,7 +438,7 @@ const Topnav = () => {
                           href="service/ux-design-audit/index.html"
                           target="_self">
                           <span>
-                            <b>UX audit</b>
+                            <b>Electrical System Audit</b>
                           </span>
                         </a>
                       </li>

@@ -8,24 +8,21 @@ import { getProjects } from '../../api/apiCall';
 const Cases = () => {
    // this stores which tab is active
   const [activeTab, setActiveTab] = useState("all");
- 
-// // fetch projects
-//   const fetchProjects = async () => {
-//     const res = await axios.get('http://162.0.228.253:5000/api/projects/');
-//     return res.data;
-//   };
-
-  const { data: projects, isLoading, error } = useQuery({
-    queryKey: ['projects'],
-    queryFn: getProjects, // ✅ just pass the function
+ const { data: projects, isLoading, error } = useQuery({
+    queryKey: ["projects"],
+    queryFn: getProjects,
   });
 
-  if (isLoading) return <p>Loading...</p>;
-  if (error) return <p>Error loading projects</p>;
+  if (isLoading) return <p>Loading projects...</p>;
+  if (error) {
+    console.error("Error fetching projects:", error);
+    return <p>Error loading projects: {error.message}</p>;
+  }
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
-  };
+  }
+  
 
 
   return (
@@ -133,13 +130,13 @@ const Cases = () => {
                 </span>
               </button>
               <button
-                  className={`btn btn--white hover--gray active--dark ${activeTab === "branding" ? "is-active" : ""}`}
-                  onClick={() => handleTabClick("branding")}
-                data-href="/phenomenonstudio.com/tag/branding/"
-                data-tabs-link="branding"
+                  className={`btn btn--white hover--gray active--dark ${activeTab === "Procurement & Supply" ? "is-active" : ""}`}
+                  onClick={() => handleTabClick("Procurement & Supply")}
+                data-href="/phenomenonstudio.com/tag/Procurement & Supply/"
+                data-tabs-link="Procurement & Supply"
                 type="button">
                 <span>
-                  <b>Branding</b>
+                  <b>Procurement & Supply</b>
                 </span>
               </button>
             </div>
@@ -152,7 +149,7 @@ const Cases = () => {
                   <option value="web-app">Type: Web app</option>
                   <option value="mobile-app">Type: Mobile app</option>
                   <option value="website">Type: Website</option>
-                  <option value="branding">Type: Branding</option>
+                  <option value="Procurement & Supply">Type: Procurement & Supply</option>
                 </select>
                 <img
                   alt=""
@@ -168,7 +165,7 @@ const Cases = () => {
                       data-infinite-scroll-css="check-active"
                       data-tabs-pane="all"
                     >
-            {isLoading && <p>Loading projects...</p>}
+          {isLoading && <p>Loading projects...</p>}
         {error && <p>Error loading projects.</p>}
 
         {!isLoading && !error && (
@@ -228,7 +225,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>{project.tech || ""}</p>
@@ -251,7 +248,9 @@ const Cases = () => {
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
                           {project.results && project.results.length > 0 ? (
-                            project.results.map((res, idx) => <p key={idx}>{res}</p>)
+                            project.results.map((res, idx) => (
+                              <p key={idx}>{res}</p>
+                            ))
                           ) : (
                             <p>No results available</p>
                           )}
@@ -305,7 +304,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX audit #Product redesign #web development</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       KlickEx – frictionless cross-
@@ -329,7 +328,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Next.js, TypeScript, React Redux</p>
@@ -448,7 +447,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -539,7 +538,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -608,7 +607,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Hyperbridge – redefining cross-chain connectivity
@@ -677,7 +676,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Scrambly – rewarded discovery platform for games and apps
@@ -795,7 +794,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -860,7 +859,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Voltory – clarity and trust in digital finance
@@ -929,7 +928,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Shaga – redefining cloud gaming
@@ -1029,7 +1028,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Orryx – rewriting the rules of finance
@@ -1098,7 +1097,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Ready player fit – turning boring workouts into a
@@ -1264,7 +1263,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#ux audit #Product redesign #web development</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       AirlineSim — realistic online airline management
@@ -1289,7 +1288,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -1334,7 +1333,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="herb-agency-rebranding-the-cannabis-experience/index.html">
+                      href="herb-agency-reProcurement & Supply-the-cannabis-experience/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -1345,7 +1344,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Case-preview-12.png"
                         />
                         <img
-                          alt="Herb.Agency – rebranding the cannabis experience - image cover"
+                          alt="Herb.Agency – reProcurement & Supply the cannabis experience - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -1357,10 +1356,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Herb.Agency – rebranding the cannabis experience
+                      Herb.Agency – reProcurement & Supply the cannabis experience
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">herb.co</span>
@@ -1391,7 +1390,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="herb-agency-rebranding-the-cannabis-experience/index.html">
+                        href="herb-agency-reProcurement & Supply-the-cannabis-experience/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -1426,7 +1425,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX audit #Product redesign #web Development</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Qurtuba – online school platform
@@ -1450,7 +1449,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -1589,7 +1588,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product Redesign</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Scrambly – rewarded discovery platform for games and apps
@@ -1852,7 +1851,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -1944,7 +1943,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Website Development #Website Redesign #Branding</p>
+                      <p>#Website Development #Website Redesign #Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Paradigm – website for low-code software developers
@@ -1968,7 +1967,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -2035,7 +2034,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product Discovery #Web App Design</p>
+                      <p>#ElectricalEngineering #SystemInstallation #ProcurementSolutions</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Wolf Games case maker studio – AI-
@@ -2106,7 +2105,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product Redesign</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       DoMORE — mobile redesign for a ticket subscription
@@ -2129,7 +2128,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -2224,7 +2223,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -2370,7 +2369,7 @@ const Cases = () => {
                       <p>#Product redesign</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      AdFlux – redesigned marketing platform
+                      MedCore Hospital — Electrical Installation & Backup System Integration
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">AdFlux Co.</span>
@@ -2389,7 +2388,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -2457,7 +2456,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Pragmatike – connecting businesses with top remote tech
@@ -2770,7 +2769,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="paradigm-branding-for-low-code-software-developers/index.html">
+                      href="paradigm-Procurement & Supply-for-low-code-software-developers/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -2781,7 +2780,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Case-preview-35.png"
                         />
                         <img
-                          alt="Paradigm – branding for low-code software developers - image cover"
+                          alt="Paradigm – Procurement & Supply for low-code software developers - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -2793,10 +2792,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Paradigm – branding for low-code software developers
+                      Paradigm – Procurement & Supply for low-code software developers
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Paradigm</span>
@@ -2828,7 +2827,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="paradigm-branding-for-low-code-software-developers/index.html">
+                        href="paradigm-Procurement & Supply-for-low-code-software-developers/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -2840,7 +2839,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="venator-branding-for-a-futuristic-crypto-game/index.html">
+                      href="venator-Procurement & Supply-for-a-futuristic-crypto-game/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -2851,7 +2850,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Case-preview-37.png"
                         />
                         <img
-                          alt="VENATOR – branding for a futuristic crypto game - image cover"
+                          alt="VENATOR – Procurement & Supply for a futuristic crypto game - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -2863,10 +2862,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      VENATOR – branding for a futuristic crypto game
+                      VENATOR – Procurement & Supply for a futuristic crypto game
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Venator</span>
@@ -2897,7 +2896,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="venator-branding-for-a-futuristic-crypto-game/index.html">
+                        href="venator-Procurement & Supply-for-a-futuristic-crypto-game/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -2974,7 +2973,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -3157,7 +3156,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product redesign</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Creatorland – revolutionizing networking for Gen Z
@@ -3318,7 +3317,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -3417,7 +3416,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Sway Finance – cash management application
@@ -3510,7 +3509,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -3633,7 +3632,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Case-preview-38.png"
                         />
                         <img
-                          alt="Sway Finance – branding for cash management application - image cover"
+                          alt="Sway Finance – Procurement & Supply for cash management application - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -3645,10 +3644,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Sway Finance – branding for cash management application
+                      Sway Finance – Procurement & Supply for cash management application
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Sway Finance</span>
@@ -3743,7 +3742,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -3889,7 +3888,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="assetario-branding-for-the-saas-platform/index.html">
+                      href="assetario-Procurement & Supply-for-the-saas-platform/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -3900,7 +3899,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2022/12/Case-preview-40.png"
                         />
                         <img
-                          alt="Assetario – branding for the SaaS platform - image cover"
+                          alt="Assetario – Procurement & Supply for the SaaS platform - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -3912,10 +3911,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Assetario – branding for the SaaS platform
+                      Assetario – Procurement & Supply for the SaaS platform
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Assetario</span>
@@ -3948,7 +3947,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="assetario-branding-for-the-saas-platform/index.html">
+                        href="assetario-Procurement & Supply-for-the-saas-platform/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -4173,7 +4172,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Bubble</p>
@@ -4263,7 +4262,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -4429,7 +4428,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding #Website design #Website development</p>
+                      <p>#Procurement & Supply #Website design #Website development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Copper Rock – golf community booking website
@@ -4560,7 +4559,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="rapida-branding-for-the-delivery-service-branding/index.html">
+                      href="rapida-Procurement & Supply-for-the-delivery-service-Procurement & Supply/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -4571,7 +4570,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Case-preview-42.png"
                         />
                         <img
-                          alt="Rapida – branding for the delivery service - image cover"
+                          alt="Rapida – Procurement & Supply for the delivery service - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -4583,10 +4582,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Rapida – branding for the delivery service
+                      Rapida – Procurement & Supply for the delivery service
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Rapida</span>
@@ -4617,7 +4616,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="rapida-branding-for-the-delivery-service-branding/index.html">
+                        href="rapida-Procurement & Supply-for-the-delivery-service-Procurement & Supply/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -4722,7 +4721,7 @@ const Cases = () => {
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
                       <p>
-                        #Branding #Mobile App Design #Mobile App Development
+                        #Procurement & Supply #Electrical Installation & Commissioning #Mobile App Development
                       </p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
@@ -5301,7 +5300,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Keap – family budgeting mobile app
@@ -5649,7 +5648,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#MVP development #Mobile app design</p>
+                      <p>#MVP development #Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       BOOST – income tracker mobile app for freelancers
@@ -5888,7 +5887,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Medicare – digital doctor mobile app
@@ -5957,7 +5956,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Healher – an app with personalized health plans
@@ -6030,7 +6029,7 @@ const Cases = () => {
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
                       <p>
-                        #Branding #Mobile app design #Mobile app development
+                        #Procurement & Supply #Electrical Installation & Commissioning #Mobile app development
                       </p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
@@ -6094,7 +6093,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/08/Case-preview-44.png"
                         />
                         <img
-                          alt="Appsent – branding for the application developers company - image cover"
+                          alt="Appsent – Procurement & Supply for the application developers company - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -6106,10 +6105,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Appsent – branding for the application developers company
+                      Appsent – Procurement & Supply for the application developers company
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Appsent</span>
@@ -6353,7 +6352,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       UVER – universities aggregator mobile app
@@ -6432,7 +6431,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Frozeverse – metaverse VR game
@@ -6502,7 +6501,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Glume – healthcare mobile app for diabetics
@@ -6650,7 +6649,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       RADAR – web3 projects aggregator
@@ -6721,7 +6720,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Meby – meditation mobile app
@@ -6776,7 +6775,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="mptbox-branding-for-the-vr-driven-metaverse/index.html">
+                      href="mptbox-Procurement & Supply-for-the-vr-driven-metaverse/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -6787,7 +6786,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/IMg-Wrapper-1-60.png"
                         />
                         <img
-                          alt="Mptbox – branding for the VR-driven metaverse - image cover"
+                          alt="Mptbox – Procurement & Supply for the VR-driven metaverse - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -6799,10 +6798,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Mptbox – branding for the VR-driven metaverse
+                      Mptbox – Procurement & Supply for the VR-driven metaverse
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Mptbox</span>
@@ -6833,7 +6832,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="mptbox-branding-for-the-vr-driven-metaverse/index.html">
+                        href="mptbox-Procurement & Supply-for-the-vr-driven-metaverse/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -6856,7 +6855,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Frame-758530987pc.jpg"
                         />
                         <img
-                          alt="Phose Protocol – branding for cash management application - image cover"
+                          alt="Phose Protocol – Procurement & Supply for cash management application - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -6868,10 +6867,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Phose Protocol – branding for cash management application
+                      Phose Protocol – Procurement & Supply for cash management application
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Phose Protocol</span>
@@ -6917,7 +6916,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="ucked-branding-mobile-app/index.html">
+                      href="ucked-Procurement & Supply-mobile-app/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -6928,7 +6927,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Case-preview-37.png"
                         />
                         <img
-                          alt="Ucked – branding for mobile application - image cover"
+                          alt="Ucked – Procurement & Supply for mobile application - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -6940,10 +6939,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Ucked – branding for mobile application
+                      Ucked – Procurement & Supply for mobile application
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Ucked</span>
@@ -6971,7 +6970,7 @@ const Cases = () => {
                           </p>
                           <p>
                             Boosted recognition by 29% through ecosystem
-                            branding
+                            Procurement & Supply
                           </p>
                           <p>
                             Energized community engagement via playful mascots
@@ -6982,7 +6981,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="ucked-branding-mobile-app/index.html">
+                        href="ucked-Procurement & Supply-mobile-app/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -7091,7 +7090,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Nouri – connection companion app
@@ -7246,7 +7245,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Ectopanel – solar panels control mobile app
@@ -7428,7 +7427,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Triffic – AR mobile app
@@ -7534,8 +7533,7 @@ const Cases = () => {
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
                       <p>
-                        #UX Audit #Product redesign #Web development #Team
-                        extention
+                        #SystemDesign #ElectricalUpgrade
                       </p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
@@ -7559,7 +7557,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>React, Python, AWS</p>
@@ -7624,7 +7622,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX audit #Product redesign #web development</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       KlickEx – frictionless cross-
@@ -7648,7 +7646,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Next.js, TypeScript, React Redux</p>
@@ -7743,7 +7741,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#ux audit #Product redesign #web development</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       AirlineSim — realistic online airline management
@@ -7768,7 +7766,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -7836,7 +7834,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX audit #Product redesign #web Development</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Qurtuba – online school platform
@@ -7860,7 +7858,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -7928,7 +7926,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product Redesign</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Scrambly – rewarded discovery platform for games and apps
@@ -8096,7 +8094,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product Discovery #Web App Design</p>
+                      <p>#ElectricalEngineering #SystemInstallation #ProcurementSolutions</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Wolf Games case maker studio – AI-
@@ -8167,7 +8165,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product Redesign</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       DoMORE — mobile redesign for a ticket subscription
@@ -8190,7 +8188,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -8285,7 +8283,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -8359,7 +8357,7 @@ const Cases = () => {
                       <p>#Product redesign</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      AdFlux – redesigned marketing platform
+                      MedCore Hospital — Electrical Installation & Backup System Integration
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">AdFlux Co.</span>
@@ -8378,7 +8376,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -8446,7 +8444,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product redesign</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Creatorland – revolutionizing networking for Gen Z
@@ -8682,7 +8680,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -8872,7 +8870,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Bubble</p>
@@ -9741,7 +9739,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -9810,7 +9808,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Ready player fit – turning boring workouts into a
@@ -9951,7 +9949,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#UX Audit #Product Redesign</p>
+                      <p>#SystemDesign #ElectricalUpgrade</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Scrambly – rewarded discovery platform for games and apps
@@ -10214,7 +10212,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Sway Finance – cash management application
@@ -10426,7 +10424,7 @@ const Cases = () => {
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
                       <p>
-                        #Branding #Mobile App Design #Mobile App Development
+                        #Procurement & Supply #Electrical Installation & Commissioning #Mobile App Development
                       </p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
@@ -10586,7 +10584,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Keap – family budgeting mobile app
@@ -10655,7 +10653,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#MVP development #Mobile app design</p>
+                      <p>#MVP development #Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       BOOST – income tracker mobile app for freelancers
@@ -10724,7 +10722,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Medicare – digital doctor mobile app
@@ -10793,7 +10791,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Healher – an app with personalized health plans
@@ -10866,7 +10864,7 @@ const Cases = () => {
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
                       <p>
-                        #Branding #Mobile app design #Mobile app development
+                        #Procurement & Supply #Electrical Installation & Commissioning #Mobile app development
                       </p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
@@ -11014,7 +11012,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       UVER – universities aggregator mobile app
@@ -11093,7 +11091,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Glume – healthcare mobile app for diabetics
@@ -11169,7 +11167,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       RADAR – web3 projects aggregator
@@ -11240,7 +11238,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Meby – meditation mobile app
@@ -11318,7 +11316,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Nouri – connection companion app
@@ -11393,7 +11391,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design #Mobile app development</p>
+                      <p>#Electrical Installation & Commissioning #Mobile app development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Ectopanel – solar panels control mobile app
@@ -11472,7 +11470,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Mobile app design</p>
+                      <p>#Electrical Installation & Commissioning</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Triffic – AR mobile app
@@ -11601,7 +11599,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -11692,7 +11690,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -11948,7 +11946,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -12040,7 +12038,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Website Development #Website Redesign #Branding</p>
+                      <p>#Website Development #Website Redesign #Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Paradigm – website for low-code software developers
@@ -12064,7 +12062,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -12320,7 +12318,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -12428,7 +12426,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>
@@ -12549,7 +12547,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -12709,7 +12707,7 @@ const Cases = () => {
                     <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
                       <div className="col">
                         <div className="txt txt--control-s color--dark-secondary uppercase">
-                          Tech Stack
+                          Client:
                         </div>
                         <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
                           <p>Webflow</p>
@@ -12804,7 +12802,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding #Website design #Website development</p>
+                      <p>#Procurement & Supply #Website design #Website development</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Copper Rock – golf community booking website
@@ -13674,9 +13672,9 @@ const Cases = () => {
                 </div>
               </div>
               <div
-                 className={`infinite-scroll-holder cases_wrap grid gap-80 gap-48-mob bg--white tabs-pane ${activeTab === "branding" ? "is-active" : ""}`}
+                 className={`infinite-scroll-holder cases_wrap grid gap-80 gap-48-mob bg--white tabs-pane ${activeTab === "Procurement & Supply" ? "is-active" : ""}`}
                     data-infinite-scroll-css="check-active"
-                    data-tabs-pane="branding"
+                    data-tabs-pane="Procurement & Supply"
                   >
                 <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
                   <div className="col flex v--start h--start">
@@ -13705,7 +13703,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Hyperbridge – redefining cross-chain connectivity
@@ -13774,7 +13772,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Scrambly – rewarded discovery platform for games and apps
@@ -13869,7 +13867,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Voltory – clarity and trust in digital finance
@@ -13938,7 +13936,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Shaga – redefining cloud gaming
@@ -14038,7 +14036,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Orryx – rewriting the rules of finance
@@ -14084,7 +14082,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="herb-agency-rebranding-the-cannabis-experience/index.html">
+                      href="herb-agency-reProcurement & Supply-the-cannabis-experience/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -14095,7 +14093,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Case-preview-12.png"
                         />
                         <img
-                          alt="Herb.Agency – rebranding the cannabis experience - image cover"
+                          alt="Herb.Agency – reProcurement & Supply the cannabis experience - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14107,10 +14105,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Herb.Agency – rebranding the cannabis experience
+                      Herb.Agency – reProcurement & Supply the cannabis experience
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">herb.co</span>
@@ -14141,7 +14139,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="herb-agency-rebranding-the-cannabis-experience/index.html">
+                        href="herb-agency-reProcurement & Supply-the-cannabis-experience/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -14176,7 +14174,7 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
                       Pragmatike – connecting businesses with top remote tech
@@ -14253,7 +14251,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="paradigm-branding-for-low-code-software-developers/index.html">
+                      href="paradigm-Procurement & Supply-for-low-code-software-developers/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -14264,7 +14262,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Case-preview-35.png"
                         />
                         <img
-                          alt="Paradigm – branding for low-code software developers - image cover"
+                          alt="Paradigm – Procurement & Supply for low-code software developers - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14276,10 +14274,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Paradigm – branding for low-code software developers
+                      Paradigm – Procurement & Supply for low-code software developers
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Paradigm</span>
@@ -14311,7 +14309,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="paradigm-branding-for-low-code-software-developers/index.html">
+                        href="paradigm-Procurement & Supply-for-low-code-software-developers/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -14323,7 +14321,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="venator-branding-for-a-futuristic-crypto-game/index.html">
+                      href="venator-Procurement & Supply-for-a-futuristic-crypto-game/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -14334,7 +14332,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Case-preview-37.png"
                         />
                         <img
-                          alt="VENATOR – branding for a futuristic crypto game - image cover"
+                          alt="VENATOR – Procurement & Supply for a futuristic crypto game - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14346,10 +14344,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      VENATOR – branding for a futuristic crypto game
+                      VENATOR – Procurement & Supply for a futuristic crypto game
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Venator</span>
@@ -14380,7 +14378,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="venator-branding-for-a-futuristic-crypto-game/index.html">
+                        href="venator-Procurement & Supply-for-a-futuristic-crypto-game/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -14423,7 +14421,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Case-preview-38.png"
                         />
                         <img
-                          alt="Sway Finance – branding for cash management application - image cover"
+                          alt="Sway Finance – Procurement & Supply for cash management application - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14435,10 +14433,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Sway Finance – branding for cash management application
+                      Sway Finance – Procurement & Supply for cash management application
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Sway Finance</span>
@@ -14483,7 +14481,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="assetario-branding-for-the-saas-platform/index.html">
+                      href="assetario-Procurement & Supply-for-the-saas-platform/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -14494,7 +14492,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2022/12/Case-preview-40.png"
                         />
                         <img
-                          alt="Assetario – branding for the SaaS platform - image cover"
+                          alt="Assetario – Procurement & Supply for the SaaS platform - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14506,10 +14504,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Assetario – branding for the SaaS platform
+                      Assetario – Procurement & Supply for the SaaS platform
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Assetario</span>
@@ -14542,7 +14540,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="assetario-branding-for-the-saas-platform/index.html">
+                        href="assetario-Procurement & Supply-for-the-saas-platform/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -14584,7 +14582,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="rapida-branding-for-the-delivery-service-branding/index.html">
+                      href="rapida-Procurement & Supply-for-the-delivery-service-Procurement & Supply/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -14595,7 +14593,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Case-preview-42.png"
                         />
                         <img
-                          alt="Rapida – branding for the delivery service - image cover"
+                          alt="Rapida – Procurement & Supply for the delivery service - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14607,10 +14605,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Rapida – branding for the delivery service
+                      Rapida – Procurement & Supply for the delivery service
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Rapida</span>
@@ -14641,7 +14639,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="rapida-branding-for-the-delivery-service-branding/index.html">
+                        href="rapida-Procurement & Supply-for-the-delivery-service-Procurement & Supply/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -14664,7 +14662,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/08/Case-preview-44.png"
                         />
                         <img
-                          alt="Appsent – branding for the application developers company - image cover"
+                          alt="Appsent – Procurement & Supply for the application developers company - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14676,10 +14674,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Appsent – branding for the application developers company
+                      Appsent – Procurement & Supply for the application developers company
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Appsent</span>
@@ -14722,7 +14720,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="mptbox-branding-for-the-vr-driven-metaverse/index.html">
+                      href="mptbox-Procurement & Supply-for-the-vr-driven-metaverse/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -14733,7 +14731,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/IMg-Wrapper-1-60.png"
                         />
                         <img
-                          alt="Mptbox – branding for the VR-driven metaverse - image cover"
+                          alt="Mptbox – Procurement & Supply for the VR-driven metaverse - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14745,10 +14743,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Mptbox – branding for the VR-driven metaverse
+                      Mptbox – Procurement & Supply for the VR-driven metaverse
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Mptbox</span>
@@ -14779,7 +14777,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="mptbox-branding-for-the-vr-driven-metaverse/index.html">
+                        href="mptbox-Procurement & Supply-for-the-vr-driven-metaverse/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -14802,7 +14800,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Frame-758530987pc.jpg"
                         />
                         <img
-                          alt="Phose Protocol – branding for cash management application - image cover"
+                          alt="Phose Protocol – Procurement & Supply for cash management application - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14814,10 +14812,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Phose Protocol – branding for cash management application
+                      Phose Protocol – Procurement & Supply for cash management application
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Phose Protocol</span>
@@ -14863,7 +14861,7 @@ const Cases = () => {
                   <div className="col flex v--start h--start">
                     <a
                       className="media_wrap radius-12 ov-hidden"
-                      href="ucked-branding-mobile-app/index.html">
+                      href="ucked-Procurement & Supply-mobile-app/index.html">
                       <picture>
                         <source
                           media="(min-width: 1440px)"
@@ -14874,7 +14872,7 @@ const Cases = () => {
                           srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2023/05/Case-preview-37.png"
                         />
                         <img
-                          alt="Ucked – branding for mobile application - image cover"
+                          alt="Ucked – Procurement & Supply for mobile application - image cover"
                           className="fullw radius-12"
                           decoding="async"
                           loading="lazy"
@@ -14886,10 +14884,10 @@ const Cases = () => {
                   </div>
                   <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
                     <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                      <p>#Branding</p>
+                      <p>#Procurement & Supply</p>
                     </div>
                     <div className="title title--m mt-12 isview textslide fullw">
-                      Ucked – branding for mobile application
+                      Ucked – Procurement & Supply for mobile application
                     </div>
                     <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag">Ucked</span>
@@ -14917,7 +14915,7 @@ const Cases = () => {
                           </p>
                           <p>
                             Boosted recognition by 29% through ecosystem
-                            branding
+                            Procurement & Supply
                           </p>
                           <p>
                             Energized community engagement via playful mascots
@@ -14928,7 +14926,7 @@ const Cases = () => {
                     <div className="btn--wrap mt-20 mt-20-mob">
                       <a
                         className="btn btn--orange hover--dark arr fullw-mob"
-                        href="ucked-branding-mobile-app/index.html">
+                        href="ucked-Procurement & Supply-mobile-app/index.html">
                         <span>
                           <b>Explore</b>
                         </span>
@@ -15233,7 +15231,7 @@ const Cases = () => {
                             src="/cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
                           />
                         </a>
-                        <div className="txt txt--m">Kseniia Shalia</div>
+                        <div className="txt txt--m">Leo</div>
                         <div className="txt txt--s color--white-light">
                           Account Executive
                         </div>
@@ -15242,7 +15240,7 @@ const Cases = () => {
                             <img
                               alt=""
                               className="copyme"
-                              data-text="hello@phenomenon-studio.com"
+                              data-text="dampecon0504@gmail.comio.com"
                               decoding="async"
                               loading="lazy"
                               src="/cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
@@ -15250,8 +15248,8 @@ const Cases = () => {
                           </div>
                           <a
                             className="btn btn--simple"
-                            href="mailto:hello@phenomenon-studio.com">
-                            <span>hello@phenomenon-studio.com</span>
+                            href="mailto:dampecon0504@gmail.comio.com">
+                            <span>dampecon0504@gmail.comio.com</span>
                           </a>
                         </div>
                       </div>
@@ -15286,7 +15284,7 @@ const Cases = () => {
                             src="/cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/linkedin-alt.svg"
                           />
                         </a>
-                        <div className="txt txt--m">Polina Chebanova</div>
+                        <div className="txt txt--m">John</div>
                         <div className="txt txt--s color--white-light">
                           Co-Founder & CPO
                         </div>
@@ -15295,7 +15293,7 @@ const Cases = () => {
                             <img
                               alt=""
                               className="copyme"
-                              data-text="polina@phenomenon-studio.com"
+                              data-text="mailto:dampecon0504@yahoo.comudio.com"
                               decoding="async"
                               loading="lazy"
                               src="/cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/copy.svg"
@@ -15303,8 +15301,8 @@ const Cases = () => {
                           </div>
                           <a
                             className="btn btn--simple"
-                            href="mailto:polina@phenomenon-studio.com">
-                            <span>polina@phenomenon-studio.com</span>
+                            href="mailto:mailto:dampecon0504@yahoo.comudio.com">
+                            <span>mailto:dampecon0504@yahoo.comudio.com</span>
                           </a>
                         </div>
                       </div>

@@ -13,7 +13,7 @@ const Topnav2 = () => {
                   <nav>
                     <ul className="flex v--center h--center gap-40 gap-16-tablet">
                       <li className="menu-item-has-children">
-                                      <a className="" href="services/index.html" target="_self">
+                                      <a className="" href="#" target="_self">
                                         <span>
                                           <b>Services</b>
                                         </span>
@@ -26,7 +26,7 @@ const Topnav2 = () => {
                                                 <li className="active">
                                                   <a
                                                     className="btn btn--simple chevron h--between fullw decor-no"
-                                                    href="services/index.html"
+                                                    href="#"
                                                     target="_self">
                                                     <span>
                                                       <b>Design</b>
@@ -51,7 +51,7 @@ const Topnav2 = () => {
                                                             to="/mobile-app"
                                                             target="_self">
                                                             <span>
-                                                              <b>Mobile app design</b>
+                                                              <b>Electrical Installation & Commissioning</b>
                                                             </span>
                                                           </Link>
                                                         </li>
@@ -62,7 +62,7 @@ const Topnav2 = () => {
                                                 <li className="">
                                                   <a
                                                     className="btn btn--simple chevron h--between fullw decor-no"
-                                                    href="services/index.html"
+                                                    href="#"
                                                     target="_self">
                                                     <span>
                                                       <b>Development</b>
@@ -103,7 +103,7 @@ const Topnav2 = () => {
                                                 className="radius-12 fullw"
                                                 decoding="async"
                                                 loading="lazy"
-                                                src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Screenshot-2025-03-03-at-22.27.30.webp"
+                                                src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/WhatsApp-Image.jpg"
                                                 style={{
                                                   aspectRatio: "1.5260804769001",
                                                 }}
@@ -258,7 +258,7 @@ const Topnav2 = () => {
                                       to="/mobile-app"
                                       target="_self">
                                       <span>
-                                        <b>Mobile app design</b>
+                                        <b>Electrical Installation & Commissioning</b>
                                       </span>
                                     </Link>
                                   </li>
@@ -304,7 +304,7 @@ const Topnav2 = () => {
                                       href="service/ux-design-audit/index.html"
                                       target="_self">
                                       <span>
-                                        <b>UX audit</b>
+                                        <b>Electrical System Audit</b>
                                       </span>
                                     </a>
                                   </li>
@@ -377,10 +377,10 @@ const Topnav2 = () => {
                                   <li>
                                     <a
                                       className="btn btn--simple arr dark"
-                                      href="service/branding-and-identity-agency/index.html"
+                                      href="service/Procurement & Supply-and-identity-agency/index.html"
                                       target="_self">
                                       <span>
-                                        <b>Branding </b>
+                                        <b>Procurement & Supply </b>
                                       </span>
                                     </a>
                                   </li>
@@ -438,7 +438,7 @@ const Topnav2 = () => {
                                       href="service/ux-design-audit/index.html"
                                       target="_self">
                                       <span>
-                                        <b>UX audit</b>
+                                        <b>Electrical System Audit</b>
                                       </span>
                                     </a>
                                   </li>

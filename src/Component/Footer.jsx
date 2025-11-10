@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className="">
-        <div className="footer_top pt-100 pt-60-mob font2">
+        <div className="footer_top  pt-60-mob font2">
           <div className="container">
             <div className="grid col-2 col-1-mob left">
               <div className="col grid col-2 col-1-mob gap-40 gap-0-mob footer_menu_wrap isview slidetop">
@@ -46,7 +46,7 @@ const Footer = () => {
                 <div className="col">
                   <div className="socs flex v--start h--wrap h--start gap-8 isview slidetop mt-48-mob">
                     <a
-                      href="https://www.behance.net/phenomenon-studio"
+                      href="/www.behance.net/phenomenon-studio"
                       rel="nofollow"
                       target="_blank">
                       <img
@@ -54,12 +54,12 @@ const Footer = () => {
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/behance.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/behance.svg"
                         style={{}}
                       />
                     </a>
                     <a
-                      href="https://dribbble.com/phenomenonstudio"
+                      href="/dribbble.com/phenomenonstudio"
                       rel="nofollow"
                       target="_blank">
                       <img
@@ -67,12 +67,12 @@ const Footer = () => {
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/dribbble.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/dribbble.svg"
                         style={{}}
                       />
                     </a>
                     <a
-                      href="https://www.instagram.com/phenomenon__studio"
+                      href="/www.instagram.com/phenomenon__studio"
                       rel="nofollow"
                       target="_blank">
                       <img
@@ -80,12 +80,12 @@ const Footer = () => {
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/instagram.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/instagram.svg"
                         style={{}}
                       />
                     </a>
                     <a
-                      href="https://www.linkedin.com/company/26241149"
+                      href="/www.linkedin.com/company/26241149"
                       rel="nofollow"
                       target="_blank">
                       <img
@@ -93,12 +93,12 @@ const Footer = () => {
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/linkedin.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/linkedin.svg"
                         style={{}}
                       />
                     </a>
                     <a
-                      href="https://www.facebook.com/phenomenonstudio"
+                      href="/www.facebook.com/phenomenonstudio"
                       rel="nofollow"
                       target="_blank">
                       <img
@@ -106,12 +106,12 @@ const Footer = () => {
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/facebook.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/facebook.svg"
                         style={{}}
                       />
                     </a>
                     <a
-                      href="https://x.com/Phenomenon_inc"
+                      href="/x.com/Phenomenon_inc"
                       rel="nofollow"
                       target="_blank">
                       <img
@@ -119,7 +119,7 @@ const Footer = () => {
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/twitter.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/twitter.svg"
                         style={{}}
                       />
                     </a>
@@ -144,7 +144,7 @@ const Footer = () => {
                     />
                     <div className="mt-24 mt-16-mob">
                       <span className="btn h--between arr btn--simple dark fullw decor-no">
-                        <span>Poland, Wroclaw</span>
+                        <span>Lagos Nigeria</span>
                       </span>
                     </div>
                   </a>
@@ -164,7 +164,7 @@ const Footer = () => {
                     />
                     <div className="mt-24 mt-16-mob">
                       <span className="btn h--between arr btn--simple dark fullw decor-no">
-                        <span>Estonia, Tallinn</span>
+                        <span>Abuja Nigeria</span>
                       </span>
                     </div>
                   </a>
@@ -271,14 +271,14 @@ const Footer = () => {
               <div className="grid col-4 col-2-mob">
                 <a
                   className="col flex v--center h--center p-24"
-                  href="https://webflow.com/@phenomenons-workspace"
+                  href="/webflow.com/@phenomenons-workspace"
                   target="_blank">
                   <img
                     alt="Icon - webflow-rating"
                     className=""
                     decoding="async"
                     loading="lazy"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/webflow-rating.svg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/webflow-rating.svg"
                     style={{}}
                   />
                 </a>
@@ -299,7 +299,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="col flex v--center h--center p-24"
-                  href="https://www.designrush.com/agency/profile/phenomenon-studio"
+                  href="/www.designrush.com/agency/profile/phenomenon-studio"
                   target="_blank">
                   <img
                     alt="Icon - Frame 1686558327-1"
@@ -312,14 +312,14 @@ const Footer = () => {
                 </a>
                 <a
                   className="col flex v--center h--center p-24"
-                  href="https://clutch.co/profile/phenomenon-studio"
+                  href="/clutch.co/profile/phenomenon-studio"
                   target="_blank">
                   <img
                     alt="Icon - Frame 1686558328"
                     className=""
                     decoding="async"
                     loading="lazy"
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Frame-1686558328.svg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Frame-1686558328.svg"
                     style={{}}
                   />
                 </a>
@@ -444,7 +444,7 @@ const Footer = () => {
                             href="service/website-design-services/index.html"
                             target="_self">
                             <span>
-                              <b>Website Design Services</b>
+                              <b>Electrical Engineering Design</b>
                             </span>
                           </a>
                         </li>
@@ -515,10 +515,10 @@ const Footer = () => {
                         <li>
                           <a
                             className="btn btn--simple arr dark"
-                            href="service/branding-services/index.html"
+                            href="service/Procurement & Supply-services/index.html"
                             target="_self">
                             <span>
-                              <b>Branding</b>
+                              <b>Procurement & Supply</b>
                             </span>
                           </a>
                         </li>

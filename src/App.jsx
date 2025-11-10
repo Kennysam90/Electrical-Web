@@ -13,6 +13,8 @@ import Mobiledev from './pages/Services/Development/Mobile-dev'
 import Webdev from './pages/Services/Development/Web-dev'
 import Teams from './pages/AboutUs/Teams'
 import Topnav2 from './Component/Topnav2'
+import Chat from './Component/Chat';
+import Comment from './Component/Comment';
 
 function App() {
 
@@ -35,6 +37,8 @@ function App() {
         <Route path='/web-development' element={<Webdev />} />
         <Route path='/teams' element={<Teams />} />
         <Route path='/topnav2' element={<Topnav2 />} />
+        <Route path='/chat' element={<Chat />} />
+        <Route path='/comment' element={<Comment />} />
       </Routes>
      </Router>
      </QueryClientProvider>
