@@ -11,16 +11,10 @@ COPY . .
 RUN yarn build
 
 # ---- Production stage (Nginx) ----
-FROM nginx:stable-alpine
-
-# Remove default Nginx static files
-RUN rm -rf /usr/share/nginx/html/*
-
-# Copy built files from builder
-COPY --from=builder /app/dist /usr/share/nginx/html
-
-# Expose custom port
+# Production stage (serve)
+FROM node:20-alpine
+WORKDIR /app
+RUN npm install -g serve
+COPY --from=builder /app/dist ./dist
 EXPOSE 5173
-
-# Run Nginx in foreground
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["serve", "-s", "dist", "-l", "5173"]
