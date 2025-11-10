@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for your API
-const base = 'https://162.0.228.253:5000/api';
+const base = 'http://162.0.228.253:5000/api';
 
 
 // Axios instance with token interceptor
