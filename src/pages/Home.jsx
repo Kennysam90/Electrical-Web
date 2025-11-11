@@ -3,6 +3,7 @@ import Topnav from '../Component/Topnav'
 import Footer from '../Component/Footer'
 import { Link } from 'react-router-dom';
 import Comment from '../Component/Comment';
+import Chat from '../Component/Chat';
 
 const Home = () => {
   // this stores which tab is active
@@ -131,7 +132,7 @@ const Home = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_1.svg"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/logo3.png"
                       style={{
                         aspectRatio: "1.41",
                       }}
@@ -143,7 +144,7 @@ const Home = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_2.svg"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/GREYOCEAN.png"
                       style={{
                         aspectRatio: "1.41",
                       }}
@@ -155,7 +156,7 @@ const Home = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_3.svg"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/download.png"
                       style={{
                         aspectRatio: "1.41",
                       }}
@@ -232,14 +233,14 @@ const Home = () => {
                         </div>
                       </div>
                       <div className="btn-wrap mt-auto pt-24 pb-24 pt-32-mob">
-                        <a
+                        <Link
                           className="btn btn--orange hover--dark arr"
-                          href="service/team-extension/index.html"
+                          to="/contact"
                           target="_self">
                           <span>
                             <b>Request a Project Team</b>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="right">
@@ -283,14 +284,14 @@ const Home = () => {
                         </div>
                       </div>
                       <div className="btn-wrap mt-auto pt-24 pb-24 pt-32-mob">
-                        <a
+                        <Link
                           className="btn btn--orange hover--dark arr"
-                          href="service/product-redesign/index.html"
+                          to="/contact"
                           target="_self">
                           <span>
-                            <b>Upgrade My Facility</b>
+                            <b>Request a Project Team</b>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="right">
@@ -304,7 +305,7 @@ const Home = () => {
                           playsInline
                           poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/adam-cover.webp"
                           preload="none"
-                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Adam_2sub.mp4"
+                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (2).mp4"
                         />
                         <div className="btn-wrap">
                           <button className="btn btn--play" />
@@ -330,15 +331,15 @@ const Home = () => {
                           Our structured project approach helps you focus on what truly matters — safety, efficiency, and compliance — while our experienced team completes installations up to 50% faster without compromising quality.
                         </div>
                       </div>
-                      <div className="btn-wrap mt-auto pt-24 pb-24 pt-32-mob">
-                        <a
+                     <div className="btn-wrap mt-auto pt-24 pb-24 pt-32-mob">
+                        <Link
                           className="btn btn--orange hover--dark arr"
-                          href="service/rapid-mvp-development/index.html"
+                          to="/contact"
                           target="_self">
                           <span>
-                            <b>Start My Project</b>
+                            <b>Request a Project Team</b>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="right">
@@ -352,7 +353,7 @@ const Home = () => {
                           playsInline
                           poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/polina-mvp-cover.webp"
                           preload="none"
-                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Polina_3_sub.mp4"
+                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (1).mp4"
                         />
                         <div className="btn-wrap">
                           <button className="btn btn--play" />
@@ -405,14 +406,14 @@ Maintain & Expand
                     </li>
                   </ul>
                   <div className="btn-wrap mt-auto pt-32 pc-visible isview slidetop">
-                    <a
+                    <Link
                       className="btn btn--orange arr hover--white"
-                      href="services/index.html"
+                      to="/webapp"
                       target="_self">
                       <span>
                         <b>Explore all</b>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="right color--white gap-100 flex fd--column gap-80-mob mt-40-mob pt-8-mob isview fadein">
@@ -436,13 +437,6 @@ Maintain & Expand
                               Evaluate your facility’s electrical needs with precise load calculations and tailored engineering designs that ensure efficiency and safety.
                             </p>
                           </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/design-prototype/index.html">
-                              <span>Explore</span>
-                            </a>
-                          </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
                           <span />
@@ -458,13 +452,6 @@ Maintain & Expand
                               Source certified electrical components, control panels, and ATS systems from trusted manufacturers for dependable project delivery.
                             </p>
                           </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/product-discovery/index.html">
-                              <span>Explore</span>
-                            </a>
-                          </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
                           <span />
@@ -479,13 +466,6 @@ Maintain & Expand
                             <p>
                               Get your systems installed and tested by experienced engineers who ensure flawless performance and full compliance with standards.
                             </p>
-                          </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/website-development-agency/index.html">
-                              <span>Explore</span>
-                            </a>
                           </div>
                         </div>
                       </div>
@@ -511,13 +491,6 @@ Maintain & Expand
                               Get expertly engineered designs tailored to your facility’s unique load requirements and future expansion goals.
                             </p>
                           </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/Procurement & Supply-and-identity-services/index.html">
-                              <span>Explore</span>
-                            </a>
-                          </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
                           <span />
@@ -532,13 +505,6 @@ Maintain & Expand
                             <p>
                               Source high-quality electrical materials, control panels, and ATS systems from globally trusted manufacturers.
                             </p>
-                          </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/tech-workshop/index.html">
-                              <span>Explore</span>
-                            </a>
                           </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
@@ -555,13 +521,6 @@ Maintain & Expand
                               Ensure safe, efficient, and compliant installations delivered by our certified professionals.
                             </p>
                           </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/custom-mvp-software-development/index.html">
-                              <span>Explore</span>
-                            </a>
-                          </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
                           <span />
@@ -577,13 +536,6 @@ Maintain & Expand
                               Modernize outdated systems and keep your operations running without interruption through scheduled maintenance.
                             </p>
                           </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/rapid-mvp-development/index.html">
-                              <span>Explore</span>
-                            </a>
-                          </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
                           <span />
@@ -598,13 +550,6 @@ Maintain & Expand
                             <p>
                               Access a reliable team of experienced engineers ready to handle projects of any scale — from concept to completion.
                             </p>
-                          </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/dedicated-software-development-team/index.html">
-                              <span>Explore</span>
-                            </a>
                           </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
@@ -636,13 +581,6 @@ Maintain & Expand
                               Identify performance gaps, energy losses, and safety risks to enhance the reliability of your electrical infrastructure.
                             </p>
                           </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/ux-design-audit/index.html">
-                              <span>Explore</span>
-                            </a>
-                          </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
                           <span />
@@ -657,13 +595,6 @@ Maintain & Expand
                             <p>
                               Replace outdated equipment with modern, efficient systems that meet current standards and improve productivity.
                             </p>
-                          </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/product-redesign/index.html">
-                              <span>Explore</span>
-                            </a>
                           </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
@@ -680,13 +611,6 @@ Maintain & Expand
                               Quickly scale your workforce with our dedicated engineers and technicians ready to deliver on schedule.
                             </p>
                           </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/team-extension/index.html">
-                              <span>Explore</span>
-                            </a>
-                          </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
                           <span />
@@ -701,13 +625,6 @@ Maintain & Expand
                             <p>
                               Transform your facility with advanced electrical installations that boost efficiency, safety, and long-term value.
                             </p>
-                          </div>
-                          <div className="btn-wrap pt-54 pt-0-mob flex mt-auto mt-48-mob isview slidetop">
-                            <a
-                              className="btn btn--simple arr"
-                              href="service/website-redesign-services/index.html">
-                              <span>Explore</span>
-                            </a>
                           </div>
                         </div>
                         <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
@@ -729,14 +646,14 @@ Maintain & Expand
               </div>
             </div>
             <div className="mob-visible mt-40 pt-8">
-              <a
+              <Link
                 className="btn btn--orange arr fullw"
-                href="services/index.html"
+                to="/webapp"
                 target="_self">
                 <span>
                   <b>Explore all</b>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -791,10 +708,10 @@ Maintain & Expand
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                         style={{}}
                       />
-                      USA
+                      Abuja
                     </span>
                   </div>
                   <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
@@ -832,13 +749,13 @@ Maintain & Expand
                     </div>
                   </div>
                   <div className="btn--wrap mt-20 mt-20-mob">
-                    <a
+                    <Link
                       className="btn btn--orange hover--dark arr fullw-mob"
-                      href="projects/shaga-odyssey-awarded-website-development-for-web3-gamepad/index.html">
+                      to="/cases">
                       <span>
                         <b>Explore</b>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -884,7 +801,7 @@ Maintain & Expand
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Clip-path-group.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                         style={{}}
                       />
                       New Zealand
@@ -923,13 +840,13 @@ Maintain & Expand
                     </div>
                   </div>
                   <div className="btn--wrap mt-20 mt-20-mob">
-                    <a
+                    <Link
                       className="btn btn--orange hover--dark arr fullw-mob"
-                      href="projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly/index.html">
+                      to="/cases">
                       <span>
                         <b>Explore</b>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="mt-32 mt-48-mob mb--8-mob quote bg--gray radius-16">
                     <div className="top flex auth_wrap v--center h--start gap-16">
@@ -962,23 +879,23 @@ Maintain & Expand
                 <div className="col flex v--start h--start">
                   <a
                     className="media_wrap radius-12 ov-hidden"
-                    href="projects/isora-governance-risk-and-compliance-assessment-platform/index.html">
+                    href="projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly/index.html">
                     <picture>
                       <source
                         media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Case-Preview-5.png"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
                       />
                       <source
                         media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Case-Preview-5.png"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
                       />
                       <img
-                        alt="Isora – optimizing governance, risk & compliance for top institutions - image cover"
+                        alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
                         className="fullw radius-12"
                         decoding="async"
                         loading="lazy"
                         media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Case-Preview-mob.png"
+                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
                       />
                     </picture>
                   </a>
@@ -1000,10 +917,10 @@ Maintain & Expand
                         className=""
                         decoding="async"
                         loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                         style={{}}
                       />
-                      Texas, USA
+                      Lagos
                     </span>
                   </div>
                   <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
@@ -1040,13 +957,13 @@ Maintain & Expand
                     </div>
                   </div>
                   <div className="btn--wrap mt-20 mt-20-mob">
-                    <a
+                    <Link
                       className="btn btn--orange hover--dark arr fullw-mob"
-                      href="projects/isora-governance-risk-and-compliance-assessment-platform/index.html">
+                      to="/cases">
                       <span>
                         <b>Explore</b>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1168,14 +1085,14 @@ Our experienced engineers and project managers are committed to delivering solut
                   <div className="inner color--dark radius-12 bg--gray bg--orange-mob flex fd--column v--start clipped-right-mob">
                     <div className="title title--l">50+ team members</div>
                     <div className="btn-wrap mt-auto pt-24">
-                      <a
+                      <Link
                         className="btn btn--simple dark arr"
-                        href="about-our-company/index.html"
+                        to="/about-us"
                         target="_self">
                         <span>
                           <b>Learn more</b>
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1262,12 +1179,13 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                 </div>
               </div>
             </div>
-          </div>
+          </div><Comment /><Chat />
         </section>
-        <Comment />
+        
        
         <Footer />
       </main>
+      
       
       
     </div>

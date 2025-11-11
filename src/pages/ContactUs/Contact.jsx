@@ -1,10 +1,16 @@
-import React from 'react'
+import { useState } from 'react'
 import Topnav from '../../Component/Topnav'
 import Footer from '../../Component/Footer'
 import Chat from '../../Component/Chat'
 import Comment from '../../Component/Comment'
 
 const Contact = () => {
+   const [activeTab, setActiveTab] = useState("");
+    
+      // when a tab is clicked, update activeTab
+      const handleTabClick = (tab) => {
+        setActiveTab(tab);
+      };
   return (
     <>
   <div id="progress-bar-wrapper" className="invisible">
@@ -53,7 +59,7 @@ const Contact = () => {
               <div className="left">
                 <img
                   className=""
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/poland.png"
+                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                   alt="Image - poland"
                   loading="lazy"
                   decoding="async"
@@ -79,7 +85,7 @@ const Contact = () => {
               <div className="left">
                 <img
                   className=""
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/estonia.png"
+                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                   alt="Image - estonia"
                   loading="lazy"
                   decoding="async"
@@ -152,58 +158,6 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="row flex v--start h--between isview slidetop h--wrap">
-              <div className="left">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/usa-flag.svg"
-                  alt="Icon - usa flag"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="center">
-                <div className="txt txt--caption-m color--dark-light uppercase fw-600">
-                  United States, Dover
-                </div>
-              </div>
-              <div className="right">
-                <div className="txt txt--l color--dark">
-                  Phenomenon Studio Inc.
-                  <br />
-                  8 The Green STER, Dover, USA
-                  <br />
-                  Registration ID/File number - 10131254
-                  <br />
-                  EIN 35-2894402
-                </div>
-              </div>
-            </div>
-            <div className="row flex v--start h--between isview slidetop h--wrap">
-              <div className="left">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Frame-1686558495.svg"
-                  alt="Icon - Frame 1686558495"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="center">
-                <div className="txt txt--caption-m color--dark-light uppercase fw-600">
-                  Ukraine, Kyiv
-                </div>
-              </div>
-              <div className="right">
-                <div className="txt txt--l color--dark">
-                  Phenomenon Studio
-                  <br />
-                  Evgeniya Konovalets, 36B, 02000
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -223,8 +177,8 @@ const Contact = () => {
           <div className="tabs-actions disable-scrollbar mt-100 mt-40-mob isview slidetop">
             <button
               type="button"
-              className="btn btn--white hover--gray active--dark is-active"
-              data-tabs-link={1}
+              className={`btn btn--white hover--gray active--dark ${activeTab === "SaaS" ? "is-active" : ""}`}
+                 onClick={() => handleTabClick("SaaS")}
             >
               <span>
                 <b>SaaS</b>
@@ -232,8 +186,8 @@ const Contact = () => {
             </button>
             <button
               type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={2}
+               className={`btn btn--white hover--gray active--dark ${activeTab === "Healthcare" ? "is-active" : ""}`}
+                 onClick={() => handleTabClick("Healthcare")}
             >
               <span>
                 <b>Healthcare</b>
@@ -241,8 +195,8 @@ const Contact = () => {
             </button>
             <button
               type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={3}
+              className={`btn btn--white hover--gray active--dark ${activeTab === "EdTech" ? "is-active" : ""}`}
+                 onClick={() => handleTabClick("EdTech")}
             >
               <span>
                 <b>EdTech</b>
@@ -250,8 +204,8 @@ const Contact = () => {
             </button>
             <button
               type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={4}
+               className={`btn btn--white hover--gray active--dark ${activeTab === "FinTech" ? "is-active" : ""}`}
+                 onClick={() => handleTabClick("FinTech")}
             >
               <span>
                 <b>FinTech</b>
@@ -259,8 +213,8 @@ const Contact = () => {
             </button>
             <button
               type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={5}
+               className={`btn btn--white hover--gray active--dark ${activeTab === "Web3" ? "is-active" : ""}`}
+                 onClick={() => handleTabClick("Web3")}
             >
               <span>
                 <b>Web3</b>

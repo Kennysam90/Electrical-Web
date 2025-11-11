@@ -202,7 +202,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="about-objective__illustration gutters-mt isview slidetop">
-            <div className="pc-visible">
+            {/* <div className="pc-visible">
               <svg
                 width={1376}
                 height={512}
@@ -1115,7 +1115,7 @@ const AboutUs = () => {
                   />
                 </defs>
               </svg>
-            </div>
+            </div> */}
             <div className="mob-visible">
               <img
                 src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/06/Frame-1686558436.svg"
@@ -1230,7 +1230,7 @@ const AboutUs = () => {
                   <div className="card-review__logo">
                     <img
                       className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2022/12/Group-2212.svg"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2022/12/Group-2212.svg"
                       alt="Icon - Group 2212"
                       loading="lazy"
                       decoding="async"

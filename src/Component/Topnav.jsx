@@ -103,9 +103,11 @@ const Topnav = () => {
                             className="radius-12 fullw"
                             decoding="async"
                             loading="lazy"
-                            src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Screenshot-2025-03-03-at-22.27.30.webp"
+                            src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/WhatsApp-Image.jpg"
                             style={{
                               aspectRatio: "1.5260804769001",
+                              width:"20%",
+                              height:"20vh"
                             }}
                           />
                         </div>
@@ -172,15 +174,17 @@ const Topnav = () => {
                             </ul>
                           </div>
                         </div>
-                        <div className="img_wrap">
+                         <div className="img_wrap">
                           <img
-                            alt="Image - odyssey-cover"
+                            alt="Image - design system"
                             className="radius-12 fullw"
                             decoding="async"
                             loading="lazy"
-                            src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/odyssey-cover.webp"
+                            src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/WhatsApp-Image.jpg"
                             style={{
-                              aspectRatio: "1.3333333333333",
+                              aspectRatio: "1.5260804769001",
+                              width:"20%",
+                              height:"20vh"
                             }}
                           />
                         </div>

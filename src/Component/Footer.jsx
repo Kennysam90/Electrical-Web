@@ -15,7 +15,7 @@ const Footer = () => {
                   <li
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18444"
                     id="menu-item-18444">
-                    <a href="services/index.html">Services</a>
+                    <a href="#">Services</a>
                   </li>
                   <li
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18445"
@@ -25,106 +25,19 @@ const Footer = () => {
                   <li
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18446"
                     id="menu-item-18446">
-                    <a href="about-our-company/index.html">About</a>
+                    <Link to="/about-us">About</Link>
                   </li>
                   <li
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18447"
                     id="menu-item-18447">
-                    <a href="team-and-advisors/index.html">Team & Advisors</a>
+                    <Link to="/teams">Team & Advisors</Link>
                   </li>
                   <li
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18448"
                     id="menu-item-18448">
                     <a href="career/index.html">Career</a>
                   </li>
-                  <li
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18449"
-                    id="menu-item-18449">
-                    <a href="blog/index.html">Blog</a>
-                  </li>
                 </ul>
-                <div className="col">
-                  <div className="socs flex v--start h--wrap h--start gap-8 isview slidetop mt-48-mob">
-                    <a
-                      href="/www.behance.net/phenomenon-studio"
-                      rel="nofollow"
-                      target="_blank">
-                      <img
-                        alt="Icon - behance"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/behance.svg"
-                        style={{}}
-                      />
-                    </a>
-                    <a
-                      href="/dribbble.com/phenomenonstudio"
-                      rel="nofollow"
-                      target="_blank">
-                      <img
-                        alt="Icon - dribbble"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/dribbble.svg"
-                        style={{}}
-                      />
-                    </a>
-                    <a
-                      href="/www.instagram.com/phenomenon__studio"
-                      rel="nofollow"
-                      target="_blank">
-                      <img
-                        alt="Icon - instagram"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/instagram.svg"
-                        style={{}}
-                      />
-                    </a>
-                    <a
-                      href="/www.linkedin.com/company/26241149"
-                      rel="nofollow"
-                      target="_blank">
-                      <img
-                        alt="Icon - linkedin"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/linkedin.svg"
-                        style={{}}
-                      />
-                    </a>
-                    <a
-                      href="/www.facebook.com/phenomenonstudio"
-                      rel="nofollow"
-                      target="_blank">
-                      <img
-                        alt="Icon - facebook"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/facebook.svg"
-                        style={{}}
-                      />
-                    </a>
-                    <a
-                      href="/x.com/Phenomenon_inc"
-                      rel="nofollow"
-                      target="_blank">
-                      <img
-                        alt="Icon - twitter"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/twitter.svg"
-                        style={{}}
-                      />
-                    </a>
-                  </div>
-                </div>
               </div>
               <div className="col right mt-48-mob isview slidetop">
                 <div className="grid col-2 col-1-mob gap-8 countries">
@@ -137,7 +50,7 @@ const Footer = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/poland.png"
+                      src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                       style={{
                         aspectRatio: "1.45",
                       }}
@@ -157,7 +70,7 @@ const Footer = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/estonia.png"
+                      src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                       style={{
                         aspectRatio: "1.475",
                       }}
@@ -177,7 +90,8 @@ const Footer = () => {
                       className=""
                       decoding="async"
                       loading="lazy"
-                      src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/sz.png"
+                      // src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/sz.png"
+                       src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                       style={{
                         aspectRatio: "1.45",
                       }}
@@ -188,52 +102,12 @@ const Footer = () => {
                       </span>
                     </div>
                   </a>
-                  <a
-                    className="country_link p-24 p-16-mob radius-8"
-                    href="about-our-company/index.html"
-                    target="_blank">
-                    <img
-                      alt="Image - canada"
-                      className=""
-                      decoding="async"
-                      loading="lazy"
-                      src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/canada.png"
-                      style={{
-                        aspectRatio: "1.475",
-                      }}
-                    />
-                    <div className="mt-24 mt-16-mob">
-                      <span className="btn h--between arr btn--simple dark fullw decor-no">
-                        <span>Canada, Vancouver</span>
-                      </span>
-                    </div>
-                  </a>
-                  <a
-                    className="country_link p-24 p-16-mob radius-8"
-                    href="about-our-company/index.html"
-                    target="_blank">
-                    <img
-                      alt="Image - usa"
-                      className=""
-                      decoding="async"
-                      loading="lazy"
-                      src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/05/usa.png"
-                      style={{
-                        aspectRatio: "1.45",
-                      }}
-                    />
-                    <div className="mt-24 mt-16-mob">
-                      <span className="btn h--between arr btn--simple dark fullw decor-no">
-                        <span>USA, Denver</span>
-                      </span>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="footer_center pt-100 pt-48-mob">
+        {/* <div className="footer_center pt-100 pt-48-mob">
           <div className="container">
             <div className="flex v--center h--between pb-6 menus_wrap isview slidetop">
               <div className="left uppercase">
@@ -549,7 +423,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </footer>
     </>
   )

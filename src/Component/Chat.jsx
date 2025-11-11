@@ -5,7 +5,7 @@ const Chat = () => {
     <>
        <section
         className="contact_form_section pt-200 pb-200 pt-100-mob  bg--dark clipped-bottom contacts_hero ov--hidden next_block_sticky"
-        id="contact-form" style={{marginTop:"8em"}}
+        id="contact-form" 
       >
         <div className="container">
           <div className="txt txt--caption-m color--white-light uppercase fw-600 isview slidetop">
@@ -177,19 +177,6 @@ const Chat = () => {
                           <b>Submit</b>
                         </span>
                       </button>
-                      <div className="txt txt--control-m color--white-light uppercase fw-600 mt-24-mob text--center-mob">
-                        <p>
-                          By clicking this button you accept{" "}
-                          <a href="../terms-of-use/index.html">
-                            Terms of Service
-                          </a>{" "}
-                          and
-                          <br />
-                          <a href="../privacy-policy/index.html">
-                            Privacy Policy
-                          </a>
-                        </p>
-                      </div>
                     </div>
                   </div>
                   <div className="form_state text--center success type-1 color--white bg--dark">
