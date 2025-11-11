@@ -3,6 +3,8 @@ import Topnav from '../../../Component/Topnav'
 import Footer from '../../../Component/Footer'
 import Chat from '../../../Component/Chat'
 import Comment from '../../../Component/Comment'
+import { Link } from 'react-router-dom'
+import Project from '../../../Component/project'
 
 const Webapp = () => {
   return (
@@ -177,35 +179,35 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <b>Let’s talk</b>
               </span>
             </a>{" "}
-            <a
+            <Link
               className="btn btn--white-light arr arr-right hover--white btn--lg-desk"
-              href="../projects/index.html"
+              to="/cases"
               target="_self"
             >
               <span>
                 <b>View cases</b>
               </span>
-            </a>{" "}
+            </Link>{" "}
           </div>
           <div className="mt-60 mt-24-mob grid col-2 col-1-mob column-gap-32 row-gap-40 row-gap-24-mob">
-            <div className="col sticky isview slidetop">
-              <div className="media_wrap">
-                <video
-                  preload="none"
+             <div className="col sticky isview slidetop">
+                <div className="media_wrap">
+                 <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="fullw radius-12"
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/original-c08d12950daf8676bed47173e59ec1d3-1.mp4"
-                  autoPlay=""
-                  playsInline=""
-                  muted=""
-                  loop=""
                   style={{
                     aspectRatio: "1.33",
                     objectFit: "cover",
-                    verticalAlign: "middle"
+                    verticalAlign: "middle",
                   }}
-                />{" "}
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/small.mp4" 
+                />
+
+                </div>
               </div>
-            </div>
             <div className="col pt-32 pt-0-mob pb-32 pb-0-mob flex fd--column">
               <div
                 className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit"
@@ -216,13 +218,13 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 </div>
               </div>
               <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
-                <p>DESIGNING PRODUCTS FOR STARTUPS BACKED BY</p>
+                <p>Delivering trusted electrical solutions for organizations</p>
               </div>
               <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
                 <div className="logo flex v--center h--center">
                   <img
                     className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_1.svg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/download__2_-removebg-preview (1).png"
                     alt="Icon - l_1"
                     loading="lazy"
                     decoding="async"
@@ -232,7 +234,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="logo flex v--center h--center">
                   <img
                     className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_2.svg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/download__1_-removebg-preview.png"
                     alt="Icon - l_2"
                     loading="lazy"
                     decoding="async"
@@ -242,7 +244,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="logo flex v--center h--center">
                   <img
                     className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_3.svg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/download__2_-removebg-preview.png"
                     alt="Icon - l_3"
                     loading="lazy"
                     decoding="async"
@@ -259,7 +261,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
             <div className="col pc-visible" />
             <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center">
               <div className="txt txt--caption-m color--white-light text--left mb-24 uppercase fw-600 mt-auto pt-32 pt-0-mob mt-24-mob isview fadein inner-inherit">
-                <div>phenomenon studio IN NUMBERS</div>
+                <div>DAMPECON LTD IN NUMBERS</div>
               </div>
               <div className="values_wrap grid col-2 clip_1 isview fadein">
                 <div className="col flex v--center h--center fd--column">
@@ -697,16 +699,16 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="h6 color--white-tertiary">01</div>
                 <div className="pt-100 pt-48-mob">
                   <div className="title title--s color--white">
-                    . Industrial Power  &amp; & Control Systems
+                    Industrial Power  &amp; Control Systems
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
                     <div>
-                      Design and implementation of electrical control systems for factories, production lines, and automated operations — ensuring safety, reliability, and efficiency.
+                      Design and implementation of electrical control systems for factories, production lines
                     </div>
                   </div>
                   <div className="inner flex fd--column h--between v--start p-32 pc-visible">
                     <div className="title title--s color--white">
-                    Industrial Power &amp; & Control Systems
+                    Industrial Power &amp; Control Systems
                     </div>
                     <div className="txt txt--m color--white-secondary mt-8 mb-auto">
                       <p>
@@ -756,9 +758,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
                     <div>
-                      Secure, user-facing web app interface design that helps
-                      customers track activity, manage accounts, and stay
-                      engaged.
+                      Secure, Perfect Automic Transfer Switches & Power panels Global Engineering Procument
                     </div>
                   </div>
                   <div className="inner flex fd--column h--between v--start p-32 pc-visible">
@@ -767,8 +767,8 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                     </div>
                     <div className="txt txt--m color--white-secondary mt-8 mb-auto">
                       <p>
-                        Perfect for fintech, healthtech, and service-driven
-                        platforms.
+                        Perfect Automic Transfer Switches & Power panels
+                      
                       </p>
                     </div>
                     <a
@@ -813,7 +813,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
                     <div>
-                      Custom-designed solar, hybrid, and backup power systems — with integrated monitoring for maximum uptime and sustainability.
+                      Custom-designed solar, hybrid, and backup power panel — with integrated monitoring for maximum uptime and sustainability.
                     </div>
                   </div>
                   <div className="inner flex fd--column h--between v--start p-32 pc-visible">
@@ -822,8 +822,8 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                     </div>
                     <div className="txt txt--m color--white-secondary mt-8 mb-auto">
                       <p>
-                        Great for finance, insurance, or productivity-focused
-                        products.
+                        Custom-designed solar, hybrid,
+                      
                       </p>
                     </div>
                     <a
@@ -864,18 +864,18 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="h6 color--white-tertiary">04</div>
                 <div className="pt-100 pt-48-mob">
                   <div className="title title--s color--white">
-                    B2B platforms &amp; multi-role workspaces
+                    Electrical Procurement & Supply multi-role workspaces
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
                     <div>
-                      Collaborative web app UI design for teams working across
+                      Global sourcing, procurement, and delivery of certified electrical components, control panels, and power systems from trusted manufacturers.n for teams working across
                       business units, featuring scalable logic and multi-role
                       workflows.
                     </div>
                   </div>
                   <div className="inner flex fd--column h--between v--start p-32 pc-visible">
                     <div className="title title--s color--white">
-                      B2B platforms &amp; multi-role workspaces
+                      Electrical Procurement & Supply multi-role workspaces
                     </div>
                     <div className="txt txt--m color--white-secondary mt-8 mb-auto">
                       <p>
@@ -921,18 +921,18 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="h6 color--white-tertiary">05</div>
                 <div className="pt-100 pt-48-mob">
                   <div className="title title--s color--white">
-                    E-learning platforms &amp; virtual classrooms
+                    Repairs, Maintenance & Upgrades virtual classrooms
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
                     <div>
-                      Interactive web page design app for digital learning -
+                      Preventive and corrective maintenance, system diagnostics, and electrical upgrades to ensure long-term equipment performance and compliance. for digital learning -
                       whiteboards, dashboards, and classroom engagement features
                       included.
                     </div>
                   </div>
                   <div className="inner flex fd--column h--between v--start p-32 pc-visible">
                     <div className="title title--s color--white">
-                      E-learning platforms &amp; virtual classrooms
+                      Repairs, Maintenance & Upgrades virtual classrooms
                     </div>
                     <div className="txt txt--m color--white-secondary mt-8 mb-auto">
                       <p>
@@ -978,18 +978,18 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="h6 color--white-tertiary">06</div>
                 <div className="pt-100 pt-48-mob">
                   <div className="title title--s color--white">
-                    Reservation &amp; operations systems
+                    Testing, Commissioning & Quality Assurance operations systems
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
                     <div>
-                      Real-time web application design services for bookings,
+                      Comprehensive testing, inspection, and commissioning of electrical systems to guarantee safety, performance, and adherence to engineering standards. design services for bookings,
                       layouts, and workflow management - with admin-level
                       control.
                     </div>
                   </div>
                   <div className="inner flex fd--column h--between v--start p-32 pc-visible">
                     <div className="title title--s color--white">
-                      Reservation &amp; operations systems
+                      Testing, Commissioning & Quality Assurance operations systems
                     </div>
                     <div className="txt txt--m color--white-secondary mt-8 mb-auto">
                       <p>
@@ -1030,390 +1030,13 @@ If you need reliable, compliant, and expertly managed electrical projects delive
           </div>
         </div>
       </section>
-      <section
-        className="tabs pb-200 pb-100-mob  bg--white relative await-action industries_new"
-        data-tabs=""
-      >
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>OUR ELECTRICAL ENGINEERING & PROCUREMENT EXPERTISE</h2>
-          </div>{" "}
-          <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02">
-            Electrical systems  <h2>aren’t one-size-fits-all.</h2>{" "}
-            <span></span>
-          </div>{" "}
-          <div className="txt txt--l color--dark-secondary mt-24 isview slidetop trd02 mw680">
-           Electrical systems aren’t one-size-fits-all.
- Whether it’s powering hospitals, optimizing manufacturing plants, or supporting agricultural facilities, we design and deliver solutions tailored to each client’s operations, safety requirements, and performance goals — built on years of proven field experience and successful project execution.
-          </div>{" "}
-        </div>
-        <div className="container">
-          <div className="tabs-actions disable-scrollbar mt-100 mt-40-mob isview slidetop">
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark is-active"
-              data-tabs-link={1}
-            >
-              <span>
-                <b>SaaS</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={2}
-            >
-              <span>
-                <b>Healthcare</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={3}
-            >
-              <span>
-                <b>EdTech</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={4}
-            >
-              <span>
-                <b>FinTech</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={5}
-            >
-              <span>
-                <b>Web3</b>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div className="separator section-divider mt-24 mb-24" />
-        <div className="container">
-          <div className="tabs-holder isview slidetop" data-tabs-holder="">
-            <div
-              className="industries_new_items tabs-pane is-active"
-              data-tabs-pane={1}
-            >
-              <div className="grid col-2 col-1-mob gap-32">
-                <div className="col">
-                  <video
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/tinyvid_optimized_1_c3e89d72e9ca2837d9e85643956c8544.mp4"
-                    className="fullw radius-12"
-                    autoPlay=""
-                    loop=""
-                    muted=""
-                    playsInline=""
-                    poster="#"
-                  />
-                </div>
-                <div className="col">
-                  <div className="title title--m">
-                    Fast, reliable electrical engineering, installation, and procurement services designed to meet each sector’s performance, safety, and operational needs.
-                    {" "}
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-24-mob mt-64 cols_wrap">
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        Where SaaS UX breaks:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Healthcare Facilities</li>
-                          <li>Agricultural Operations</li>
-                          <li>Manufacturing & Industrial Plants</li>
-                          <li>Commercial Buildings</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        How we fix it:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Role-prioritized flow mapping</li>
-                          <li>Dashboard hierarchy and permissions</li>
-                          <li>Billing and subscription UX</li>
-                          <li>Modular UI systems for scale</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-20">
-                    <a
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      href="../projects/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="industries_new_items tabs-pane" data-tabs-pane={2}>
-              <div className="grid col-2 col-1-mob gap-32">
-                <div className="col">
-                  <img
-                    className="radius-12 fullw"
-                    src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/08/original-8e3d5294874474e2de7580339e7e4fb6.png"
-                    alt="Image - original-8e3d5294874474e2de7580339e7e4fb6"
-                    loading="lazy"
-                    decoding="async"
-                    style={{ aspectRatio: "1.3333333333333" }}
-                  />{" "}
-                </div>
-                <div className="col">
-                  <div className="title title--m">
-                    Clarity-first web-based app design for patient portals,
-                    clinician dashboards, and internal tools.{" "}
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-24-mob mt-64 cols_wrap">
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        Where healthcare UX breaks:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Information clutter</li>
-                          <li>Missed alerts or escalations</li>
-                          <li>Data entry friction</li>
-                          <li>Unfriendly logic for less tech-savvy users</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        How we fix it:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Role-aware dashboards</li>
-                          <li>Accessibility-aligned UI</li>
-                          <li>Field logic for fast entry &amp; review</li>
-                          <li>Alert visibility + system feedback design</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-20">
-                    <a
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      href="../app-development-for-healthcare/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="industries_new_items tabs-pane" data-tabs-pane={3}>
-              <div className="grid col-2 col-1-mob gap-32">
-                <div className="col">
-                  <video
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/tinyvid_optimized_5_original-c138f335ff5d89bfd76a54cb9b1b76f4.mp4"
-                    className="fullw radius-12"
-                    autoPlay=""
-                    loop=""
-                    muted=""
-                    playsInline=""
-                    poster="#"
-                  />
-                </div>
-                <div className="col">
-                  <div className="title title--m">
-                    Best practices to design a web application around learning
-                    logic, classroom roles, and multi-device usage.{" "}
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-24-mob mt-64 cols_wrap">
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        Where EdTech UX breaks:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Overwhelming menus</li>
-                          <li>Poor teacher-student role handling</li>
-                          <li>Fragmented progress flows</li>
-                          <li>Unintuitive dashboards</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        How we fix it:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>
-                            Simplified navigation for age and skill levels
-                          </li>
-                          <li>Clear paths for instructors vs. students</li>
-                          <li>Progress-focused UI</li>
-                          <li>Responsive web app layouts for varied devices</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-20">
-                    <a
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      href="../education-it-services/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="industries_new_items tabs-pane" data-tabs-pane={4}>
-              <div className="grid col-2 col-1-mob gap-32">
-                <div className="col">
-                  <video
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/original-3b063629c5781e6f242a663fa761ebbe.mp4"
-                    className="fullw radius-12"
-                    autoPlay=""
-                    loop=""
-                    muted=""
-                    playsInline=""
-                    poster="#"
-                  />
-                </div>
-                <div className="col">
-                  <div className="title title--m">
-                    Web design and app development for high-trust, high-volume
-                    interactions without sacrificing clarity.{" "}
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-24-mob mt-64 cols_wrap">
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        Where fintech UX breaks:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Information clutter</li>
-                          <li>Missed alerts or escalations</li>
-                          <li>Data entry friction</li>
-                          <li>Unfriendly logic for less tech-savvy users</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        How we fix it:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Role-aware dashboards</li>
-                          <li>Accessibility-aligned UI</li>
-                          <li>Field logic for fast entry &amp; review</li>
-                          <li>Alert visibility + system feedback design</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-20">
-                    <a
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      href="../fintech-design-agency/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="industries_new_items tabs-pane" data-tabs-pane={5}>
-              <div className="grid col-2 col-1-mob gap-32">
-                <div className="col">
-                  <video
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/tinyvid_optimized_4_original-86dbd5964c5d65bf3957349b5959ceef.mp4"
-                    className="fullw radius-12"
-                    autoPlay=""
-                    loop=""
-                    muted=""
-                    playsInline=""
-                    poster="#"
-                  />
-                </div>
-                <div className="col">
-                  <div className="title title--m">
-                    Web application user interface design for decentralized
-                    platforms, wallets, and crypto tools.{" "}
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-24-mob mt-64 cols_wrap">
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        {" "}
-                        Where web3 UX breaks:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Wallet connection friction</li>
-                          <li>Confusing token logic</li>
-                          <li>Low user trust from unclear flows</li>
-                          <li>Too much reliance on technical language</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-wrap">
-                      <div className="txt txt--control-s uppercase isview color--dark-secondary slidetop">
-                        How we fix it:
-                      </div>
-                      <div className="styled_ul_wrap font1 mt-12 pt-12 pb-8 isview slidetop color--dark">
-                        <ul>
-                          <li>Simplified wallet onboarding</li>
-                          <li>Clear, confident transaction flows</li>
-                          <li>Clean UI for complex logic</li>
-                          <li>Built-in trust signals and micro-education</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-20">
-                    <a
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      href="../projects/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="cta pt-200 pt-100-mob bg--white">
         <div className="container">
           <div className="cta_content">
             <span className="icon icon--2xl">
               <img
                 className="fullw"
-                src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/05/ks.png"
+                src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/download (1).jpeg"
                 alt="Image - ks"
                 loading="lazy"
                 decoding="async"
@@ -1440,1236 +1063,18 @@ If you need reliable, compliant, and expertly managed electrical projects delive
           </div>
         </div>
       </section>
-      <section className="services_section bg--white pb-200 pb-100-mob">
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>ELECTRICAL SYSTEMS & SOLUTIONS WE DELIVER</h2>
-          </div>{" "}
-          <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02 inner-inherit">
-            These are the  <span>core components we </span> install, 
-            and integrate to power efficient<h3></h3>
-          </div>{" "}
-        </div>
-        <div className="how_we_do_it_items mt-32 mt-32-mob">
-          <div className="">
-            <div className="grid col-3 col-1-mob services_row clipped">
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2.svg"
-                    alt="Icon - asterisk-svgrepo-com 2"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Secure login &amp; role setup
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      User authentication and access tier logic (admin, editor,
-                      viewer).
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-1.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-1"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Progressive onboarding{" "}
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Step-by-step introductions tailored by role or task
-                      frequency.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-2.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-2"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Role-based navigation
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Dynamic menus and views based on access rights and
-                      responsibilities.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-3.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-3"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Task assignment &amp; tracking
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Assign, track, and complete tasks with status logic and
-                      labels.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-4.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-4"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Multi-step forms &amp; validation
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Smart forms with progress indicators, conditional inputs,
-                      and real-time checks.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-5.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-5"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Interactive calendars &amp; schedulers
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Book slots, manage timelines, and review availability.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-6.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-6"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Dashboards with KPIs
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Real-time stats, graphs, and summaries customized by user
-                      or team.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-7.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-7"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Search &amp; data filtering UI{" "}
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Advanced sorting, tagging, and saved views for large
-                      datasets.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-8.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-8"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Export to CSV or PDF
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      One-click reports for users to save or share key insights.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-9.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-9"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    File uploads &amp; previews
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Drag-and-drop interfaces with validation and thumbnail
-                      rendering.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-10.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-10"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Version history &amp; activity logs
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Track document changes, actions, and collaboration events.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-11.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-11"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Content management panel
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Central hub for managing internal docs, images, or
-                      templates.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-12.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-12"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    In-app messaging or chat
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Peer-to-peer or user-support conversations inside the
-                      product.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-13.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-13"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Status alerts &amp; system feedback
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Clear confirmations, warnings, and errors tied to actions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-14.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-14"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Push notifications (web)
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Optional real-time updates for task changes, approvals, or
-                      messages.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-15.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-15"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Dark mode toggle
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>Switch themes for comfort and accessibility.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-16.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-16"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Saved layouts or views
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>
-                      Let users pin preferred filters, dashboard setups, or
-                      tools.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/asterisk-svgrepo-com-2-17.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-17"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--dark">
-                    Multi-language interface
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                    <p>Language selection logic for international users.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className="tabs pb-200 pb-100-mob bg--white relative await-action"
-        data-tabs=""
-      >
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>Technology stack</h2>
-          </div>{" "}
-          <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02">
-            Frameworks &amp; <br />
-            technologies <span>we use</span>
-          </div>{" "}
-        </div>
-        <div className="container">
-          <div className="tabs-actions disable-scrollbar mt-40 isview slidetop">
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark is-active"
-              data-tabs-link={1}
-            >
-              <span>
-                <b>Frontend</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={2}
-            >
-              <span>
-                <b>Backend</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={3}
-            >
-              <span>
-                <b>CMS</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={4}
-            >
-              <span>
-                <b>Server</b>
-              </span>
-            </button>
-            <button
-              type="button"
-              className="btn btn--white hover--gray active--dark"
-              data-tabs-link={5}
-            >
-              <span>
-                <b>Pre-made libraries</b>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div
-          className="tabs-holder mt-24 mt-32-mob isview slidetop"
-          data-tabs-holder=""
-        >
-          <div
-            className="technology_stack_items tabs-pane is-active"
-            data-tabs-pane={1}
-          >
-            <div className="awards_container ov-hidden">
-              <div className="grid col-4 col-1-mob awards_wrap">
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/04/React-1.svg"
-                      alt="Icon - React"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">React</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/NextJS.svg"
-                      alt="Icon - NextJS"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Next.js</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-2-4.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-2"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Solid.js</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-4">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-3-3.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-3"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Astro</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-4-3.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-4"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">TypeScript</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="technology_stack_items tabs-pane" data-tabs-pane={2}>
-            <div className="awards_container ov-hidden">
-              <div className="grid col-4 col-1-mob awards_wrap">
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-5-1.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-5"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Node.js</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-6-1.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-6"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Express.js</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-7-1.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-7"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Nest.js</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-4">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-8-1.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-8"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">PHP</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-9-1.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-9"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Laravel</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-4-3.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-4"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">TypeScript</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="technology_stack_items tabs-pane" data-tabs-pane={3}>
-            <div className="awards_container ov-hidden">
-              <div className="grid col-4 col-1-mob awards_wrap">
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-1-1.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-1"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">WordPress</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-5.svg"
-                      alt="Icon - asterisk-svgrepo-com 2"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Webflow</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="technology_stack_items tabs-pane" data-tabs-pane={4}>
-            <div className="awards_container ov-hidden">
-              <div className="grid col-4 col-1-mob awards_wrap">
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-10.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-10"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">
-                      Amazon web services
-                    </div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-11.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-11"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">
-                      Digital Ocean
-                    </div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-12.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-12"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Cloudflare</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-4">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-13.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-13"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Docker</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-14.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-14"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">
-                      Gitlab / Github CI / CD
-                    </div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-15.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-15"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Kubernetes</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="technology_stack_items tabs-pane" data-tabs-pane={5}>
-            <div className="awards_container ov-hidden">
-              <div className="grid col-4 col-1-mob awards_wrap">
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-21.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-21"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Shadcn</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-22.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-22"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Radix</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/miui.svg"
-                      alt="Icon - miui"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">MUI</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-4">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-26.svg"
-                      alt="Icon - asterisk-svgrepo-com 2"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Ant design</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-1-5.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-1"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">PrimeReact</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-2-5.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-2"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">
-                      Carbon Design System
-                    </div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-4 col-1-mob span-4 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span /> <span />
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-3-4.svg"
-                      alt="Icon - asterisk-svgrepo-com 2-3"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Chakra UI</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="problems_we_solve pt-200 pb-200 pt-100-mob pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>OUR WEB APP INTERFACE DESIGN PROCESS</h2>
+            <h2>OUR ENGINEERING PROJECT EXECUTION PROCESS</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02 inner-inherit">
-            How our <h3>agency</h3> structures to avoid rework
+            How Our Engineering Team Ensures Precision <h3>agency</h3> structures to avoid rework
             <span></span>
           </div>{" "}
           <div className="color--dark-secondary txt txt--l mt-48 mw706 isview slidetop trd02 inner-inherit">
             <div>
-              Before you design screens, you need a system. We start with
+              Every successful project starts with a solid engineering plan. At DAMPECON LTD, we follow a proven process to deliver safe, efficient, and compliant electrical installations — ensuring every system works flawlessly from day one. From consultation and design to installation and maintenance, here’s how we make every project a success. start with
               business logic, map real-world user behaviour, and design web apps
               that don’t need to be rebuilt six months later. Here’s how that
               looks.
@@ -2683,7 +1088,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Stakeholder interview</p>
+                      <p>Project Consultation</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       01{" "}
@@ -2693,7 +1098,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                   </div>
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--m">
-                      <h3>Defining your goals, users, and technical context</h3>
+                      <h3>Defining Technical Requirements & Project Objectives</h3>
                       <p>
                         At our web app agency, we start with your goals, team
                         structure, and tech context to shape how the product
@@ -2707,9 +1112,9 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                       <div className="divider" />
                       <div className="styled_ul_wrap color--dark-secondary mt-12 font1">
                         <ul>
-                          <li>Business goals and platform vision</li>
-                          <li>Internal workflows and technical setup</li>
-                          <li>User types and access logic</li>
+                          <li>Design & Engineering Planning</li>
+                          <li>Procurement & Installation</li>
+                          <li>Testing, Commissioning & Handover</li>
                         </ul>
                       </div>
                     </div>
@@ -3102,7 +1507,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
             <span className="icon icon--2xl">
               <img
                 className="fullw"
-                src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/05/ks.png"
+                src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/african.webp"
                 alt="Image - ks"
                 loading="lazy"
                 decoding="async"
@@ -3134,294 +1539,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
           </div>
         </div>
       </section>
-      <section className="cases_section pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>FEATURED CASES</h2>
-          </div>{" "}
-          <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit">
-            <span>Results</span> from teams who came to our web application
-            designers with a vision — and left <span>with traction</span>
-          </div>
-          <div className="txt txt--l color--dark mt-24 isview slidetop trd02 mw680">
-            <div className="inner-inherit">
-              From hospitals to manufacturing plants, these projects showcase how precision-engineered electrical systems deliver reliability,<h2>efficiency, and long-term value in action.</h2>
-              
-            </div>
-          </div>{" "}
-          <div className="cases_wrap grid gap-60 gap-48-mob mt-100 mt-48-mob scrollable">
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="../projects/wolf-games-case-maker-studio-ai-driven-crime-story-creation/index.html"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/06/IMg-Wrapper-3-scaled.png"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/06/IMg-Wrapper-3-scaled.png"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/06/Case-preview.png"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="Wolf Games case maker studio – AI-<wbr>driven crime story creation - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#ElectricalEngineering #SystemInstallation #ProcurementSolutions </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  GreenLeaf Agro Processing Plant – 
-                  <wbr />
-                  Electrical Systems Integration
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Wolf Games</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    USA
-                  </span>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>Engineered for high-capacity operations and energy efficiency</p>
-                      <p>Seamless electrical integration across processing and packaging units</p>
-                      <p>Advanced control systems ensuring reliability and safety</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="../projects/wolf-games-case-maker-studio-ai-driven-crime-story-creation/index.html"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="../projects/domore-mobile-redesign-for-a-ticket-subscription-platform/index.html"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/05/IMg-Wrapper-3-scaled.png"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/05/IMg-Wrapper-3-scaled.png"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/05/Case-preview-mobile-2-1.png"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="DoMORE — mobile redesign for a ticket subscription platform - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#SystemDesign #ElectricalUpgrade </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  ProTech Manufacturing — Automation Control Retrofit
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Domore</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/05/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    USA
-                  </span>
-                </div>
-                <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Client:{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                      <p>
-                        React, TypeScript, Vite, Tanstack query, Radix
-                        Primitives, Stripe, Zod, React-hook-form, Tanstack
-                        Router, Ky
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                      Timeline{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                      <p>6 month</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>Increased energy efficiency by 42%</p>
-                      <p>Reduced downtime through automated load balancing</p>
-                      <p>Delivered a future-ready, scalable power infrastructure</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="../projects/domore-mobile-redesign-for-a-ticket-subscription-platform/index.html"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="../projects/adflux-redesigned-marketing-platform/index.html"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/04/Case-Preview-2.png"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/04/Case-Preview-2.png"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/04/Case-Preview-mob-1.png"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="AdFlux – redesigned marketing platform - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#Product redesign </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  MedCore Hospital — Electrical Installation & Backup System Integration
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">AdFlux Co.</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    USA
-                  </span>
-                </div>
-                <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Client:{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                      <p>
-                        Vite, React, Typescript, Zustand, Tanstack Query, React
-                        Router Dom, i18next
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                      Timeline{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                      <p>5 month</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>60% faster campaign launch</p>
-                      <p>Real-time analytics for smarter optimization</p>
-                      <p>Strengthened competitive position</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="../projects/adflux-redesigned-marketing-platform/index.html"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-          </div>
-          <div className="mt-80 mt-40-mob text--center flex h--center isview slidetop">
-            <a
-              className="btn btn--simple dark arr"
-              href="../projects/index.html"
-              target="_self"
-            >
-              <span>
-                <b>Explore All Cases</b>
-              </span>
-            </a>{" "}
-          </div>
-        </div>
-      </section>
+       <Project />
       <Comment />
       <section className="services_section bg--white pb-200 pb-100-mob">
         <div className="container">
@@ -3892,7 +2010,7 @@ We strictly adhere to Nigerian Electrical Standards and international best pract
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that lasts beyond trends{" "}
+                “Engineering solutions built to perform{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
                 We don’t follow trends — we build electrical systems that last.
@@ -4469,127 +2587,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                           like feature expansion, dashboard depth, or team-based
                           views—so your product won’t hit design limitations
                           post-launch.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="right">
-                  <button
-                    className="btn btn--simple down dark"
-                    data-text-primary="More"
-                    data-text-secondary="Less"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="faq isview slidetop">
-            <div className="container">
-              <div className="flex v--start h--between">
-                <div className="left">
-                  <div className="txt txt--caption-m color--dark-light fw-600">
-                    08{" "}
-                  </div>
-                </div>
-                <div className="center">
-                  <div className="txt txt--l question inner-inherit">
-                    <div>
-                      Can you redesign an existing app without starting from
-                      scratch?
-                    </div>
-                  </div>
-                  <div className="answer_wrap">
-                    <div className="answer">
-                      <div className="txt txt--m">
-                        <p>
-                          Yes. Many clients come to us with outdated systems or
-                          designs that no longer perform. We conduct UX audits,
-                          run competitor benchmarks, and refactor the interface
-                          while preserving what works. Whether it’s web-based
-                          app design, navigation restructuring, or full visual
-                          updates—our redesigns fix real user pain and improve
-                          usability.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="right">
-                  <button
-                    className="btn btn--simple down dark"
-                    data-text-primary="More"
-                    data-text-secondary="Less"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="faq isview slidetop">
-            <div className="container">
-              <div className="flex v--start h--between">
-                <div className="left">
-                  <div className="txt txt--caption-m color--dark-light fw-600">
-                    09{" "}
-                  </div>
-                </div>
-                <div className="center">
-                  <div className="txt txt--l question inner-inherit">
-                    <div>
-                      Who handles implementation once the design is done?
-                    </div>
-                  </div>
-                  <div className="answer_wrap">
-                    <div className="answer">
-                      <div className="txt txt--m">
-                        <p>
-                          We provide complete handoff materials for your dev
-                          team: annotated web design app development files,
-                          responsive variants, spacing logic, and interaction
-                          states. We also offer dev collaboration during
-                          sprints. For teams looking for full execution, we
-                          partner on web design app development too.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="right">
-                  <button
-                    className="btn btn--simple down dark"
-                    data-text-primary="More"
-                    data-text-secondary="Less"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="faq isview slidetop">
-            <div className="container">
-              <div className="flex v--start h--between">
-                <div className="left">
-                  <div className="txt txt--caption-m color--dark-light fw-600">
-                    10{" "}
-                  </div>
-                </div>
-                <div className="center">
-                  <div className="txt txt--l question inner-inherit">
-                    <div>
-                      What industries do you specialize on
-                      projects?
-                    </div>
-                  </div>
-                  <div className="answer_wrap">
-                    <div className="answer">
-                      <div className="txt txt--m">
-                        <p>
-                          We’ve built solutions for  edtech,
-                          logistics, healthtech, and SaaS. Whether it’s a web
-                          page design app for internal tools, an education
-                          platform, or a customer-facing dashboard, our process
-                          adapts to product type and user role complexity. As a
-                          versatile website app designer, we balance business
-                          logic, clarity, and performance across industries.
                         </p>
                       </div>
                     </div>

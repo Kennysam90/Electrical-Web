@@ -29,7 +29,7 @@ const Topnav2 = () => {
                                                     href="#"
                                                     target="_self">
                                                     <span>
-                                                      <b>Design</b>
+                                                      <b>Designk</b>
                                                     </span>
                                                   </a>
                                                   <div className="inner-menu">
@@ -243,7 +243,7 @@ const Topnav2 = () => {
                                           <div className="grid pt-20 pt-0-mob pb-48-mob pb-40 col-3 col-1-mob col-2-tablet gap-40">
                                             <div className="col">
                                               <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                                                Design
+                                                Designb
                                               </div>
                                               <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
                                                 <li>

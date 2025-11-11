@@ -59,7 +59,7 @@ const Teams = () => {
   {/* This site is optimized with the Yoast SEO Premium plugin v24.6 (Yoast SEO v24.6) - /yoast.com/wordpress/plugins/seo/ */}
   <meta
     name="description"
-    content="🟠Team and Advisors at Phenomenon Studio: Meet the experts behind our UI/UX agency and online design services. Discover how our skilled team delivers innovative, user-centric design solutions."
+    content="🟠Team and Advisors at Phenomenon Studio: Meet the experts behind our UI/UX agency and online design services. Discover How Our Engineering Team Ensures Precision skilled team delivers innovative, user-centric design solutions."
   />
   <link
     rel="canonical"
@@ -73,7 +73,7 @@ const Teams = () => {
   />
   <meta
     property="og:description"
-    content="🟠Team and Advisors at Phenomenon Studio: Meet the experts behind our UI/UX agency and online design services. Discover how our skilled team delivers innovative, user-centric design solutions."
+    content="🟠Team and Advisors at Phenomenon Studio: Meet the experts behind our UI/UX agency and online design services. Discover How Our Engineering Team Ensures Precision skilled team delivers innovative, user-centric design solutions."
   />
   <meta
     property="og:url"
@@ -224,7 +224,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/332025-03-09-21.08.20.jpg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (4).jpeg"
                     alt="Image - 332025-03-09 21.08.20"
                     loading="lazy"
                     decoding="async"
@@ -259,7 +259,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/112025-03-09-20.19.59.jpg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (2).jpeg"
                     alt="Image - 112025-03-09 20.19.59"
                     loading="lazy"
                     decoding="async"
@@ -292,7 +292,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2024/09/3.jpg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (3).jpeg"
                     alt="Image - 3"
                     loading="lazy"
                     decoding="async"
@@ -327,7 +327,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2024/09/4.jpg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (8).jpeg"
                     alt="Image - 4"
                     loading="lazy"
                     decoding="async"
@@ -361,7 +361,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2024/12/2024-12-04-15.18.03-2.jpg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (5).jpeg"
                     alt="Image - 2024-12-04 15.18.03-2"
                     loading="lazy"
                     decoding="async"
@@ -398,7 +398,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2023/09/7.jpg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (6).jpeg"
                     alt="Team and Advisors"
                     loading="lazy"
                     decoding="async"
@@ -435,7 +435,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/1718240946148.jpeg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (15).jpeg"
                     alt="Image - 1718240946148"
                     loading="lazy"
                     decoding="async"
@@ -469,7 +469,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/1719041617069.jpeg.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (19).jpeg"
                     alt="Image - 1719041617069"
                     loading="lazy"
                     decoding="async"
@@ -502,7 +502,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2024/04/1.png.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (17).jpeg"
                     alt="Team and Advisors"
                     loading="lazy"
                     decoding="async"
@@ -574,7 +574,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2024/04/3.png.webp"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (4).jpeg"
                     alt="Team and Advisors"
                     loading="lazy"
                     decoding="async"
@@ -1697,13 +1697,13 @@ const Teams = () => {
                     className="img-wrap"
                     style={{
                       background:
-                        "url(/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2023/09/Cover.jpg.webp)no-repeat center",
+                        "url(/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/medium.jpg)no-repeat center",
                       backgroundSize: "cover"
                     }}
                   >
                     <img
                       className=""
-                      src="/cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2023/09/Cover.jpg.webp"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/medium.jpg"
                       alt="Team and Advisors"
                       loading="lazy"
                       decoding="async"

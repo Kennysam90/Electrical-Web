@@ -2,6 +2,7 @@ import React from 'react'
 import Topnav from '../../Component/Topnav'
 import Footer from '../../Component/Footer'
 import Chat from '../../Component/Chat'
+import { Link } from 'react-router-dom'
 
 const AboutUs = () => {
   return (
@@ -1696,8 +1697,8 @@ const AboutUs = () => {
               <video
                 preload="none"
                 className="fullw"
-                src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/IMG_5204.mp4"
-                poster="../../cdn.phenomenonstudio.com/wp-content/uploads/2024/10/telegram-cloud-document-2-5389107195294012354.jpg"
+                src="/cdn.phenomenonstudio.com/wp-content/uploads/2024/11/STEP-BY-STEP  (2).mp4"
+                poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/atricle.jpg"
               />{" "}
               <div className="btn-wrap">
                 <button className="revert btn btn--tab btn--orange arr arr-right hover--white">
@@ -1985,14 +1986,14 @@ const AboutUs = () => {
                 </p>
               </div>
               <div className="mt-auto mt-8-mob">
-                <a
-                  href="../projects/index.html"
+                <Link
+                  to="/cases"
                   className="btn btn--dark btn--tab arr arr-right hover--orange"
                 >
                   <span>
                     <b>View Our Projects</b>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="card-product">
@@ -2004,14 +2005,14 @@ const AboutUs = () => {
                 </p>
               </div>
               <div className="mt-auto mt-8-mob">
-                <a
-                  href="../services/index.html"
+                <Link
+                  to="/mobile-app"
                   className="btn btn--dark btn--tab arr arr-right hover--orange"
                 >
                   <span>
                     <b>View Our Services</b>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

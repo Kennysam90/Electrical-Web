@@ -3,6 +3,7 @@ import Topnav from '../../../Component/Topnav'
 import Footer from '../../../Component/Footer'
 import Chat from '../../../Component/Chat'
 import Comment from '../../../Component/Comment'
+import Project from '../../../Component/project'
 
 const Mobileapp = () => {
   return (
@@ -219,7 +220,7 @@ const Mobileapp = () => {
                 </div>
               </div>
               <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
-                <p>DESIGNING PRODUCTS FOR STARTUPS BACKED BY</p>
+                <p>Delivering trusted electrical solutions for organizations</p>
               </div>
               <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
                 <div className="logo flex v--center h--center">
@@ -262,7 +263,7 @@ const Mobileapp = () => {
             <div className="col pc-visible" />
             <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center">
               <div className="txt txt--caption-m color--white-light text--left mb-24 uppercase fw-600 mt-auto pt-32 pt-0-mob mt-24-mob isview fadein inner-inherit">
-                <div>phenomenon studio IN NUMBERS</div>
+                <div>DAMPECON LTD IN NUMBERS</div>
               </div>
               <div className="values_wrap grid col-2 clip_1 isview fadein">
                 <div className="col flex v--center h--center fd--column">
@@ -300,14 +301,14 @@ const Mobileapp = () => {
             <h2>BEFORE YOU HIRE A Electrical Installation & Commissioning AGENCY</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02 inner-inherit">
-            Read what <span>most founders struggle with</span> — and how our
+            Read what <span>most founders struggle with</span> — and How Our Engineering Team Ensures Precision
             services fix it
           </div>{" "}
           <div className="txt txt--l mt-48 mw706 isview slidetop trd02 color--dark-secondary inner-inherit">
             <div>
               Some fail long before launch — not because the idea is
               weak, but because the design misses what real users (and teams)
-              need. Here’s how our mobile application design company solves the
+              need. Here’s How Our Engineering Team Ensures Precision mobile application design company solves the
               problems you’ve already faced (or are trying to avoid).
             </div>
           </div>{" "}
@@ -1078,7 +1079,7 @@ const Mobileapp = () => {
           </div>{" "}
           <div className="txt txt--l color--dark-secondary mt-24 isview slidetop trd02 mw680">
             Different products call for different Electrical Installation & Commissioning strategies.
-            Here’s how our design &amp; mobile app development services adapt to
+            Here’s How Our Engineering Team Ensures Precision design &amp; mobile app development services adapt to
             real user behaviour, product logic, and go-to-market priorities —
             with examples from 120+ launches.
           </div>{" "}
@@ -2112,7 +2113,7 @@ const Mobileapp = () => {
             <h2>INSIDE OUR Electrical Installation & Commissioning SERVICES</h2>
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02 inner-inherit">
-            How our{" "}
+            How Our Engineering Team Ensures Precision{" "}
             <h3>
               <span>mobile app</span> design company
             </h3>{" "}
@@ -2146,7 +2147,7 @@ const Mobileapp = () => {
                   </div>
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--m">
-                      <h3>Defining your goals, users, and technical context</h3>
+                      <h3>Defining Technical Requirements & Project Objectives</h3>
                       <p>
                         As a client-trusted mobile application design company,
                         we start by understanding your product vision, user
@@ -2597,319 +2598,7 @@ const Mobileapp = () => {
           </div>
         </div>
       </section>
-      <section className="cases_section pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>FEATURED CASES</h2>
-          </div>{" "}
-          <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit">
-            The results you get when a time-
-            <wbr />
-            tested strategy meets <span>great Electrical Installation & Commissioning</span>
-          </div>
-          <div className="txt txt--l color--dark mt-24 isview slidetop trd02 mw680">
-            <div className="inner-inherit">
-              See how our <h3>Electrical Installation & Commissioning and development</h3> agency
-              helped fast-growing startups launch products that convert, engage,
-              and scale.
-            </div>
-          </div>{" "}
-          <div className="cases_wrap grid gap-60 gap-48-mob mt-100 mt-48-mob scrollable">
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="../projects/mywisdom-a-digital-platform-for-safer-more-connected-aging/index.html"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Case-preview-10.png"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Case-preview-10.png"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Case-preview-1.png"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="MyWisdom — a digital platform for safer, more connected aging - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#Product redesign #Mobile app development </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  MyWisdom — a digital platform for safer, more connected aging
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">MyWisdom</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/08/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    USA
-                  </span>
-                </div>
-                <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Client:{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                      <p>
-                        Flutter, Java, Spring Boot, Python, WebSocket, Computer
-                        Vision, AWS, PostgreSQL, Redis, Docker, Swagger,
-                        Liquibase
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                      Timeline{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                      <p>5 month</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>Clearer focus and smoother user flows</p>
-                      <p>Better accessibility for diverse user needs</p>
-                      <p>Consistent and scalable design system</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="../projects/mywisdom-a-digital-platform-for-safer-more-connected-aging/index.html"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="../projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly/index.html"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2.png"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2.png"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2-2.png"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#SystemDesign #ElectricalUpgrade</p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  KlickEx – frictionless cross-
-                  <wbr />
-                  border payments for the Pacific Island communities
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Nomupay</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Clip-path-group.svg"
-                      alt="Icon - Clip path group"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    New Zealand
-                  </span>
-                </div>
-                <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Client:{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                      <p>Next.js, TypeScript, React Redux</p>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                      Timeline{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                      <p>6 months</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>+35% "Add Money" conversion rate</p>
-                      <p>+30% "Money Transfer" completion rate</p>
-                      <p>Raised $1M in additional funding within 6 months</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="../projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly/index.html"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-                <div className="mt-32 mt-48-mob mb--8-mob quote bg--gray radius-16">
-                  <div className="top flex auth_wrap v--center h--start gap-16">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Case-preview-.webp"
-                      alt="Image - Case preview"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: "1.1428571428571" }}
-                    />{" "}
-                    <div className="bio">
-                      <div className="txt txt--s gap-0">
-                        <p>Izek Lal</p>
-                        <span>Country manager</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="txt mt-30 mt-20-mob txt--l">
-                    <p>
-                      We have seen a significant improvement in terms of mobile
-                      friendliness and the general flow of the system. I believe
-                      this has contributed significantly to the growth of our
-                      business. Many thanks, Phenomenon.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="../projects/mindtales-2/index.html"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2021/10/Cover-7-scaled.jpg"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/uploads/2021/10/Cover-7-scaled.jpg"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2021/10/Frame-846Mobile-2.jpg"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="MindTales – mental health app - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#Product discovery #MVP Building </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  MindTales – mental health app
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">MindTales</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="../../cdn.phenomenonstudio.com/wp-content/uploads/2023/10/round-united-arab-emirates-flag-isolated-on-white-background-round-national-flag-of-uae-vector-removebg-preview.png"
-                      alt="Image - round-united-arab-emirates-flag-isolated-on-white-background-round-national-flag-of-uae-vector-removebg-preview"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: 1 }}
-                    />
-                    UAE
-                  </span>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>$750K investment secured</p>
-                      <p>Streamlined therapist-patient interaction</p>
-                      <p>Efficient MVP development</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="../projects/mindtales-2/index.html"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-          </div>
-          <div className="mt-80 mt-40-mob text--center flex h--center isview slidetop">
-            <a
-              className="btn btn--simple dark arr"
-              href="../projects/index.html"
-              target="_self"
-            >
-              <span>
-                <b>Explore All Cases</b>
-              </span>
-            </a>{" "}
-          </div>
-        </div>
-      </section>
+     <Project />
       <Comment />
       <section className="services_section bg--white pb-200 pb-100-mob">
         <div className="container">
@@ -3367,7 +3056,7 @@ We strictly adhere to Nigerian Electrical Standards and international best pract
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that lasts beyond trends{" "}
+                “Engineering solutions built to perform{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
                 We don’t follow trends — we build electrical systems that last..

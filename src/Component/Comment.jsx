@@ -13,7 +13,7 @@ const Comment = () => {
                 </div>
                 <div className="title title--xl mt-16 color--dark mw1040 isview textslide trd02">
                   <h2>
-                    <span>Trusted by leading organizations </span>and excellence in every project. <br />
+                    <span>Engineering solutions built to perform </span> <br />
                     
                   </h2>
                 </div>
@@ -45,7 +45,7 @@ const Comment = () => {
                       className="fullw"
                       poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-craig.webp"
                       preload="none"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/review-craig.mp4"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (1).mp4"
                     />
                     <div className="btn-wrap">
                       <button className="btn btn--play" />
@@ -105,7 +105,7 @@ const Comment = () => {
                       className="fullw"
                       poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/klickex-cover.webp"
                       preload="none"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/klickex-review.mp4"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (2).mp4"
                     />
                     <div className="btn-wrap">
                       <button className="btn btn--play" />
@@ -165,7 +165,7 @@ const Comment = () => {
                       className="fullw"
                       poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-andre-scaled.webp"
                       preload="none"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/radcat-review.mp4"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/small.mp4"
                     />
                     <div className="btn-wrap">
                       <button className="btn btn--play" />

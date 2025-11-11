@@ -4,6 +4,7 @@ import Footer from '../Component/Footer'
 import { Link } from 'react-router-dom';
 import Comment from '../Component/Comment';
 import Chat from '../Component/Chat';
+import Project from '../Component/project';
 
 const Home = () => {
   // this stores which tab is active
@@ -172,7 +173,7 @@ const Home = () => {
               <div className="col pc-visible" />
               <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center">
                 <div className="txt txt--caption-m color--white-light text--left mb-24 uppercase fw-600 mt-auto pt-32 pt-0-mob mt-24-mob isview fadein inner-inherit">
-                  <div>phenomenon studio IN NUMBERS</div>
+                  <div>DAMPECON LTD IN NUMBERS</div>
                 </div>
                 <div className="values_wrap grid col-2 clip_1 isview fadein">
                   <div className="col flex v--center h--center fd--column">
@@ -657,329 +658,7 @@ Maintain & Expand
             </div>
           </div>
         </section>
-        <section className="cases_section pt-200 pt-100-mob pb-200 pb-100-mob bg--white">
-          <div className="container">
-            <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-              Featured cases
-            </div>
-            <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit">
-              Explore how DAMPECON LTD. electrical solutions <span>delivers lasting impact.</span>
-            </div>
-            <div className="cases_wrap grid gap-60 gap-48-mob mt-100 mt-48-mob scrollable">
-              <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-                <div className="col flex v--start h--start">
-                  <a
-                    className="media_wrap radius-12 ov-hidden"
-                    href="projects/shaga-odyssey-awarded-website-development-for-web3-gamepad/index.html">
-                    <picture>
-                      <source
-                        media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Media-9-3-1.png"
-                      />
-                      <source
-                        media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Media-9-3-1.png"
-                      />
-                      <img
-                        alt="Shaga Odyssey – an award-<wbr>winning web3 gamepad platform - image cover"
-                        className="fullw radius-12"
-                        decoding="async"
-                        loading="lazy"
-                        media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Media-9-3-1.png"
-                      />
-                    </picture>
-                  </a>
-                </div>
-                <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                  <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                    <p>#Electrical Installation #Procurement #Project Management</p>
-                  </div>
-                  <div className="title title--m mt-12 isview textslide fullw">
-                    GreenHarvest Agro Plant – 
-                    <wbr />
-                    complete electrical installation for a modern processing facility
-                  </div>
-                  <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                    <span className="tag">Shaga.xyz</span>
-                    <span className="tag">
-                      <img
-                        alt="Icon - fi_4628635"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
-                        style={{}}
-                      />
-                      Abuja
-                    </span>
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase">
-                        Client:
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                        <p>GreenHarvest Agro Industries</p>
-                      </div>
-                    </div>
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                        Timeline
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                        <p>5 months </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="grid col-1 mt-64 mt-48-mob card_details">
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase">
-                        Results
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                        <p>⚡ 30% reduction in power downtime
-
-</p>
-                        <p>⚙️ Improved operational efficiency with automated control systems</p>
-                        <p>
-                          🏆 Project completed ahead of schedule and within budget
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn--wrap mt-20 mt-20-mob">
-                    <Link
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      to="/cases">
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-                <div className="col flex v--start h--start">
-                  <a
-                    className="media_wrap radius-12 ov-hidden"
-                    href="projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly/index.html">
-                    <picture>
-                      <source
-                        media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2.png"
-                      />
-                      <source
-                        media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2.png"
-                      />
-                      <img
-                        alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
-                        className="fullw radius-12"
-                        decoding="async"
-                        loading="lazy"
-                        media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2-2.png"
-                      />
-                    </picture>
-                  </a>
-                </div>
-                <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                  <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                    <p>#Electrical Installation #Power Systems #Procurement</p>
-                  </div>
-                  <div className="title title--m mt-12 isview textslide fullw">
-                    MedTech Diagnostics – 
-                    <wbr />
-                    Reliable power systems for a state-of-the-art healthcare facility
-                  </div>
-                  <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                    <span className="tag">Nomupay</span>
-                    <span className="tag">
-                      <img
-                        alt="Icon - Clip path group"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
-                        style={{}}
-                      />
-                      New Zealand
-                    </span>
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase">
-                        Client:
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                        <p>MedTech Diagnostics Ltd.</p>
-                      </div>
-                    </div>
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                        Timeline
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                        <p>6 months</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="grid col-1 mt-64 mt-48-mob card_details">
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase">
-                        Results
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                        <p>35% improvement in operational uptime
-
-</p>
-                        <p>💡 30% reduction in energy waste through optimized load management</p>
-                        <p>🏥 Enabled uninterrupted diagnostic operations across all departments</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn--wrap mt-20 mt-20-mob">
-                    <Link
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      to="/cases">
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </Link>
-                  </div>
-                  <div className="mt-32 mt-48-mob mb--8-mob quote bg--gray radius-16">
-                    <div className="top flex auth_wrap v--center h--start gap-16">
-                      <img
-                        alt="Image - Case preview"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Case-preview-.webp"
-                        style={{
-                          aspectRatio: "1.1428571428571",
-                        }}
-                      />
-                      <div className="bio">
-                        <div className="txt txt--s gap-0">
-                          <p>Chinedu Okafor</p>
-                          <span>Facility Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="txt mt-30 mt-20-mob txt--l">
-                      <p>
-                        “We’ve seen a remarkable improvement in our power reliability and overall system efficiency since partnering with DAMPECON LTD.. Their professionalism and attention to detail have had a direct impact on our productivity and cost savings. Highly recommended.”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-                <div className="col flex v--start h--start">
-                  <a
-                    className="media_wrap radius-12 ov-hidden"
-                    href="projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly/index.html">
-                    <picture>
-                      <source
-                        media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
-                      />
-                      <source
-                        media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
-                      />
-                      <img
-                        alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
-                        className="fullw radius-12"
-                        decoding="async"
-                        loading="lazy"
-                        media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
-                      />
-                    </picture>
-                  </a>
-                </div>
-                <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                  <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                    <p>
-                      #SystemDesign #ElectricalUpgrade
-                    </p>
-                  </div>
-                  <div className="title title--m mt-12 isview textslide fullw">
-                     PrimeSteel Manufacturing – Complete electrical system overhaul for a modern production facility
-                  </div>
-                  <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                    <span className="tag">SaltyCloud</span>
-                    <span className="tag">
-                      <img
-                        alt="Icon - fi_4628635"
-                        className=""
-                        decoding="async"
-                        loading="lazy"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
-                        style={{}}
-                      />
-                      Lagos
-                    </span>
-                  </div>
-                  <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase">
-                        Client:
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                        <p>PrimeSteel Manufacturing Ltd.
-</p>
-                      </div>
-                    </div>
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                        Timeline
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                        <p>12 months, ongoing</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="grid col-1 mt-64 mt-48-mob card_details">
-                    <div className="col">
-                      <div className="txt txt--control-s color--dark-secondary uppercase">
-                        Results
-                      </div>
-                      <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                        <p>2x improvement in power efficiency
-
-</p>
-                        <p>🏗️ 50% faster equipment startup times</p>
-                        <p>🏆 Recognized as one of the most energy-efficient manufacturing facilities in the region</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn--wrap mt-20 mt-20-mob">
-                    <Link
-                      className="btn btn--orange hover--dark arr fullw-mob"
-                      to="/cases">
-                      <span>
-                        <b>Explore</b>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="mt-80 mt-40-mob text--center flex h--center isview slidetop">
-              <Link
-                className="btn btn--simple dark arr"
-                to="/cases"
-                target="_self">
-                <span>
-                  <b>Explore All Cases</b>
-                </span>
-              </Link>
-            </div>
-          </div>
-        </section>
+        <Project />
         <section className="our_team  pt-100-mob pb-200 pb-64-mob">
           <div className="container">
             <div className="txt txt--caption-m color--dark-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop">
@@ -1114,7 +793,7 @@ Our experienced engineers and project managers are committed to delivering solut
                   Engineering that meets standards
                 </div>
                 <div className="txt txt--lead mt-12 mb-auto color--dark">
-                  HIPAA- and GDPR-certified expertise htmlFor Healthcare and beyond.
+                  DAMPECON LTD sources, procures, and delivers certified electrical equipment
                 </div>
                 <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                   <p>
@@ -1125,7 +804,7 @@ We strictly adhere to Nigerian Electrical Standards and international best pract
               </div>
               <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
                 <div className="txt txt--control-m uppercase color--dark-secondary">
-                  Design that lasts beyond trends
+                  “Engineering solutions built to perform
                 </div>
                 <div className="txt txt--lead mt-12 mb-auto color--dark">
                   We don’t follow trends — we build electrical systems that last.

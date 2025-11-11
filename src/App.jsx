@@ -15,6 +15,7 @@ import Teams from './pages/AboutUs/Teams'
 import Topnav2 from './Component/Topnav2'
 import Chat from './Component/Chat';
 import Comment from './Component/Comment';
+import Project from './Component/project';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         <Route path='/topnav2' element={<Topnav2 />} />
         <Route path='/chat' element={<Chat />} />
         <Route path='/comment' element={<Comment />} />
+        <Route path='/project' element={<Project />} />
       </Routes>
      </Router>
      </QueryClientProvider>

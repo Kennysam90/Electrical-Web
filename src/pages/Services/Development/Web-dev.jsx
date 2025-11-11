@@ -3,6 +3,7 @@ import Topnav from '../../../Component/Topnav'
 import Footer from '../../../Component/Footer'
 import Comment from '../../../Component/Comment'
 import Chat from '../../../Component/Chat'
+import Project from '../../../Component/project'
 
 const Webdev = () => {
   return (
@@ -247,7 +248,7 @@ const Webdev = () => {
                 </div>
               </div>
               <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
-                <p>Designing products for startups backed by</p>
+                <p>Delivering trusted electrical solutions for organizations</p>
               </div>
               <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
                 <div className="logo flex v--center h--center">
@@ -290,7 +291,7 @@ const Webdev = () => {
             <div className="col pc-visible" />
             <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center">
               <div className="txt txt--caption-m color--white-light text--left mb-24 uppercase fw-600 mt-auto pt-32 pt-0-mob mt-24-mob isview fadein inner-inherit">
-                <div>phenomenon studio IN NUMBERS</div>
+                <div>DAMPECON LTD IN NUMBERS</div>
               </div>
               <div className="values_wrap grid col-2 clip_1 isview fadein">
                 <div className="col flex v--center h--center fd--column">
@@ -735,7 +736,7 @@ const Webdev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Stakeholder interview</p>
+                      <p>Project Consultation</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       01{" "}
@@ -1725,328 +1726,7 @@ const Webdev = () => {
           </div>
         </div>
       </section>
-      <section className="cases_section pt-200 pt-100-mob pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>Featured Cases</h2>{" "}
-          </div>{" "}
-          <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit">
-            Discover how we’re driving change through innovative projects,
-            strong partnerships, and <span>measurable outcomes.</span>
-          </div>
-          <div className="cases_wrap grid gap-60 gap-48-mob mt-100 mt-48-mob scrollable">
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="https://phenomenonstudio.com/projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Picture-2.png.webp"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Picture-2.png.webp"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Picture-2-2.png.webp"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#SystemDesign #ElectricalUpgrade </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  KlickEx – frictionless cross-
-                  <wbr />
-                  border payments for the Pacific Island communities
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Nomupay</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Clip-path-group.svg"
-                      alt="Icon - Clip path group"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    New Zealand
-                  </span>
-                </div>
-                <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Client:{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                      <p>Next.js, TypeScript, React Redux</p>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                      Timeline{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                      <p>6 months</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>+35% "Add Money" conversion rate</p>
-                      <p>+30% "Money Transfer" completion rate</p>
-                      <p>Raised $1M in additional funding within 6 months</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="https://phenomenonstudio.com/projects/klickex-how-a-fintech-redesign-boosted-conversion-by-35-and-grew-users-by-3k-monthly"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-                <div className="mt-32 mt-48-mob mb--8-mob quote bg--gray radius-16">
-                  <div className="top flex auth_wrap v--center h--start gap-16">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Case-preview-.webp"
-                      alt="Image - Case preview"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: "1.1428571428571" }}
-                    />{" "}
-                    <div className="bio">
-                      <div className="txt txt--s gap-0">
-                        <p>Izek Lal</p>
-                        <span>Country manager</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="txt mt-30 mt-20-mob txt--l">
-                    <p>
-                      We have seen a significant improvement in terms of mobile
-                      friendliness and the general flow of the system. I believe
-                      this has contributed significantly to the growth of our
-                      business. Many thanks, Phenomenon.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="https://phenomenonstudio.com/projects/isora-governance-risk-and-compliance-assessment-platform"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Case-Preview-5.png.webp"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Case-Preview-5.png.webp"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Case-Preview-mob.png.webp"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="Isora – optimizing governance, risk & compliance for top institutions - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>
-                    #SystemDesign #ElectricalUpgrade{" "}
-                  </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  Isora – optimizing governance, risk &amp; compliance for top
-                  institutions
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">SaltyCloud</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    Texas, USA
-                  </span>
-                </div>
-                <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Client:{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                      <p>React, Python, AWS</p>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                      Timeline{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                      <p>12 months, ongoing</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>2x faster user workflows</p>
-                      <p>50% shorter time-to-market</p>
-                      <p>Nominated for UX Design Award 2024</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="https://phenomenonstudio.com/projects/isora-governance-risk-and-compliance-assessment-platform"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="https://phenomenonstudio.com/projects/greenow"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2022/07/Case-Preview-6.png.webp"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2022/07/Case-Preview-6.png.webp"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2022/07/Case-Preview-mob-4-2.png.webp"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="Greenow – wind energy made simple - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#Rapid MVP development </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  Greenow – wind energy made simple
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Greenow</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    USA
-                  </span>
-                </div>
-                <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Client:{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top border-right">
-                      <p>Bubble</p>
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase pl-24 pl-0-mob">
-                      Timeline{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob border-top pl-24 pl-0-mob">
-                      <p>6 month</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>Faster time-to-market</p>
-                      <p>Secured investor confidence</p>
-                      <p>Validated key assumptions</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="https://phenomenonstudio.com/projects/greenow"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-          </div>
-          <div className="mt-80 mt-40-mob text--center flex h--center isview slidetop">
-            <a
-              className="btn btn--simple dark arr"
-              href="https://phenomenonstudio.com/projects/"
-              target="_self"
-            >
-              <span>
-                <b>Explore All Cases</b>
-              </span>
-            </a>{" "}
-          </div>
-        </div>
-      </section>
+      <Project />
       <section className="services_section bg--white pb-200 pb-100-mob">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
@@ -2080,7 +1760,7 @@ We strictly adhere to Nigerian Electrical Standards and international best pract
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that lasts beyond trends{" "}
+                “Engineering solutions built to perform{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
                 We don’t follow trends — we build electrical systems that last.

@@ -242,7 +242,7 @@ const Mobiledev = () => {
                 </div>
               </div>
               <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
-                <p>Designing products for startups backed by</p>
+                <p>Delivering trusted electrical solutions for organizations</p>
               </div>
               <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
                 <div className="logo flex v--center h--center">
@@ -285,7 +285,7 @@ const Mobiledev = () => {
             <div className="col pc-visible" />
             <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center">
               <div className="txt txt--caption-m color--white-light text--left mb-24 uppercase fw-600 mt-auto pt-32 pt-0-mob mt-24-mob isview fadein inner-inherit">
-                <div>phenomenon studio IN NUMBERS</div>
+                <div>DAMPECON LTD IN NUMBERS</div>
               </div>
               <div className="values_wrap grid col-2 clip_1 isview fadein">
                 <div className="col flex v--center h--center fd--column">
@@ -670,7 +670,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Stakeholder interview</p>
+                      <p>Project Consultation</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       01{" "}
@@ -1370,7 +1370,7 @@ We strictly adhere to Nigerian Electrical Standards and international best pract
             </div>
             <div className="col relative radius-12 p-40 p-20-mob ov-hidden flex fd--column h--between v--start isview slidetop bg--gray">
               <div className="txt txt--control-m uppercase color--dark-secondary">
-                Design that lasts beyond trends{" "}
+                “Engineering solutions built to perform{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
                 We don’t follow trends — we build electrical systems that last.
