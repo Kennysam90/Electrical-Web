@@ -5,7 +5,8 @@ const Chat = () => {
     <>
        <section
         className="contact_form_section pt-200 pb-200 pt-100-mob  bg--dark clipped-bottom contacts_hero ov--hidden next_block_sticky"
-        id="contact-form" 
+        id="contact-form"
+        style={{marginTop:"4em", marginBottom:"-10em"}} 
       >
         <div className="container">
           <div className="txt txt--caption-m color--white-light uppercase fw-600 isview slidetop">

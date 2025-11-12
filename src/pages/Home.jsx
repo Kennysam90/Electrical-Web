@@ -300,11 +300,11 @@ const Home = () => {
                         <video
                           autoPlay
                           className="fullw isview visible just_for_track fadein"
-                          data-src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Adam_2sub.mp4"
+                          data-src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Dr. Tola Akinwunmi_2sub.mp4"
                           loop
                           muted
                           playsInline
-                          poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/adam-cover.webp"
+                          poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Dr. Tola Akinwunmi-cover.webp"
                           preload="none"
                           src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (2).mp4"
                         />
@@ -530,7 +530,7 @@ Maintain & Expand
                         </div>
                         <div className="col flex p-32 fd--column v--start">
                           <div className="title title--s isview slidetop">
-                            System Upgrades & Maintenance
+                            Repair & Maintenance
                           </div>
                           <div className="txt txt--s mt-8 isview slidetop color--white-light">
                             <p>

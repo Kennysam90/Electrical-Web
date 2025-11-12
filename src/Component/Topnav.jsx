@@ -29,7 +29,7 @@ const Topnav = () => {
                                 href="services/index.html"
                                 target="_self">
                                 <span>
-                                  <b>Desi3gn</b>
+                                  <b>Engineering</b>
                                 </span>
                               </a>
                               <div className="inner-menu">
@@ -41,7 +41,7 @@ const Topnav = () => {
                                         to="/webapp"
                                         target="_self">
                                         <span>
-                                          <b>Web app design</b>
+                                          <b>Electrical Solar Panel</b>
                                         </span>
                                       </Link>
                                     </li>
@@ -65,7 +65,7 @@ const Topnav = () => {
                                 href="services/index.html"
                                 target="_self">
                                 <span>
-                                  <b>Development</b>
+                                  <b>Commissioning</b>
                                 </span>
                               </a>
                               <div className="inner-menu">
@@ -134,7 +134,7 @@ const Topnav = () => {
                         <div className="left main_sub_menu">
                           <div className="inner bg--gray p-24 radius-12 fd--column flex m-12">
                             <div className="title title--m color--dark">
-                              Ready to bring your idea to life?
+                              Global Engineering Procurement 
                             </div>
                             <div className="btn-wrap pt-24 mt-auto">
                               <a
@@ -195,7 +195,7 @@ const Topnav = () => {
                 <li className="">
                   <a
                     className=""
-                    href="/phenomenonstudio.hurma.work/public-vacancies"
+                    href=""
                     target="_blank">
                     <span>
                       <b>Career</b>
@@ -243,7 +243,7 @@ const Topnav = () => {
                 <div className="grid pt-20 pt-0-mob pb-48-mob pb-40 col-3 col-1-mob col-2-tablet gap-40">
                   <div className="col">
                     <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                      Desi2gn
+                      Engineering
                     </div>
                     <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
                       <li>
@@ -252,7 +252,7 @@ const Topnav = () => {
                           to="/webapp"
                           target="_self">
                           <span>
-                            <b>Web app design</b>
+                            <b>Electrical Solar Panel</b>
                           </span>
                         </Link>
                       </li>
@@ -271,7 +271,7 @@ const Topnav = () => {
                   </div>
                   <div className="col">
                     <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                      Development
+                      Commissioning
                     </div>
                     <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
                       <li>
@@ -543,7 +543,7 @@ const Topnav = () => {
                 <div className="title title--s color--dark">
                   <a
                     className="color--inherit"
-                    href="/phenomenonstudio.hurma.work/public-vacancies"
+                    href=""
                     target="_blank">
                     Career
                   </a>

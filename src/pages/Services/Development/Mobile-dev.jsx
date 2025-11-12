@@ -3,6 +3,9 @@ import Topnav from '../../../Component/Topnav'
 import Footer from '../../../Component/Footer'
 import Chat from '../../../Component/Chat'
 import Comment from '../../../Component/Comment'
+import Project from '../../../Component/project'
+import Benefits from '../../../Component/Benefits'
+import Award from '../../../Component/Award'
 
 const Mobiledev = () => {
   return (
@@ -213,21 +216,21 @@ const Mobiledev = () => {
           <div className="mt-60 mt-24-mob grid col-2 col-1-mob column-gap-32 row-gap-40 row-gap-24-mob">
             <div className="col sticky isview slidetop">
               <div className="media_wrap">
-                <video
-                  preload="none"
+                 <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="fullw radius-12"
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Mobile-App-UI-Design-for-Ecommerce-1.mp4"
-                  autoPlay=""
-                  playsInline=""
-                  muted=""
-                  loop=""
                   style={{
                     aspectRatio: "1.33",
                     objectFit: "cover",
-                    verticalAlign: "middle"
+                    verticalAlign: "middle",
                   }}
-                />{" "}
-              </div>
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/small.mp4" 
+                />
+
+                </div>
             </div>
             <div className="col pt-32 pt-0-mob pb-32 pb-0-mob flex fd--column">
               <div
@@ -245,42 +248,48 @@ const Mobiledev = () => {
                 <p>Delivering trusted electrical solutions for organizations</p>
               </div>
               <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
-                <div className="logo flex v--center h--center">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_1.svg"
-                    alt="Icon - l_1"
-                    loading="lazy"
-                    decoding="async"
-                    style={{ aspectRatio: "1.41" }}
-                  />{" "}
-                </div>
-                <div className="logo flex v--center h--center">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_2.svg"
-                    alt="Icon - l_2"
-                    loading="lazy"
-                    decoding="async"
-                    style={{ aspectRatio: "1.41" }}
-                  />{" "}
-                </div>
-                <div className="logo flex v--center h--center">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/l_3.svg"
-                    alt="Icon - l_3"
-                    loading="lazy"
-                    decoding="async"
-                    style={{ aspectRatio: "1.41" }}
-                  />{" "}
-                </div>
-                <div className="logo flex v--center h--center">
-                  <div className="txt txt--control-s uppercase fw-600">
-                    <p>and more</p>
+                  <div className="logo flex v--center h--center">
+                    <img
+                      alt="Icon - l_1"
+                      className=""
+                      decoding="async"
+                      loading="lazy"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/logo3.png"
+                      style={{
+                        aspectRatio: "1.41",
+                      }}
+                    />
+                  </div>
+                  <div className="logo flex v--center h--center">
+                    <img
+                      alt="Icon - l_2"
+                      className=""
+                      decoding="async"
+                      loading="lazy"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/GREYOCEAN.png"
+                      style={{
+                        aspectRatio: "1.41",
+                      }}
+                    />
+                  </div>
+                  <div className="logo flex v--center h--center">
+                    <img
+                      alt="Icon - l_3"
+                      className=""
+                      decoding="async"
+                      loading="lazy"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/download.png"
+                      style={{
+                        aspectRatio: "1.41",
+                      }}
+                    />
+                  </div>
+                  <div className="logo flex v--center h--center">
+                    <div className="txt txt--control-s uppercase fw-600">
+                      <p>and more</p>
+                    </div>
                   </div>
                 </div>
-              </div>
             </div>
             <div className="col pc-visible" />
             <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center">
@@ -402,254 +411,7 @@ const Mobiledev = () => {
           <div className="space" />
         </div>
       </section>
-      <section className="how_we_do_it_section next_block_sticky pt-200 pb-200 pt-100-mob pb-100-mob bg--dark clipped-bottom clipped-top radius-80 radius-32-mob">
-        <div className="container">
-          <div className="txt txt--caption-m color--white-light uppercase fw-600">
-            <h2>Our Mobile App Development Services</h2>{" "}
-          </div>{" "}
-          <div className="mt-24 mt-16-mob color--white mw1040 title title--xl isview textslide">
-            Mobile development solutions for <span>every business</span>
-          </div>{" "}
-        </div>
-        <div className="how_we_do_it_items mt-48 mt-32-mob">
-          <div className="container">
-            <div className="grid col-3 col-1-mob services_row clipped">
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <div className="h6 color--white-tertiary">01</div>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    iOS mobile app development
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      Our iOS mobile app development services specialize in
-                      creating high-quality, custom apps designed specifically
-                      for Apple’s ecosystem with the focus on delivering
-                      seamless functionality.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <div className="h6 color--white-tertiary">02</div>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    Android mobile app development
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      We build powerful, scalable Android applications designed
-                      to deliver smooth and reliable performance across a wide
-                      range of devices, ensuring a seamless user experience for
-                      all.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <div className="h6 color--white-tertiary">03</div>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    Cross-platform mobile app development
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      Our cross-platform mobile app development services
-                      streamline app deployment across multiple platforms,
-                      reducing costs and accelerating time to market.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="mt-200 mt-100-mob" />
-        <div className="container">
-          <div className="txt txt--caption-m color--white-light uppercase fw-600">
-            <h2>Benefits of Our Mobile App Development Services</h2>{" "}
-          </div>{" "}
-          <div className="mt-24 mt-16-mob color--white mw1040 title title--xl isview textslide">
-            Why should you choose
-            <br />
-            our digital{" "}
-            <span>
-              mobile
-              <br />
-              development
-            </span>{" "}
-            agency?
-          </div>{" "}
-        </div>
-        <div className="how_we_do_it_items mt-48 mt-32-mob">
-          <div className="container">
-            <div className="grid col-3 col-1-mob services_row clipped">
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2.svg"
-                    alt="Icon - asterisk-svgrepo-com 2"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    Custom-tailored solutions
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      Every business is unique, and our custom mobile
-                      development ensures your product aligns with your brand,
-                      functionality, and user expectations.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/asterisk-svgrepo-com-2-2-3.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-2"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    Scalability &amp; flexibility
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      Our mobile solutions are carefully designed to evolve with
-                      your business, offering scalability and adaptability to
-                      meet your changing needs.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/asterisk-svgrepo-com-2-1.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-1"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    Optimized performance
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      Faster load times, intuitive navigation, and mobile
-                      optimization improve user experience and app performance.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-3-2.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-3"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    Mid-level and senior experts
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      Our team consists of mid-level and senior mobile
-                      developers with 7+ years of expertise in your specific
-                      industry, ensuring your web solution is perfectly aligned
-                      with your audience’s expectations.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="vertical_line dark grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                <span />
-                <span />
-                <span />
-              </div>
-              <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start">
-                <span className="icon">
-                  <img
-                    className=""
-                    src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-4-2.svg"
-                    alt="Icon - asterisk-svgrepo-com 2-4"
-                    loading="lazy"
-                    decoding="async"
-                    style={{}}
-                  />{" "}
-                </span>
-                <div className="pt-100 pt-48-mob">
-                  <div className="title title--s color--white">
-                    Proven trust and high satisfaction
-                  </div>
-                  <div className="txt txt--m mt-8 mt-4-mob color--white-light inner-inherit">
-                    <div>
-                      As a trusted mobile development company, we prioritize
-                      strong relationships with our clients. Our commitment to
-                      excellence has resulted in a 98% client satisfaction rate,
-                      reflecting our dedication to delivering outstanding
-                      solutions.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Benefits />
       <section className="problems_we_solve pt-200 pb-200 pt-100-mob pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
@@ -657,9 +419,9 @@ const Mobiledev = () => {
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02">
             <h2>
-              Our <span>step-by-step approach</span>
+              How we ensure quality in every installation and repair <span></span>
               <br />
-              to web development
+            
             </h2>{" "}
           </div>{" "}
         </div>
@@ -670,7 +432,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Project Consultation</p>
+                      <p>Project Assessment</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       01{" "}
@@ -681,7 +443,7 @@ const Mobiledev = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead">
                       <p>
-                        Aligning on business goals and technical requirements.
+                        Identifying technical specifications for a seamless installation.chnical requirements.
                       </p>
                     </div>
                     <div className="mt-108 mt-32-mob tags flex v--center h--start h--wrap gap-8">
@@ -698,7 +460,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Product documentation</p>
+                      <p>c</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       02{" "}
@@ -709,8 +471,7 @@ const Mobiledev = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead">
                       <p>
-                        We gather and document all product requirements,
-                        creating a detailed foundation for development.
+                        Electrical Engineering Installations & Procurement company that serves healthcare, agriculture, and manufacturing industries, providing contract-based sales, installations, maintenance, and repair services.
                       </p>
                     </div>
                     <div className="mt-108 mt-32-mob tags flex v--center h--start h--wrap gap-8">
@@ -730,7 +491,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Technical documentation</p>
+                      <p> Planning & Installation</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       03{" "}
@@ -741,17 +502,17 @@ const Mobiledev = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead">
                       <p>
-                        Our team defines architecture, Client:, and key
+                        Our engineers craft precise electrical designs and implementation strategies tailored to each client’s operational needs — ensuring performance, safety, and full technical compliance across every project. and key
                         implementation strategies to ensure technical
                         feasibility.
                       </p>
                     </div>
                     <div className="mt-108 mt-32-mob tags flex v--center h--start h--wrap gap-8">
                       <span className="tag tag--light">
-                        Infrastructure diagram
+                        ELECTRICAL LAYOUT
                       </span>
                       <span className="tag tag--light">
-                        Architecture diagram
+                        SYSTEM BLUEPRINT
                       </span>
                     </div>
                   </div>
@@ -765,7 +526,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Decomposition &amp; timeline</p>
+                      <p>Installation & Commissioning</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       04{" "}
@@ -776,7 +537,7 @@ const Mobiledev = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead">
                       <p>
-                        We break down development phases, setting clear
+                        Our team handles every stage of the installation process — from equipment setup to system testing — ensuring timely completion, safety compliance, and smooth operation from day one.g clear
                         milestones and realistic timelines.
                       </p>
                     </div>
@@ -794,7 +555,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Solution presentation</p>
+                      <p>System Handover & Maintenance</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       05{" "}
@@ -857,7 +618,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Development &amp; Testing</p>
+                      <p>Installation & Quality Assuranceamp; Testing</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       07{" "}
@@ -868,15 +629,15 @@ const Mobiledev = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead">
                       <p>
-                        Using best coding practices to ensure a seamless,
-                        bug-free experience across all devices.
+                        Our certified engineers install and test every system with precision — ensuring safety, reliability, and compliance with industry standards before project handover.ss,
+                        
                       </p>
                     </div>
                     <div className="mt-108 mt-32-mob tags flex v--center h--start h--wrap gap-8">
-                      <span className="tag tag--light">Front-end</span>
-                      <span className="tag tag--light">Back-end</span>
+                      <span className="tag tag--light">ELECTRICAL INSTALLATION</span>
+                      <span className="tag tag--light">QUALITY ASSURANCE</span>
                       <span className="tag tag--light">
-                        full cycle of QA tests
+                        Installation
                       </span>
                     </div>
                   </div>
@@ -890,7 +651,7 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Launch &amp; support</p>
+                      <p>Maintenance</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       08{" "}
@@ -901,9 +662,8 @@ const Mobiledev = () => {
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead">
                       <p>
-                        After launch, we monitor performance and offer continued
-                        support to optimize the web solution and make
-                        improvements as needed.
+                        After installation, we provide continuous maintenance and responsive technical support — ensuring every system operates efficiently and remains compliant with your operational needs.
+                        
                       </p>
                     </div>
                     <div className="mt-108 mt-32-mob tags flex v--center h--start h--wrap gap-8">
@@ -920,135 +680,13 @@ const Mobiledev = () => {
           <div className="space" />
         </div>
       </section>
-      <section
-        className="tabs pb-200 pb-100-mob bg--white relative await-action"
-        data-tabs=""
-      >
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            Technology stack
-          </div>{" "}
-          <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02">
-            Frameworks &amp; <br />
-            technologies <span>we use</span>
-          </div>{" "}
-        </div>
-        <div
-          className="tabs-holder mt-24 mt-32-mob isview slidetop"
-          data-tabs-holder=""
-        >
-          <div
-            className="technology_stack_items tabs-pane is-active"
-            data-tabs-pane={1}
-          >
-            <div className="awards_container ov-hidden">
-              <div className="grid col-3 col-1-mob awards_wrap">
-                <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span />{" "}
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-16.svg"
-                      alt="Icon - Swift"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Swift</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span />{" "}
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-17.svg"
-                      alt="Icon - Kotlin"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Kotlin</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein mob-visible">
-                  <span />
-                  <span />
-                  <span />{" "}
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/React.svg"
-                      alt="Icon - React"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">
-                      React Native
-                    </div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-                <div className="vertical_line grid col-3 col-1-mob span-3 span-1-mob clipped isview full fadein">
-                  <span />
-                  <span />
-                  <span />{" "}
-                </div>
-                <div className="col flex p-32 pb-40 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-1">
-                  <span className="icon op-04">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/asterisk-svgrepo-com-2-18.svg"
-                      alt="Icon - Flutter"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />{" "}
-                  </span>
-                  <div className="pt-48 mt-auto">
-                    <div className="title title--s color--dark">Flutter</div>
-                    <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
-                      <p />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="cta  bg--white">
         <div className="container">
           <div className="cta_content">
             <span className="icon icon--2xl">
               <img
                 className="fullw"
-                src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/process-1.svg"
+                src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/corporate1.webp"
                 alt="Icon - process-1"
                 loading="lazy"
                 decoding="async"
@@ -1075,268 +713,7 @@ const Mobiledev = () => {
           </div>
         </div>
       </section>
-      <section className="cases_section pt-200 pt-100-mob pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>Featured Cases</h2>{" "}
-          </div>{" "}
-          <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit">
-            Discover how we’re driving change through innovative projects,
-            strong partnerships, and <span>measurable outcomes.</span>
-          </div>
-          <div className="cases_wrap grid gap-60 gap-48-mob mt-100 mt-48-mob scrollable">
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="https://phenomenonstudio.com/projects/zest-unleashing-a-healthier-you"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/Case-preview-6.png.webp"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/Case-preview-6.png.webp"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/Case-preview-6.png.webp"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="Zest — unleashing a healthier you - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#Product discovery #MVP building </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  Zest — unleashing a healthier you
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Zest</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    USA
-                  </span>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>Faster time-to-market</p>
-                      <p>Reduced development costs</p>
-                      <p>Simplification of complex health concepts</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="https://phenomenonstudio.com/projects/zest-unleashing-a-healthier-you"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-                <div className="mt-32 mt-48-mob mb--8-mob quote bg--gray radius-16">
-                  <div className="top flex auth_wrap v--center h--start gap-16">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/03/image@2x-1.png.webp"
-                      alt="Image - image@2x"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: 1 }}
-                    />{" "}
-                    <div className="bio">
-                      <div className="txt txt--s gap-0">
-                        <p>Julia Cooney</p>
-                        <span>CEO of Zest</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="txt mt-30 mt-20-mob txt--l">
-                    <p>
-                      The client expressed high satisfaction with the team’s
-                      proficiency, facilitating the prompt and timely completion
-                      of the design within the initially estimated timeframes.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="https://phenomenonstudio.com/projects/sway-finance-cash-management-application-2"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Case-Preview-1-4.png.webp"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Case-Preview-1-4.png.webp"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/Case-Preview-mob-8.png.webp"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="Sway Finance – cash management application - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#Electrical Installation & Commissioning </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  Sway Finance – cash management application
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Sway Finance</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2025/01/ch-circle-01.png.webp"
-                      alt="Image - ch-circle-01"
-                      loading="lazy"
-                      decoding="async"
-                      style={{ aspectRatio: 1 }}
-                    />
-                    Switzerland
-                  </span>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>Faster time-to-market</p>
-                      <p>Validated key assumptions</p>
-                      <p>Early user feedback</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="https://phenomenonstudio.com/projects/sway-finance-cash-management-application-2"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="grid col-2 col-1-mob gap-32 gap-0-mob case_card">
-              <div className="col flex v--start h--start">
-                <a
-                  href="https://phenomenonstudio.com/projects/boost"
-                  className="media_wrap radius-12 ov-hidden"
-                >
-                  <picture>
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2022/09/Case-Preview-5-scaled.png.webp"
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcSet="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2022/09/Case-Preview-5-scaled.png.webp"
-                      media="(max-width: 1440px)"
-                    />
-                    <img
-                      className="fullw radius-12"
-                      src="https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/uploads/2022/09/Case-Preview-mob-5.png.webp"
-                      media="(max-width: 768px)"
-                      loading="lazy"
-                      decoding="async"
-                      alt="BOOST – income tracker mobile app for freelancers - image cover"
-                    />
-                  </picture>
-                </a>
-              </div>
-              <div className="col pt-0 pt-32-mob pb-0 pb-0-mob flex fd--column h--center">
-                <div className="txt txt--control-s uppercase fw-600 color--dark-light">
-                  <p>#MVP development #Electrical Installation & Commissioning </p>
-                </div>
-                <div className="title title--m mt-12 isview textslide fullw">
-                  BOOST – income tracker mobile app for freelancers
-                </div>
-                <div className="mt-20 mt-16-mob tags flex v--center h--start h--wrap gap-8">
-                  <span className="tag">Boost</span>
-                  <span className="tag">
-                    <img
-                      className=""
-                      src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/fi_4628635.svg"
-                      alt="Icon - fi_4628635"
-                      loading="lazy"
-                      decoding="async"
-                      style={{}}
-                    />
-                    USA
-                  </span>
-                </div>
-                <div className="grid col-1 mt-64 mt-48-mob card_details">
-                  <div className="col">
-                    <div className="txt txt--control-s color--dark-secondary uppercase">
-                      Results{" "}
-                    </div>
-                    <div className="txt txt--m mt-12 pt-12 pb-12 pt-12-mob pb-0-mob gap-12 border-top">
-                      <p>Simplified financial insights for users</p>
-                      <p>Engaging and interactive experience</p>
-                      <p>Modern and user-friendly design</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn--wrap mt-20 mt-20-mob">
-                  <a
-                    href="https://phenomenonstudio.com/projects/boost"
-                    className="btn btn--orange hover--dark arr fullw-mob"
-                  >
-                    <span>
-                      <b>Explore</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>{" "}
-          </div>
-          <div className="mt-80 mt-40-mob text--center flex h--center isview slidetop">
-            <a
-              className="btn btn--simple dark arr"
-              href="https://phenomenonstudio.com/projects/"
-              target="_self"
-            >
-              <span>
-                <b>Explore All Cases</b>
-              </span>
-            </a>{" "}
-          </div>
-        </div>
-      </section>
+      <Project />
       <section className="services_section bg--white pb-200 pb-100-mob">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
@@ -1399,7 +776,7 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                 Engineering that’s installation-ready{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                We design for implementation, not just documentation.{" "}
+                We install solutions built for efficiency, not just design..{" "}
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
@@ -1441,172 +818,7 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
         </div>
       </section>
       <Comment />
-      <section className="awards_section pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            Awards{" "}
-          </div>
-          <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02">
-            Wins that inspire us <span>forward</span>
-          </div>
-        </div>
-        <div className="mt-40 mt-32-mob awards_container ov-hidden">
-          <div className="grid awards_wrap col-3 col-2-tablet isview slidetop">
-            <div className="col flex fd--column v--start col-1">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/clutch.svg"
-                  alt="Icon - clutch"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Professional & Credibility-Focused</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://clutch.co/profile/phenomenon-studio"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Clutch</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-2">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/upwork.svg"
-                  alt="Icon - upwork"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Short & Impactful</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://www.upwork.com/agencies/1141628280721588224/"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Upwork</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-3">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/webflow.svg"
-                  alt="Icon - webflow"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Industry-Award Tone</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://webflow.com/@phenomenons-workspace"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Webflow</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-1">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/design.svg"
-                  alt="Icon - design"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>
-                  Technical Authority Version <br />
-                  
-                </p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://ux-design-awards.com/winners/2024-2-isora-grc-collaborative-grc-platform"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On UXDA</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-2">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/Awwwards.svg"
-                  alt="Icon - Awwwards"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Site of the Day &amp; honorable mentions</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://www.awwwards.com/Phenomenon/"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Awwwards</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-3">
-              <div className="inner color--dark radius-12 bg--gray bg--orange-mob flex fd--column v--start clipped-right-mob">
-                <div className="title title--l">
-                  32+ <br />
-                  others
-                </div>
-                <div className="btn-wrap mt-auto pt-24">
-                  <a
-                    href="https://phenomenonstudio.com/about-our-company/"
-                    target="_self"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>
-                      <b>Explore all awards</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Award />
       <section className="pb-200 pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
@@ -1642,7 +854,7 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2 isview slidetop">
                 <div className="title title--s color--dark">
-                  Product redesign
+                  Repair
                 </div>
                 <div className="txt txt--s mt-8 mt-4-mob color--dark-light">
                   <p>
@@ -1661,7 +873,8 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3 isview slidetop">
                 <div className="title title--s color--dark">
-                  Website development
+                  Electrical Installations
+
                 </div>
                 <div className="txt txt--s mt-8 mt-4-mob color--dark-light">
                   <p>
@@ -1713,7 +926,7 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                       <div className="txt txt--m">
                         <p>
                           The cost of mobile app development depends on factors
-                          like app complexity, desired features, and platform
+                          like Project Complexity, desired features, and platform
                           requirements. At Phenomenon studio, we offer clear and
                           transparent pricing, customized to meet your specific
                           project goals. Whether you’re building an iOS app,

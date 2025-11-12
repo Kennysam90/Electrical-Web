@@ -16,6 +16,9 @@ import Topnav2 from './Component/Topnav2'
 import Chat from './Component/Chat';
 import Comment from './Component/Comment';
 import Project from './Component/project';
+import Award from './Component/Award';
+import Explain from './Component/How-it-works';
+import Benefits from './Component/Benefits';
 
 function App() {
 
@@ -41,6 +44,9 @@ function App() {
         <Route path='/chat' element={<Chat />} />
         <Route path='/comment' element={<Comment />} />
         <Route path='/project' element={<Project />} />
+        <Route path='/award' element={<Award />} />
+        <Route path='/explain' element={<Explain />} />
+        <Route path='/benefits' element={<Benefits />} />
       </Routes>
      </Router>
      </QueryClientProvider>

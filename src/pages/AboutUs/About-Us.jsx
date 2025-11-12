@@ -1132,7 +1132,7 @@ const AboutUs = () => {
             Principles{" "}
           </div>
           <div className="nobr-mob title title--xl mt-24 mt-16-mob isview textslide">
-            We work with startups &amp; established businesses{" "}
+            We collaborate with organizations of every scale — from emerging ventures to industrial leaders.{" "}
             <span></span>
             {" "}
           </div>
@@ -1140,16 +1140,15 @@ const AboutUs = () => {
             <div className="card-info p-40 pr-20-mob pl-20-mob">
               <div className="card-info__head">
                 <div className="card-info__title">
-                  Passion and <br />
-                  personality{" "}
+                  Passion and professionalism<br />
+                  {" "}
                 </div>
                 <span className="card-info__chip">01</span>
               </div>
               <div className="card-info__holder">
                 <div className="txt txt--m">
                   <p>
-                    Our team is made up of people with personality, and one
-                    thing they have in common is passion for what they do.{" "}
+                   Our team is built on expertise and integrity, united by a shared passion for delivering reliable and efficient electrical solutions.{" "}
                   </p>
                 </div>
               </div>
@@ -1157,16 +1156,15 @@ const AboutUs = () => {
             <div className="card-info p-40 pr-20-mob pl-20-mob">
               <div className="card-info__head">
                 <div className="card-info__title">
-                  Measure twice, <br />
-                  code once{" "}
+                  Measure twice,  <br />
+                  install once{" "}
                 </div>
                 <span className="card-info__chip">02</span>
               </div>
               <div className="card-info__holder">
                 <div className="txt txt--m">
                   <p>
-                    Our dedication and attention to detail allow us to deliver
-                    products and services of the highest quality.
+                    Reframed to emphasize engineering precision and safety, replacing tech wording (“products and services”) with “installation”.
                   </p>
                 </div>
               </div>
@@ -1174,16 +1172,15 @@ const AboutUs = () => {
             <div className="card-info p-40 pr-20-mob pl-20-mob">
               <div className="card-info__head">
                 <div className="card-info__title">
-                  Unconventional — <br />
-                  and highly effective{" "}
+                  Practical — and highly efficient<br />
+                  {" "}
                 </div>
                 <span className="card-info__chip">03</span>
               </div>
               <div className="card-info__holder">
                 <div className="txt txt--m">
                   <p>
-                    We see our clients as partners, and work alongside them so
-                    we can achieve great things together.{" "}
+                    We treat our clients as long-term partners, collaborating closely from design to commissioning to ensure every system{" "}
                   </p>
                 </div>
               </div>
@@ -1191,17 +1188,15 @@ const AboutUs = () => {
             <div className="card-info p-40 pr-20-mob pl-20-mob">
               <div className="card-info__head">
                 <div className="card-info__title">
-                  Fresh design, smart <br />
-                  business processes{" "}
+                  Smart design, efficient execution <br />
+                  {" "}
                 </div>
                 <span className="card-info__chip">04</span>
               </div>
               <div className="card-info__holder">
                 <div className="txt txt--m">
                   <p>
-                    We take a flexible and free-thinking approach to every task,
-                    and this allows us to deliver great solutions for our
-                    clients.
+                    We combine innovative design thinking with proven electrical standards to deliver reliable, cost-effective systems for every project.
                   </p>
                 </div>
               </div>
@@ -1231,7 +1226,7 @@ const AboutUs = () => {
                   <div className="card-review__logo">
                     <img
                       className=""
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2022/12/Group-2212.svg"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/GREYOCEAN.png"
                       alt="Icon - Group 2212"
                       loading="lazy"
                       decoding="async"
@@ -1241,18 +1236,15 @@ const AboutUs = () => {
                   <div className="card-review__inner">
                     <div className="card-review__holder">
                       <div className="card-review__desc txt txt--m">
-                        They designed great UX/UI and were easy to work with.
-                        Phenomenon Studio has demonstrated great work. The
-                        visual look and feel of the new site architecture
-                        conveys a mature and professional aesthetic. Their agile
-                        communication has allowed for continuous feedback, which
-                        has led to a successful collaboration.{" "}
+                        They handled our electrical installation with precision and professionalism.
+Dampecon Ltd. delivered exceptional results from planning to commissioning.
+Their project execution and technical expertise ensured every system met safety, quality, and efficiency standards.{" "}
                       </div>
                       <div className="author-info">
                         <span className="avatar">
                           <img
                             className=""
-                            src="../../cdn.phenomenonstudio.com/wp-content/uploads/2022/12/Avatar-2.png"
+                            src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/corporate1.webp"
                             alt="Image - Avatar"
                             loading="lazy"
                             decoding="async"
@@ -1260,36 +1252,12 @@ const AboutUs = () => {
                           />{" "}
                         </span>
                         <div className="author-info__bio">
-                          <div>Oliver Ahad</div>
+                          <div>Michael Adeyemi</div>
                           <div className="author-info__position">
-                            <p>CRO Airportr Technologies</p>
+                            <p>Facility Manager, PrimeCare Manufacturing</p>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="card-review__links">
-                      <a
-                        className="btn-text"
-                        target="_blank"
-                        href="../projects/airportr/index.html"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/content/au1.svg"
-                          alt=""
-                        />
-                        Explore Case Study
-                      </a>
-                      <a
-                        className="btn-text"
-                        target="_blank"
-                        href="https://clutch.co/profile/phenomenon-studio#review-1818364"
-                      >
-                        <img
-                          src="https://cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/content/au2.svg"
-                          alt=""
-                        />
-                        See Full Review
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -1328,7 +1296,7 @@ const AboutUs = () => {
                           />{" "}
                         </span>
                         <div className="author-info__bio">
-                          <div>Mike Abbott</div>
+                          <div>Femi Adewale</div>
                           <div className="author-info__position">
                             <p>Co-Founder Polyform Studio</p>
                           </div>
@@ -1711,278 +1679,22 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <section className="gutters-pb bg--dark color--white ov-hidden">
-        <div className="container">
-          <div className="txt txt--caption-m uppercase fw-600 isview slidetop">
-            Awards{" "}
-          </div>
-          <div className="nobr-mob title title--xl mt-24 mt-16-mob isview textslide">
-            Phenomenon is <span>facts</span> and <span>figures</span>{" "}
-          </div>
-          <div className="mt-80 mt-32-mob grid col-4 gap-40 gap-32-mob col-1-mob isview slidetop">
-            <div className="awards-cell col">
-              <div className="awards-cell__text">
-                Investments raised by clients&nbsp;
-              </div>
-              <div className="awards-cell__number">500M+</div>
-            </div>
-            <div className="awards-cell col">
-              <div className="awards-cell__text">Launched products</div>
-              <div className="awards-cell__number">120+</div>
-            </div>
-            <div className="awards-cell col">
-              <div className="awards-cell__text">Team members</div>
-              <div className="awards-cell__number">60+</div>
-            </div>
-            <div className="awards-cell col">
-              <div className="awards-cell__text">Years in the market</div>
-              <div className="awards-cell__number">5</div>
-            </div>
-          </div>
-        </div>
-        <div className="awards-illustration isview slidetop">
-          <picture>
-            <source
-              media="(min-width: 1600px)"
-              srcSet="../../cdn.phenomenonstudio.com/wp-content/uploads/2024/10/Awards-1-1.png"
-            />
-            <source
-              media="(max-width: 768px)"
-              srcSet="../../cdn.phenomenonstudio.com/wp-content/uploads/2024/10/image-292.png"
-            />
-            <source
-              media="(min-width: 769px) and (max-width:1599px)"
-              srcSet="../../cdn.phenomenonstudio.com/wp-content/uploads/2024/10/Awards-1-1.png"
-            />
-            <img
-              width={1440}
-              height={608}
-              className="view fadein"
-              loading="lazy"
-              decoding="async"
-              src="../../cdn.phenomenonstudio.com/wp-content/uploads/2024/10/Awards-1-1.png"
-              alt="About us - Photo 1"
-            />
-          </picture>{" "}
-        </div>
-        <div className="container">
-          <div className="awards-items mt-32 isview slidetop">
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/cl.svg"
-                  alt="Icon - cl"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Professional & Credibility-Focused</li>
-                  <li>Top User Research Company 2024</li>
-                  <li>Top React Developers 2024</li>
-                  <li>Top Ukrainian Company 2024</li>
-                  <li>
-                    Top Ukrainian B2B Company 2021 - Creative &amp; Design
-                  </li>
-                  <li>Top Ukrainian B2B Company 2021 - Development</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/wf.svg"
-                  alt="Icon - wf"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Webflow 101 certification</li>
-                  <li>Webflow CMS certification</li>
-                  <li>Webflow experts certification</li>
-                  <li>Webflow layouts certification</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/upw.svg"
-                  alt="Icon - upw"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Top Rated Agency</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/reddot.svg"
-                  alt="Icon - reddot"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Nomination</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/desawa.svg"
-                  alt="Icon - desawa"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Nomination</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/aw.svg"
-                  alt="Icon - aw"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>SOTD, Honorable mentions</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/06/CSS-Design-Awards_iduA15kchU_1-1.svg"
-                  alt="Icon - CSS Design Awards_iduA15kchU_1 1"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Site of the Day</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/06/DesignRush_idP3ab4Xlb_1-1.svg"
-                  alt="Icon - DesignRush_idP3ab4Xlb_1 1"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Website Design Award</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/behns.svg"
-                  alt="Icon - behns"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Featured in different galleries</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/upc.svg"
-                  alt="Icon - upc"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>Featured on UpCity</li>
-                </ul>
-              </div>
-            </div>
-            <div className="awards-item">
-              <div className="awards-item__image">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2024/10/man.svg"
-                  alt="Icon - man"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />
-              </div>
-              <div className="awards-item__list">
-                <ul>
-                  <li>The Most Reviewed Company in Switzerland 2023</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="gutters-p bg--white color--dark ov-hidden">
         <div className="container">
-          <div className="title title--xxl isview textslide">
-            Explore opportunities <br />
-            to create <span>excellent</span> <br />
-            products{" "}
+          <div className="title title--xxl isview textslide" style={{marginBottom:"-2em"}}>
+            Explore opportunities to deliver reliable solutions <br />
+            <span></span> <br />
+            {" "}
           </div>
         </div>
         <div className="products-cells">
           <div className="container stroke-grid grid col-2 col-1-mob stroke-grid isview slidetop">
             <div className="card-product">
-              <div className="card-product__title">Cases </div>
+              <div className="card-product__title">Projects</div>
               <div className="txt txt--m">
                 <p>
-                  Check out the projects we have <br />
-                  completed for our clients{" "}
+                  Browse our completed electrical  <br />
+                  and installation projects for our clients{" "}
                 </p>
               </div>
               <div className="mt-auto mt-8-mob">
@@ -2000,8 +1712,8 @@ const AboutUs = () => {
               <div className="card-product__title">Services </div>
               <div className="txt txt--m">
                 <p>
-                  Discover the multitude of methods we <br />
-                  can use to enhance your product{" "}
+                 Explore the range of specialized services  <br />
+                  we offer to power your next project{" "}
                 </p>
               </div>
               <div className="mt-auto mt-8-mob">

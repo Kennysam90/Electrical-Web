@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className="">
-        <div className="footer_top  pt-60-mob font2">
+        <div className="footer_top  pt-60-mob font2" style={{marginTop:"3em"}}>
           <div className="container">
             <div className="grid col-2 col-1-mob left">
               <div className="col grid col-2 col-1-mob gap-40 gap-0-mob footer_menu_wrap isview slidetop">
@@ -35,13 +35,13 @@ const Footer = () => {
                   <li
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-18448"
                     id="menu-item-18448">
-                    <a href="career/index.html">Career</a>
+                    <a href="">Career</a>
                   </li>
                 </ul>
               </div>
               <div className="col right mt-48-mob isview slidetop">
                 <div className="grid col-2 col-1-mob gap-8 countries">
-                  <a
+                  <Link
                     className="country_link p-24 p-16-mob radius-8"
                     href="about-our-company/index.html"
                     target="_blank">
@@ -60,10 +60,10 @@ const Footer = () => {
                         <span>Lagos Nigeria</span>
                       </span>
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="country_link p-24 p-16-mob radius-8"
-                    href="about-our-company/index.html"
+                    to="about-us"
                     target="_blank">
                     <img
                       alt="Image - estonia"
@@ -80,34 +80,13 @@ const Footer = () => {
                         <span>Abuja Nigeria</span>
                       </span>
                     </div>
-                  </a>
-                  <a
-                    className="country_link p-24 p-16-mob radius-8"
-                    href="about-our-company/index.html"
-                    target="_blank">
-                    <img
-                      alt="Image - sz"
-                      className=""
-                      decoding="async"
-                      loading="lazy"
-                      // src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/sz.png"
-                       src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
-                      style={{
-                        aspectRatio: "1.45",
-                      }}
-                    />
-                    <div className="mt-24 mt-16-mob">
-                      <span className="btn h--between arr btn--simple dark fullw decor-no">
-                        <span>Switzerland, Lugano</span>
-                      </span>
-                    </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="footer_center pt-100 pt-48-mob">
+        <div className="footer_center pt-100 pt-48-mob">
           <div className="container">
             <div className="flex v--center h--between pb-6 menus_wrap isview slidetop">
               <div className="left uppercase">
@@ -135,295 +114,12 @@ const Footer = () => {
               </div>
               <div className="right">
                 <div className="txt txt--control-m fw-600 uppercase font2">
-                  Phenomenon © 2025
+                  Dampecon LTD © 2025
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="mt-40 mt-24-mob ratings_wrap isview slidetop">
-            <div className="container pl-0-mob pr-0-mob">
-              <div className="grid col-4 col-2-mob">
-                <a
-                  className="col flex v--center h--center p-24"
-                  href="/webflow.com/@phenomenons-workspace"
-                  target="_blank">
-                  <img
-                    alt="Icon - webflow-rating"
-                    className=""
-                    decoding="async"
-                    loading="lazy"
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/02/webflow-rating.svg"
-                    style={{}}
-                  />
-                </a>
-                <a
-                  className="col flex v--center h--center p-24"
-                  href="article/raising-the-bar-for-data-security-phenomenon-hipaa-gdpr-certified/index.html"
-                  target="_blank">
-                  <img
-                    alt="Image - footer"
-                    className=""
-                    decoding="async"
-                    loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/08/footer.png"
-                    style={{
-                      aspectRatio: "1.1323529411765",
-                    }}
-                  />
-                </a>
-                <a
-                  className="col flex v--center h--center p-24"
-                  href="/www.designrush.com/agency/profile/phenomenon-studio"
-                  target="_blank">
-                  <img
-                    alt="Icon - Frame 1686558327-1"
-                    className=""
-                    decoding="async"
-                    loading="lazy"
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Frame-1686558327-1.svg"
-                    style={{}}
-                  />
-                </a>
-                <a
-                  className="col flex v--center h--center p-24"
-                  href="/clutch.co/profile/phenomenon-studio"
-                  target="_blank">
-                  <img
-                    alt="Icon - Frame 1686558328"
-                    className=""
-                    decoding="async"
-                    loading="lazy"
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/08/Frame-1686558328.svg"
-                    style={{}}
-                  />
-                </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="footer_bottom">
-          <div className="accordions">
-            <div className="accordion isview fadein">
-              <div className="container">
-                <div className="top">
-                  <a
-                    className="title title--s color--inherit"
-                    href="services/index.html"
-                    target="_self">
-                    All services{" "}
-                    <span className="color--dark-tertiary">19</span>
-                  </a>
-                </div>
-                <div className="bottom">
-                  <div className="grid pt-20 pt-0-mob pb-48-mob pb-40 col-3 col-1-mob col-2-tablet gap-40">
-                    <div className="col">
-                      <ul className="grid gap-24 gap-20-mob">
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/ux-design-audit/index.html"
-                            target="_self">
-                            <span>
-                              <b>UX Design Audit</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/product-redesign/index.html"
-                            target="_self">
-                            <span>
-                              <b>Product Redesign</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/blockchain-development-services/index.html"
-                            target="_self">
-                            <span>
-                              <b>Blockchain Development</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/no-code-app-development/index.html"
-                            target="_self">
-                            <span>
-                              <b>No-Code Development</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/website-redesign-services/index.html"
-                            target="_self">
-                            <span>
-                              <b>Website Redesign</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/website-development-agency/index.html"
-                            target="_self">
-                            <span>
-                              <b>Website Development</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="product-design/index.html"
-                            target="_self">
-                            <span>
-                              <b>Product Design</b>
-                            </span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="col">
-                      <ul className="grid gap-24 gap-20-mob">
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/mobile-app-development-services/index.html"
-                            target="_self">
-                            <span>
-                              <b>Mobile App Development</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/web-app-design/index.html"
-                            target="_self">
-                            <span>
-                              <b>Web App Design</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/website-design-services/index.html"
-                            target="_self">
-                            <span>
-                              <b>Electrical Engineering Design</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/rapid-mvp-development/index.html"
-                            target="_self">
-                            <span>
-                              <b>Rapid MVP Development</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/team-extension/index.html"
-                            target="_self">
-                            <span>
-                              <b>Team Extension</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/design-prototype/index.html"
-                            target="_self">
-                            <span>
-                              <b>Design Prototype</b>
-                            </span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="col">
-                      <ul className="grid gap-24 gap-20-mob">
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/custom-mvp-software-development/index.html"
-                            target="_self">
-                            <span>
-                              <b>Custom MVP Development</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/tech-workshop/index.html"
-                            target="_self">
-                            <span>
-                              <b>Technical Workshop</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/dedicated-software-developmen-team/index.html"
-                            target="_self">
-                            <span>
-                              <b>Dedicated Team</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/Procurement & Supply-services/index.html"
-                            target="_self">
-                            <span>
-                              <b>Procurement & Supply</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="service/product-discovery/index.html"
-                            target="_self">
-                            <span>
-                              <b>Product Discovery</b>
-                            </span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="btn btn--simple arr dark"
-                            href="ui-ux-design-services/index.html"
-                            target="_self">
-                            <span>
-                              <b>UX/UI Design </b>
-                            </span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </footer>
     </>
   )

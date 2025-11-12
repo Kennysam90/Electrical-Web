@@ -65,7 +65,7 @@ const Topnav2 = () => {
                                                     href="#"
                                                     target="_self">
                                                     <span>
-                                                      <b>Development</b>
+                                                      <b>Commissioning</b>
                                                     </span>
                                                   </a>
                                                   <div className="inner-menu">
@@ -134,17 +134,17 @@ const Topnav2 = () => {
                                             <div className="left main_sub_menu">
                                               <div className="inner bg--gray p-24 radius-12 fd--column flex m-12">
                                                 <div className="title title--m color--dark">
-                                                  Ready to bring your idea to life?
+                                                  Global Engineering Procurement 
                                                 </div>
                                                 <div className="btn-wrap pt-24 mt-auto">
-                                                  <a
+                                                  <Link
                                                     className="btn btn--orange arr hover--dark"
-                                                    href="contact-us/index.html"
+                                                    to="/contact"
                                                     target="_self">
                                                     <span>
                                                       <b>Let’s talk</b>
                                                     </span>
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -195,7 +195,7 @@ const Topnav2 = () => {
                                     <li className="">
                                       <a
                                         className=""
-                                        href="/phenomenonstudio.hurma.work/public-vacancies"
+                                        href=""
                                         target="_blank">
                                         <span>
                                           <b>Career</b>
@@ -271,7 +271,7 @@ const Topnav2 = () => {
                                             </div>
                                             <div className="col">
                                               <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                                                Development
+                                                Commissioning
                                               </div>
                                               <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
                                                 <li>
@@ -543,7 +543,7 @@ const Topnav2 = () => {
                                           <div className="title title--s color--dark">
                                             <a
                                               className="color--inherit"
-                                              href="/phenomenonstudio.hurma.work/public-vacancies"
+                                              href=""
                                               target="_blank">
                                               Career
                                             </a>

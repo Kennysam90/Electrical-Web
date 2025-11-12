@@ -5,6 +5,8 @@ import Chat from '../../../Component/Chat'
 import Comment from '../../../Component/Comment'
 import { Link } from 'react-router-dom'
 import Project from '../../../Component/project'
+import Award from '../../../Component/Award'
+import Explain from '../../../Component/How-it-works'
 
 const Webapp = () => {
   return (
@@ -121,7 +123,7 @@ const Webapp = () => {
     name="msapplication-TileImage"
     content="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/cropped-logo_00009-270x270.png"
   />
-  <title>ELECTRICAL ENGINEERING & PROCUREMENT SERVICES | Web App Design - Phenomenon Studio</title>
+  <title>ELECTRICAL ENGINEERING & PROCUREMENT SERVICES | Custom Control Systems</title>
   <div id="progress-bar-wrapper" className="invisible">
     <div id="progress-bar" />
   </div>
@@ -456,7 +458,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Maintenance & System Upgrades
+                          Maintenance & Repair
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
@@ -471,11 +473,11 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                       </div>
                       <div className="col flex p-32 fd--column v--start">
                         <div className="title title--s isview slidetop">
-                          Scheduled servicing and modernization support
+                          Installation & Commissioning
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
-                            to extend equipment life, reduce downtime, and prepare your systems for future expansion.
+                            Routine maintenance and Repair to extend equipment life and improve operational safety.
                           </div>
                         </div>
                       </div>
@@ -500,7 +502,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                         </div>
                         <div className="txt inner-inherit txt--s mt-8 isview slidetop color--dark--light">
                           <div>
-                            Comprehensive evaluation of existing electrical installations — identifying inefficiencies, safety risks, and opportunities for performance improvement.
+                            Identify performance gaps and compliance risks through thorough inspection, load analysis, and system testing. Deliver actionable recommendations for reliability and safety improvements.
                           </div>
                         </div>
                       </div>
@@ -1088,7 +1090,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Project Consultation</p>
+                      <p>Consultation & Planning</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       01{" "}
@@ -1098,11 +1100,9 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                   </div>
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--m">
-                      <h3>Defining Technical Requirements & Project Objectives</h3>
+                      <h3>Our process for reliable electrical installation and service</h3>
                       <p>
-                        At our web app agency, we start with your goals, team
-                        structure, and tech context to shape how the product
-                        should work.
+                        We start by understanding your electrical needs, safety standards, and technical requirements to deliver a tailored solution that aligns with your project goals.
                       </p>
                     </div>
                     <div className="list_wrap mt-64 mt-24-mob">
@@ -1139,7 +1139,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Market &amp; user research</p>
+                      <p>Site Assessment & System Analysis</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       02{" "}
@@ -1150,12 +1150,10 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--m">
                       <h3>
-                        Grounding UX in category logic and user expectations
+                        Grounding engineering decisions in technical data and site conditions
                       </h3>
                       <p>
-                        We review what similar tools are doing — and what users
-                        expect — to guide early layout, flow, and feature
-                        decisions.
+                       Our Electrical Installation & Commissioning services begin with a detailed assessment of your project site, load requirements, and infrastructure conditions. We analyze existing systems, identify efficiency gaps, and align our engineering approach with safety codes, performance goals, and client specifications — ensuring each project starts from solid technical insight.
                       </p>
                     </div>
                     <div className="list_wrap mt-64 mt-24-mob">
@@ -1257,9 +1255,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                     <div className="txt txt--m">
                       <h3>Structuring how users navigate your web app</h3>
                       <p>
-                        Our web app agency maps flows across user roles and
-                        creates wireframes that bring logic, layout, and
-                        interactions into focus.
+                        Develop detailed single-line diagrams and distribution layouts to ensure balanced loads, minimized losses, and future expandability.
                       </p>
                     </div>
                     <div className="list_wrap mt-64 mt-24-mob">
@@ -1297,7 +1293,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Visual direction &amp; moodboarding</p>
+                      <p>System Design & Technical Planning</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       05{" "}
@@ -1308,12 +1304,10 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--m">
                       <h3>
-                        Setting the tone with focused web UI design services
+                        Defining technical standards before installation begins
                       </h3>
                       <p>
-                        We explore visual styles and UI tone to define what your
-                        product should look and feel like before full web design
-                        begins.
+                        Before installation starts, we establish detailed technical plans aligned with your project scope, safety standards, and operational requirements. This ensures faster approvals, seamless coordination with contractors, and consistent project delivery across all systems.
                       </p>
                     </div>
                     <div className="list_wrap mt-64 mt-24-mob">
@@ -1401,7 +1395,7 @@ If you need reliable, compliant, and expertly managed electrical projects delive
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left flex fd--column">
                     <div className="txt txt--l mb-24">
-                      <p>Testing &amp; validation</p>
+                      <p>Testing & Commissioning</p>
                     </div>
                     <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
                       07{" "}
@@ -1515,14 +1509,12 @@ If you need reliable, compliant, and expertly managed electrical projects delive
               />{" "}
             </span>
             <div className="title title--m title--with-mark mt-48 mt-24-mob  text--center isview textslide">
-              See what it’s like to work with us{" "}
+              Experience the DAMPECON difference{" "}
             </div>
             <div className="txt txt--l mt-16 text--center isview slidetop color--dark-secondary fullw inner-inherit">
               <div>
-                One week of focused web application design services — at a
-                reduced rate. Use it to test a dashboard, user flow, or new
-                interface before committing to full web application design and
-                development.
+                Your project. Your priorities. Start with a focused site assessment or design consultation — tailored to your specific electrical or engineering needs.
+We’ll help you evaluate feasibility, safety, and cost before moving forward with full-scale installation or contracting work.
               </div>{" "}
             </div>
             <div className="mt-48 mt-20-mob flex v--center h--center isview slidetop">
@@ -1541,10 +1533,10 @@ If you need reliable, compliant, and expertly managed electrical projects delive
       </section>
        <Project />
       <Comment />
-      <section className="services_section bg--white pb-200 pb-100-mob">
+      <section className="services_section bg--white pb-200 pb-100-mob" style={{marginBottom:"-4em"}}>
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>CUSTOM WEB DESIGN SERVICES: COST BREAKDOWN</h2>
+            <h2>Services: Cost Breakdown</h2>
           </div>{" "}
           <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02 inner-inherit">
           How is the pricing<span>for electrical engineering and installation </span>{" "}
@@ -1578,13 +1570,13 @@ Our electrical engineering and installation services are priced based on project
                 <div className="h6 color--dark-tertiary">01</div>
                 <div className="pt-100 pt-48-mob">
                   <div className="title title--s color--dark">
-                    App complexity
+                    Project Complexity
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
                     <p>
-                      Dashboards, user roles, admin logic, third-party
+                      From basic maintenance to advanced industrial systems — scope, scale, and technical depth define each project’s structure and delivery approach.
                       <br />
-                      integrations
+                      
                     </p>
                   </div>
                 </div>
@@ -1598,13 +1590,12 @@ Our electrical engineering and installation services are priced based on project
                 <div className="h6 color--dark-tertiary">02</div>
                 <div className="pt-100 pt-48-mob">
                   <div className="title title--s color--dark">
-                    MVP vs. full build
+                    Scope vs. Full Execution
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
                     <p>
-                      Lean scope for early launch vs. production-ready
-                      <br />
-                      UX/UI
+                      We adapt to client needs — from feasibility studies and prototype builds to full-scale EPC (Engineering, Procurement & Construction) delivery.                      <br />
+                      
                     </p>
                   </div>
                 </div>
@@ -1622,10 +1613,10 @@ Our electrical engineering and installation services are priced based on project
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
                     <p>
-                      APIs, payments, and third-party tools add
+                      Each project integrates multidisciplinary designs — mechanical, civil, and electrical — requiring coordinated backend planning and technical approvals.
                       <br />
                       <br />
-                      backend work.
+                      
                     </p>
                   </div>
                 </div>
@@ -1641,9 +1632,9 @@ Our electrical engineering and installation services are priced based on project
                   <div className="title title--s color--dark">Timeline</div>
                   <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
                     <p>
-                      From 10 screens to 100+ across roles, devices,
+                      Schedules vary from short-term interventions to multi-phase infrastructure programs, ensuring each milestone aligns with safety and quality benchmarks.
                       <br />
-                      and flows
+                      
                     </p>
                   </div>
                 </div>
@@ -1661,9 +1652,9 @@ Our electrical engineering and installation services are priced based on project
                   </div>
                   <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
                     <p>
-                      Deep product sync, stakeholder input, QA, and
+                      Every phase involves close collaboration between engineers, project managers, QA specialists, and client stakeholders to maintain consistency and compliance.
                       <br />
-                      dev support
+                      
                     </p>
                   </div>
                 </div>
@@ -1679,9 +1670,9 @@ Our electrical engineering and installation services are priced based on project
                   <div className="title title--s color--dark">Pace</div>
                   <div className="txt txt--m mt-8 mt-4-mob color--dark-secondary">
                     <p>
-                      Standard timelines vs. accelerated delivery
+                      We balance precision and performance — offering both standard delivery models and accelerated response options for critical operations.
                       <br />
-                      options
+                    
                     </p>
                   </div>
                 </div>
@@ -1696,7 +1687,7 @@ Our electrical engineering and installation services are priced based on project
             <span className="icon icon--2xl">
               <img
                 className="fullw"
-                src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/03/process-1.svg"
+                src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/depositphotos.jpg"
                 alt="Icon - process-1"
                 loading="lazy"
                 decoding="async"
@@ -1723,267 +1714,11 @@ Our electrical engineering and installation services are priced based on project
           </div>
         </div>
       </section>
-      <section className="services_section pt-200 pb-200 pt-100-mob pb-100-mob bg--dark clipped-bottom clipped-top radius-80 radius-32-mob next_block_sticky">
-        <div className="container">
-          <div className="txt txt--caption-m color--white-light uppercase fw-600 isview slidetop">
-            <h2>How to work with us</h2>
-          </div>{" "}
-          <div className="mt-24 mt-16-mob color--white mw1040 title title--xl isview textslide trd02 inner-inherit">
-            Advance your electrical project<span>with flexible engagement options, clear timelines, and full technical support — from concept to commissioning.</span>
-            
-          </div>
-          <div className="mt-100 mt-32-mob">
-            <div className="pt-32 pt-0-mob pb-32 pb-0-mob flex v--start h--between scroll_slider flex--block-mob">
-              <div className="left flex fd--column flex--block-mob disable-scrollbar bg--dark">
-                <ul className="flex fd--column gap-4 isview slidetop">
-                  <li className="title title--s services_section_link">
-                    <a href="#slide-1" data-id={1}>
-                      Outsource{" "}
-                    </a>
-                  </li>
-                  <li className="title title--s services_section_link">
-                    <a href="#slide-2" data-id={2}>
-                      Dedicated team
-                    </a>
-                  </li>
-                  <li className="title title--s services_section_link">
-                    <a href="#slide-3" data-id={3}>
-                      Team extention
-                    </a>
-                  </li>
-                </ul>
-                <div className="btn-wrap mt-auto pt-32 pc-visible isview slidetop">
-                  <a
-                    className="btn btn--orange arr hover--white"
-                    href="../services/index.html"
-                    target="_self"
-                  >
-                    <span>
-                      <b>Explore All</b>
-                    </span>
-                  </a>{" "}
-                </div>
-              </div>
-              <div className="right color--white gap-100 flex fd--column gap-80-mob mt-40-mob pt-8-mob isview fadein">
-                <div className="scroll_slide row-1" id="slide-1">
-                  <div className="title main_title title--l pl-32 pr-32 pl-12-mob pr-12-mob isview textslide">
-                    Your trusted partner for reliable, scalable, and standards-compliant electrical engineering solutions.
-                  </div>
-                  <div className="pl-32 pr-32 pl-12-mob pr-12-mob">
-                    <div className="txt txt--m mt-24 color--white-secondary mw706">
-                      We work as your long-term electrical engineering and installation partner — managing every stage from system design and procurement to implementation, testing, and maintenance. This isn’t just a one-time project — it’s a partnership built for reliability, safety, and long-term operational success.{" "}
-                    </div>
-                  </div>
-                  <div className="colums_wrap mt-32 ov-hidden">
-                    <div className="grid col-2 col-1-mob services_row  clipped">
-                      <div className="vertical_line dark grid col-2 col-1-mob span-2 span-1-mob clipped isview full fadein">
-                        <span />
-                        <span />
-                      </div>
-                      <div className="col flex p-32 fd--column v--start minh-auto pr-100 pr-50-tablet pr-0-mob">
-                        <div className="title title--s isview slidetop">
-                          Best for
-                        </div>
-                        <div className="styled_ul_wrap mt-8 isview font1 slidetop color--white-light">
-                          <ul>
-                            <li>
-                              Founders who want a senior team thinking beyond
-                              sprints
-                            </li>
-                            <li>
-                              Startups scaling beyond MVP and needing deep
-                              product ownership
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="vertical_line dark grid col-2 col-1-mob span-2 span-1-mob clipped isview full fadein mob-visible">
-                        <span />
-                        <span />
-                      </div>
-                      <div className="col flex p-32 fd--column v--start minh-auto pr-100 pr-50-tablet pr-0-mob">
-                        <div className="title title--s isview slidetop">
-                          What you get
-                        </div>
-                        <div className="styled_ul_wrap mt-8 isview font1 slidetop color--white-light">
-                          <ul>
-                            <li>
-                              Expert team aligned with your roadmap, KPIs, and
-                              business goals
-                            </li>
-                            <li>Strategic discovery</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pl-32 pr-32 pl-12-mob pr-12-mob btn-wrap pt-32 isview slidetop">
-                    <a
-                      className="btn btn--simple arr"
-                      href="../services/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Hire Your Full-Cycle Team</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-                <div className="scroll_slide row-2" id="slide-2">
-                  <div className="title main_title title--l pl-32 pr-32 pl-12-mob pr-12-mob isview textslide">
-                    Hire a dedicated team
-                  </div>
-                  <div className="pl-32 pr-32 pl-12-mob pr-12-mob">
-                    <div className="txt txt--m mt-24 color--white-secondary mw706">
-                      We deliver your electrical project from concept to completion — efficiently and safely. You receive a fully designed, installed, and tested system supported by a clear project plan, defined scope, and transparent delivery schedule.{" "}
-                    </div>
-                  </div>
-                  <div className="colums_wrap mt-32 ov-hidden">
-                    <div className="grid col-2 col-1-mob services_row  clipped">
-                      <div className="vertical_line dark grid col-2 col-1-mob span-2 span-1-mob clipped isview full fadein">
-                        <span />
-                        <span />
-                      </div>
-                      <div className="col flex p-32 fd--column v--start minh-auto pr-100 pr-50-tablet pr-0-mob">
-                        <div className="title title--s isview slidetop">
-                          Best for
-                        </div>
-                        <div className="styled_ul_wrap mt-8 isview font1 slidetop color--white-light">
-                          <ul>
-                            <li>
-                              MVPs or feature builds with a defined goal and
-                              launch window
-                            </li>
-                            <li>
-                              Pre-seed and seed startups that need to ship
-                              without building an in-house team
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="vertical_line dark grid col-2 col-1-mob span-2 span-1-mob clipped isview full fadein mob-visible">
-                        <span />
-                        <span />
-                      </div>
-                      <div className="col flex p-32 fd--column v--start minh-auto pr-100 pr-50-tablet pr-0-mob">
-                        <div className="title title--s isview slidetop">
-                          What you get
-                        </div>
-                        <div className="styled_ul_wrap mt-8 isview font1 slidetop color--white-light">
-                          <ul>
-                            <li>
-                              UI/UX, development, QA, and PM in one dedicated
-                              team
-                            </li>
-                            <li>
-                              Clear scope, fixed timeline, efficient delivery
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pl-32 pr-32 pl-12-mob pr-12-mob btn-wrap pt-32 isview slidetop">
-                    <a
-                      className="btn btn--simple arr"
-                      href="../service/dedicated-software-development-team/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Get Your Dedicated Team</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-                <div className="scroll_slide row-3" id="slide-3">
-                  <div className="title main_title title--l pl-32 pr-32 pl-12-mob pr-12-mob isview textslide">
-                    Augment your existing team
-                  </div>
-                  <div className="pl-32 pr-32 pl-12-mob pr-12-mob">
-                    <div className="txt txt--m mt-24 color--white-secondary mw706">
-                      We provide developers, designers, and QA engineers to
-                      integrate with your team, helping you scale fast while
-                      keeping full control over execution.{" "}
-                    </div>
-                  </div>
-                  <div className="colums_wrap mt-32 ov-hidden">
-                    <div className="grid col-2 col-1-mob services_row  clipped">
-                      <div className="vertical_line dark grid col-2 col-1-mob span-2 span-1-mob clipped isview full fadein">
-                        <span />
-                        <span />
-                      </div>
-                      <div className="col flex p-32 fd--column v--start minh-auto pr-100 pr-50-tablet pr-0-mob">
-                        <div className="title title--s isview slidetop">
-                          Best for
-                        </div>
-                        <div className="styled_ul_wrap mt-8 isview font1 slidetop color--white-light">
-                          <ul>
-                            <li>
-                              Startups needing specialized expertise without
-                              long-term hiring
-                            </li>
-                            <li>
-                              Seed &amp; Series A+ startups looking to
-                              accelerate development
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="vertical_line dark grid col-2 col-1-mob span-2 span-1-mob clipped isview full fadein mob-visible">
-                        <span />
-                        <span />
-                      </div>
-                      <div className="col flex p-32 fd--column v--start minh-auto pr-100 pr-50-tablet pr-0-mob">
-                        <div className="title title--s isview slidetop">
-                          What you get
-                        </div>
-                        <div className="styled_ul_wrap mt-8 isview font1 slidetop color--white-light">
-                          <ul>
-                            <li>
-                              Embedded designers, developers, or product
-                              managers to fill skill gaps
-                            </li>
-                            <li>
-                              Faster product delivery without the hiring delays
-                              &amp; overhead costs
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pl-32 pr-32 pl-12-mob pr-12-mob btn-wrap pt-32 isview slidetop">
-                    <a
-                      className="btn btn--simple arr"
-                      href="../service/team-extension/index.html"
-                      target="_self"
-                    >
-                      <span>
-                        <b>Hire Your Full-Cycle Team</b>
-                      </span>
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mob-visible mt-40 pt-8">
-            <a
-              className="btn btn--orange arr fullw"
-              href="../services/index.html"
-              target="_self"
-            >
-              <span>
-                <b>Explore All</b>
-              </span>
-            </a>{" "}
-          </div>
-        </div>
-      </section>
+      <Explain />
       <section className="services_section bg--white pt-200 pt-100-mob pb-200 pb-100-mob">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h2>WHY CHOOSE PHENOMENON STUDIO FOR YOUR WEB APP DESIGN</h2>
+            <h2>WHY CHOOSE Us</h2>
           </div>{" "}
           <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02 inner-inherit">
             Your success is <span>our priority</span>
@@ -2039,7 +1774,7 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                 Engineering that’s installation-ready{" "}
               </div>
               <div className="txt txt--lead mt-12 mb-auto color--dark">
-                We design for implementation, not just documentation.{" "}
+                We install solutions built for efficiency, not just design..{" "}
               </div>
               <div className="txt txt--m mt-80 mt-32-mob color--dark-light pb-8 pb-0-mob">
                 <p>
@@ -2080,172 +1815,7 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
           </div>
         </div>
       </section>
-      <section className="awards_section pb-200 pb-100-mob bg--white">
-        <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
-            <h3>Awards & Winning</h3>{" "}
-          </div>
-          <div className="title title--xl mt-24 mt-16-mob color--dark mw1040 isview textslide trd02">
-            Wins that inspire us <span>forward</span>
-          </div>
-        </div>
-        <div className="mt-40 mt-32-mob awards_container ov-hidden">
-          <div className="grid awards_wrap col-3 col-2-tablet isview slidetop">
-            <div className="col flex fd--column v--start col-1">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/clutch.svg"
-                  alt="Icon - clutch"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Professional & Credibility-Focused</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://clutch.co/profile/phenomenon-studio"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Clutch</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-2">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/upwork.svg"
-                  alt="Icon - upwork"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Short & Impactful</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://www.upwork.com/agencies/1141628280721588224/"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Upwork</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-3">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/webflow.svg"
-                  alt="Icon - webflow"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Industry-Award Tone</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://webflow.com/@phenomenons-workspace"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Webflow</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-1">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/design.svg"
-                  alt="Icon - design"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>
-                  Technical Authority Version <br />
-                 
-                </p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://ux-design-awards.com/winners/2024-2-isora-grc-collaborative-grc-platform"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On UXDA</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-2">
-              <div className="img-wrap">
-                <img
-                  className=""
-                  src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/02/Awwwards.svg"
-                  alt="Icon - Awwwards"
-                  loading="lazy"
-                  decoding="async"
-                  style={{}}
-                />{" "}
-              </div>
-              <div className="txt txt--s mt-24 mt-8-mob color--dark-light">
-                <p>Site of the Day &amp; honorable mentions</p>
-              </div>
-              <div className="btn-wrap mt-auto pt-24">
-                <a
-                  className="btn btn--simple dark arr arr-45"
-                  href="https://www.awwwards.com/Phenomenon/"
-                  target="_blank"
-                >
-                  <span>
-                    <b>View On Awwwards</b>
-                  </span>
-                </a>{" "}
-              </div>
-            </div>
-            <div className="col flex fd--column v--start col-3">
-              <div className="inner color--dark radius-12 bg--gray bg--orange-mob flex fd--column v--start clipped-right-mob">
-                <div className="title title--l">
-                  32+ <br />
-                  others
-                </div>
-                <div className="btn-wrap mt-auto pt-24">
-                  <a
-                    href="../about-our-company/index.html"
-                    target="_self"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>
-                      <b>Explore all awards</b>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Award />
       <section className="pb-200 pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
@@ -2269,14 +1839,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     engagement and conversions.
                   </p>
                 </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="../service/website-design-services/index.html"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
-                </div>
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2 isview slidetop">
                 <div className="title title--s color--dark">
@@ -2288,14 +1850,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     
                   </p>
                 </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="../service/mobile-app-design/index.html"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
-                </div>
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3 isview slidetop">
                 <div className="title title--s color--dark">Procurement & Supply</div>
@@ -2304,14 +1858,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     Reliable sourcing of certified electrical materials and equipment, managed through trusted suppliers to ensure cost-effectiveness and timely delivery. — visually, emotionally, and
                     strategically.
                   </p>
-                </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="../service/Procurement & Supply-and-identity-services/index.html"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
                 </div>
               </div>
             </div>

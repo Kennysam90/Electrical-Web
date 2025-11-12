@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Topnav from '../../Component/Topnav'
 import Footer from '../../Component/Footer'
 import Chat from '../../Component/Chat'
 import Comment from '../../Component/Comment'
+import Topnav2 from '../../Component/Topnav2'
 
 const Contact = () => {
    const [activeTab, setActiveTab] = useState("");
@@ -27,7 +27,7 @@ const Contact = () => {
     src="https://px.ads.linkedin.com/collect/?pid=3376562&amp;amp;fmt=gif" /&gt;{" "}
   </noscript>
   <div id="app">
-    <Topnav />
+    <Topnav2 />
     <div className="favicons-wrap" style={{ display: "none" }}>
       <img src="../wp-content/uploads/2025/10/logo_00000.png" alt="" />
       <img src="../wp-content/uploads/2025/10/logo_00001.png" alt="" />
@@ -75,7 +75,7 @@ const Contact = () => {
                 <div className="txt txt--l color--dark">
                   DAMPECON Ltd.
                   <br />
-                  Registration ID (KRS): 1083532
+                  Tele 07048898091
                   <br />
                   82, Olatunji Street, Ojota, Lagos
                 </div>
@@ -101,60 +101,9 @@ const Contact = () => {
                 <div className="txt txt--l color--dark">
                   DAMPECON Ltd.
                   <br />
-                  Registration ID: 14811067
+                  Telephone: 08033561299
                   <br />
                   Hilltop House, Boing Luxury Estate, Apo, Abuja
-                </div>
-              </div>
-            </div>
-            <div className="row flex v--start h--between isview slidetop h--wrap">
-              <div className="left">
-                <img
-                  className=""
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/sz.png"
-                  alt="Image - sz"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.45" }}
-                />{" "}
-              </div>
-              <div className="center">
-                <div className="txt txt--caption-m color--dark-light uppercase fw-600">
-                  Switzerland, Lugano
-                </div>
-              </div>
-              <div className="right">
-                <div className="txt txt--l color--dark">
-                  Phenomenon Studio Sagl
-                  <br />
-                  Registration ID: CH-501.4.028.340-3
-                  <br />
-                  Via Giacomo Brentani, 16, 6900
-                </div>
-              </div>
-            </div>
-            <div className="row flex v--start h--between isview slidetop h--wrap">
-              <div className="left">
-                <img
-                  className=""
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/02/canada.png"
-                  alt="Image - canada"
-                  loading="lazy"
-                  decoding="async"
-                  style={{ aspectRatio: "1.475" }}
-                />{" "}
-              </div>
-              <div className="center">
-                <div className="txt txt--caption-m color--dark-light uppercase fw-600">
-                  Canada, Vancouver
-                </div>
-              </div>
-              <div className="right">
-                <div className="txt txt--l color--dark">
-                  2015 Main <br />
-                  St. Vancouver, BC
-                  <br />
-                  Canada V5T 3C2
                 </div>
               </div>
             </div>

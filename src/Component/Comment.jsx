@@ -4,7 +4,7 @@ import Chat from './Chat'
 const Comment = () => {
   return (
     <>
-        <section className="testimonials_section pb-200 pb-100-mob bg--white">
+        <section className="testimonials_section pb-200 pb-100-mob bg--white" style={{marginBottom:"-4em"}}>
           <div className="container">
             <div className="flex v--end h--between heading_wrap flex--block-mob">
               <div className="left">
