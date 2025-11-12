@@ -27,40 +27,6 @@ const Cases = () => {
 
   return (
     <>
-     
-    <div className="invisible" id="progress-bar-wrapper">
-      <div id="progress-bar" />
-    </div>
-    <script
-      dangerouslySetInnerHTML={{
-        __html:
-          "    let minDurationPassed = false;    let pageLoaded = false;            let preloadingTime = 300        function getRandomInt(max) {        return Math.floor(Math.random() * max);    }    var phrases = [        \"Installing one more great idea\",        \"Negotiating with a stubborn font\",        \"Googling best practices\",        \"Outsourcing sleep\",        \"Putting the ‘you’ in ‘user flow’\",        \"Debugging human behavior\",        \"Kerning the universe\",        \"Looking for that one missing pixel\",        \"Making your product 17% cooler\",        \"Translating coffee into Figma magic\",        \"Compressing%20creativity%20into%20.html\"    ];    function setRandomText(){        document.getElementById('random_text').innerHTML = phrases[getRandomInt(phrases.length)]+'<span class=\"dots\"><span>.</span><span>.</span><span>.</span></span>'    }    let invisible_container = document.querySelectorAll('.invisible_container')    setTimeout(function(){        for (var i = 0; i < invisible_container.length; i++) {            invisible_container[i].classList.remove('invisible_container')        }    },10)    function startPreloading(){        minDurationPassed = false;        pageLoaded = false;            }    function restartReloading(){        document.getElementById('progress-bar-wrapper').classList.remove('invisible')    }    startPreloading();    function stopPreloading(){        document.body.classList.add('loaded')        removeAnimatedClass()        document.getElementById('progress-bar-wrapper').classList.add('invisible')        for (var i = 0; i < invisible_container.length; i++) {            invisible_container[i].classList.add('invisible_container')        }        setTimeout(function(){                            document.querySelectorAll('.textslide').forEach(el => {                    if (                        el.classList.contains('title') &&                        el.querySelectorAll('h1, h2, h3').length > 0                    ) {                        el.classList.remove('textslide', 'visible');                        el.classList.add('slidetop');                    }                });                isView()                console.log('stopPreloading')                        document.documentElement.classList.remove('hidd');            setTimeout(function(){                            })                        setTimeout(function(){                // isView()                            },300)        },100)                    createHeadingsAnimationTags()            }    function checkIsLoaded(){        setTimeout(() => {        minDurationPassed = true;            if (pageLoaded) stopPreloading();        }, preloadingTime);                // window.addEventListener('load', () => {                pageLoaded = true;            if (minDurationPassed) stopPreloading();                // });            }    checkIsLoaded()",
-      }}
-    />
-    <noscript>
-      <iframe
-        height="0"
-        rel="preconnect"
-        src="/www.googletagmanager.com/ns.html?id=GTM-NG5S546"
-        style={{
-          display: "none",
-          visibility: "hidden",
-        }}
-        width="0"
-      />
-    </noscript>
-    <noscript>
-      {" "}
-      <img
-        alt=""
-        height="1"
-        src="/px.ads.linkedin.com/collect/?pid=3376562&fmt=gif"
-        style={{
-          display: "none",
-        }}
-        width="1"
-      />{" "}
-    </noscript>
     <div id="app">
       <Topnav2 />
       <div

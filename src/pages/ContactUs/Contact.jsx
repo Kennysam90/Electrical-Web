@@ -13,19 +13,6 @@ const Contact = () => {
       };
   return (
     <>
-  <div id="progress-bar-wrapper" className="invisible">
-    <div id="progress-bar" />
-  </div>
-  <noscript>
-    &lt;iframe rel="preconnect"
-    src="https://www.googletagmanager.com/ns.html?id=GTM-NG5S546" height="0"
-    width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
-  </noscript>
-  <noscript>
-    {" "}
-    &lt;img height="1" width="1" style="display:none;" alt=""
-    src="https://px.ads.linkedin.com/collect/?pid=3376562&amp;amp;fmt=gif" /&gt;{" "}
-  </noscript>
   <div id="app">
     <Topnav2 />
     <div className="favicons-wrap" style={{ display: "none" }}>

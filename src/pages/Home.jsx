@@ -16,33 +16,6 @@ const Home = () => {
     };
   return (
     <>
-      <div className="invisible" id="progress-bar-wrapper">
-      <div id="progress-bar" />
-    </div>
-    <noscript>
-      <iframe
-        height="0"
-        rel="preconnect"
-        src="/www.googletagmanager.com/ns.html?id=GTM-NG5S546"
-        style={{
-          display: "none",
-          visibility: "hidden",
-        }}
-        width="0"
-      />
-    </noscript>
-    <noscript>
-      {" "}
-      <img
-        alt=""
-        height="1"
-        src="/px.ads.linkedin.com/collect/?pid=3376562&fmt=gif"
-        style={{
-          display: "none",
-        }}
-        width="1"
-      />{" "}
-    </noscript>
     <div id="app">
       <Topnav />
       <div
