@@ -202,8 +202,7 @@ const Mobiledev = () => {
           </div>{" "}
           <div className="mt-24 mt-16-mob mw1040 title title--xl nobr-mob isview textslide trd02">
             <h2>
-              You’re here because you need a{" "}
-              <span>reliable mobile app solution,</span> right?
+              You’re here because you need a{" "}<span>reliable electrical installation and procurement partner,</span> right?
             </h2>
           </div>{" "}
         </div>
@@ -215,17 +214,14 @@ const Mobiledev = () => {
                   <div className="left pr-24 pr-0-mob">
                     <div className="txt txt--l">
                       <p>
-                        Struggling to find the best mobile app development
-                        company?
+                       Struggling to find a trusted electrical engineering company?
                       </p>
                     </div>
                   </div>
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead inner-inherit">
                       <div>
-                        Our mobile app development company provides expert
-                        services to bring your app idea to life, ensuring robust
-                        performance and user engagement.
+                       Our electrical engineering company delivers expert installation and procurement services, ensuring reliable performance, safety, and long-lasting results for every project.
                       </div>
                     </div>
                   </div>
@@ -239,15 +235,13 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left pr-24 pr-0-mob">
                     <div className="txt txt--l">
-                      <p>Uncertain about mobile app development costs?</p>
+                      <p>Uncertain about electrical installation or project costs?</p>
                     </div>
                   </div>
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead inner-inherit">
                       <div>
-                        We provide clear estimates and transparent pricing,
-                        helping you navigate mobile app development costs while
-                        maximizing value.
+                       We provide transparent cost estimates and clear pricing for all electrical engineering, procurement, and installation projects — ensuring every solution delivers maximum efficiency and long-term value.
                       </div>
                     </div>
                   </div>
@@ -261,15 +255,13 @@ const Mobiledev = () => {
                 <div className="flex v--stretch h--between vertical_scroll_slider">
                   <div className="left pr-24 pr-0-mob">
                     <div className="txt txt--l">
-                      <p>Looking for cross-platform efficiency?</p>
+                      <p>Looking for reliable electrical engineering and installation efficiency?</p>
                     </div>
                   </div>
                   <div className="center flex fd--column v--start">
                     <div className="txt txt--lead inner-inherit">
                       <div>
-                        Our cross-platform mobile app development services help
-                        you reach iOS and Android users seamlessly, reducing
-                        development time and costs.
+                        Our electrical engineering, procurement, and installation services deliver reliable power solutions across industries — saving time, reducing costs, and ensuring long-term performance.
                       </div>
                     </div>
                   </div>
