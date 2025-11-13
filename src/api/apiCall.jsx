@@ -2,13 +2,13 @@ import axios from 'axios';
 
 
 // Base URL for your API
-const base = 'http://162.0.228.253:5000/api';
-
+//const base = 'http://162.0.228.253:5000/api';
+const base = 'https://api.dampecon.com/api'
 
 // Axios instance with token interceptor
 const axiosInstance = axios.create({
   baseURL: base,
-  withCredentials: true,
+  withCredentials: false,
 });
 
 

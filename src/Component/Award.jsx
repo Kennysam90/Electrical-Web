@@ -3,7 +3,7 @@ import React from 'react'
 const Award = () => {
   return (
     <>
-      <section className="awards_section pb-200 pb-100-mob bg--white">
+      {/* <section className="awards_section pb-200 pb-100-mob bg--white">
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
             Awards{" "}
@@ -168,7 +168,7 @@ const Award = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

@@ -27,17 +27,17 @@ const Mobileapp = () => {
     <main className="next_block_sticky seo-page-wrap">
       <section className="hero bg--dark clipped-bottom next_block_sticky">
         <div className="container color--white">
-          <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop">
+          <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop visible">
             <h1>Electrical Installation & Commissioning</h1>
           </div>{" "}
-          <div className="nobr-mob title title--xl mw1040 isview textslide trd02">
+          <div className="nobr-mob title title--xl mw1040 isview textslide trd02 visible">
             Not every team can{" "}
             <h2>
               Install<span>and Deliver</span>
             </h2>{" "}
             <span>DAMPECON Ltd.</span>
           </div>{" "}
-          <div className="txt txt--l mt-48 mw706 isview slidetop trd02 color--white-secondary inner-inherit">
+          <div className="txt txt--l mt-48 mw706 isview slidetop trd02 color--white-secondary inner-inherit visible">
             <div>
               Our <h1>Electrical Installation & Commissioning</h1> services have delivered 3x longer
               sessions, 70% user retention, and 40% faster MVP launches. If
@@ -45,7 +45,7 @@ const Mobileapp = () => {
               makes it happen.
             </div>
           </div>{" "}
-          <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04">
+          <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04 visible">
             <a
               className="btn btn--orange hover--white btn--lg-desk arr arr-right"
               href="#contact-form"
@@ -66,7 +66,7 @@ const Mobileapp = () => {
             </a>{" "}
           </div>
           <div className="mt-60 mt-24-mob grid col-2 col-1-mob column-gap-32 row-gap-40 row-gap-24-mob">
-            <div className="col sticky isview slidetop">
+            <div className="col sticky isview slidetop visible">
               <div className="media_wrap">
                  <video
                   autoPlay
@@ -86,17 +86,17 @@ const Mobileapp = () => {
             </div>
             <div className="col pt-32 pt-0-mob pb-32 pb-0-mob flex fd--column">
               <div
-                className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit"
+                className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit visible"
                 style={{ width: "100%" }}
               >
                 <div>
                   Your next growth stage starts with the right electrical engineering partner — from project launch to full-scale operations.
                 </div>
               </div>
-              <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
+              <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop visible">
                 <p>Delivering trusted electrical solutions for organizations</p>
               </div>
-              <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
+              <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop visible">
                   <div className="logo flex v--center h--center">
                     <img
                       alt="Icon - l_1"
@@ -1886,14 +1886,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     
                   </p>
                 </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="../service/website-design-services/index.html"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
-                </div>
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2 isview slidetop">
                 <div className="title title--s color--dark">
@@ -1904,14 +1896,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     End-to-end installation and commissioning of electrical infrastructure — including testing, calibration, and verification of all systems for safe, reliable operation and compliance with international standards.
                   </p>
                 </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="../service/mobile-app-development-services/index.html"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
-                </div>
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3 isview slidetop">
                 <div className="title title--s color--dark">Procurement & Supply</div>
@@ -1920,14 +1904,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     Reliable sourcing of certified electrical materials and equipment, managed through trusted suppliers to ensure cost-effectiveness and timely delivery. — visually, emotionally, and
                     strategically.
                   </p>
-                </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="../service/Procurement & Supply-and-identity-services/index.html"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
                 </div>
               </div>
             </div>

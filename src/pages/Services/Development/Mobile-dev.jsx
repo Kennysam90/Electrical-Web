@@ -57,15 +57,15 @@ const Mobiledev = () => {
     <main className="next_block_sticky">
       <section className="hero bg--dark clipped-bottom next_block_sticky">
         <div className="container color--white">
-          <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop">
-            <h1>Mobile App Development Services</h1>
+          <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop visible">
+            <h1>Our Core Services</h1>
           </div>{" "}
-          <div className="nobr-mob title title--xl mw1040 isview textslide trd02">
+          <div className="nobr-mob title title--xl mw1040 isview textslide trd02 visible">
             <h2>
-              Launch a high-impact mobile app <span>with confidence</span>{" "}
+              Electrical engineering, procurement, and installation <span>solutions </span>{" "}
             </h2>
           </div>{" "}
-          <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04">
+          <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04 visible">
             <a
               className="btn btn--orange hover--white btn--lg-desk arr arr-right"
               href="#contact-form"
@@ -86,7 +86,7 @@ const Mobiledev = () => {
             </a>{" "}
           </div>
           <div className="mt-60 mt-24-mob grid col-2 col-1-mob column-gap-32 row-gap-40 row-gap-24-mob">
-            <div className="col sticky isview slidetop">
+            <div className="col sticky isview slidetop visible">
               <div className="media_wrap">
                  <video
                   autoPlay
@@ -106,20 +106,17 @@ const Mobiledev = () => {
             </div>
             <div className="col pt-32 pt-0-mob pb-32 pb-0-mob flex fd--column">
               <div
-                className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit"
+                className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit visible"
                 style={{ width: "100%" }}
               >
                 <div>
-                  Whether you're launching a new app or improving an existing
-                  one, our mobile app development services ensure high
-                  performance, seamless user experience, and scalable solutions
-                  tailored to your needs.
+                  At DAMPECON LTD., we design and maintain world-class electrical systems for businesses ensuring safety operations.
                 </div>
               </div>
-              <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
+              <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop visible">
                 <p>Delivering trusted electrical solutions for organizations</p>
               </div>
-              <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
+              <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop visible">
                   <div className="logo flex v--center h--center">
                     <img
                       alt="Icon - l_1"
@@ -284,7 +281,7 @@ const Mobiledev = () => {
         </div>
       </section>
       <Benefits />
-      <section className="problems_we_solve pt-200 pb-200 pt-100-mob pb-100-mob bg--white">
+      <section className="problems_we_solve pt-200  pt-100-mob pb-100-mob bg--white" style={{marginBottom:"-4em"}}>
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
             Process
@@ -525,9 +522,6 @@ const Mobiledev = () => {
                     <div className="txt txt--l mb-24">
                       <p>Maintenance</p>
                     </div>
-                    <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
-                      08{" "}
-                    </div>
                     {/* <div class="icon icon--xl mt-auto">
                                                       </div> */}
                   </div>
@@ -715,14 +709,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     
                   </p>
                 </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="https://phenomenonstudio.com/service/mobile-app-design/"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
-                </div>
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-2 isview slidetop">
                 <div className="title title--s color--dark">
@@ -733,14 +719,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     Upgrade legacy interfaces with scalable, business-driven UX
                     and Ul from a top-notch design agency.
                   </p>
-                </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="https://phenomenonstudio.com/service/product-redesign/"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
                 </div>
               </div>
               <div className="col flex p-32 p-20-mob pt-28-mob pb-28-mob fd--column v--start col-3 isview slidetop">
@@ -753,14 +731,6 @@ Would you like me to now help you rewrite the next paragraph or tagline that app
                     Launch a fast, scalable site that converts and supports
                     product growth.
                   </p>
-                </div>
-                <div className="btn-wrap mt-auto pt-48">
-                  <a
-                    href="https://phenomenonstudio.com/service/website-development-agency/"
-                    className="btn btn--simple dark arr"
-                  >
-                    <span>Explore</span>
-                  </a>
                 </div>
               </div>
             </div>

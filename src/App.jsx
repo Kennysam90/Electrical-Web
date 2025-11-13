@@ -19,6 +19,7 @@ import Project from './Component/project';
 import Award from './Component/Award';
 import Explain from './Component/How-it-works';
 import Benefits from './Component/Benefits';
+import Career from './Career';
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
         <Route path='/award' element={<Award />} />
         <Route path='/explain' element={<Explain />} />
         <Route path='/benefits' element={<Benefits />} />
+        <Route path='/career' element={<Career />} />
       </Routes>
      </Router>
      </QueryClientProvider>

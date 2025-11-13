@@ -6,10 +6,10 @@ const Project = () => {
     <>
         <section className="cases_section pt-200 pt-100-mob pb-200 pb-100-mob bg--white">
           <div className="container">
-            <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
+            <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop visible">
               Featured cases
             </div>
-            <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit">
+            <div className="mt-24 mt-16-mob mw1040 title title--xl isview textslide trd02 inner-inherit visible">
               Explore how DAMPECON LTD. electrical solutions <span>delivers lasting impact.</span>
             </div>
             <div className="cases_wrap grid gap-60 gap-48-mob mt-100 mt-48-mob scrollable">
@@ -21,11 +21,11 @@ const Project = () => {
                     <picture>
                       <source
                         media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Media-9-3-1.png"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Asset.webp"
                       />
                       <source
                         media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Media-9-3-1.png"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Asset.webp"
                       />
                       <img
                         alt="Shaga Odyssey – an award-<wbr>winning web3 gamepad platform - image cover"
@@ -33,7 +33,7 @@ const Project = () => {
                         decoding="async"
                         loading="lazy"
                         media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Media-9-3-1.png"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Asset.webp"
                       />
                     </picture>
                   </a>
@@ -114,11 +114,11 @@ const Project = () => {
                     <picture>
                       <source
                         media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2.png"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/mv2.avif"
                       />
                       <source
                         media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2.png"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/mv2.avif"
                       />
                       <img
                         alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
@@ -126,7 +126,7 @@ const Project = () => {
                         decoding="async"
                         loading="lazy"
                         media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/01/Picture-2-2.png"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/mv2.avif"
                       />
                     </picture>
                   </a>
@@ -151,7 +151,7 @@ const Project = () => {
                         src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
                         style={{}}
                       />
-                      New Zealand
+                      Abuja 
                     </span>
                   </div>
                   <div className="grid col-2 col-1-mob gap-0 gap-48-mob mt-64 mt-48-mob card_details">
@@ -230,11 +230,11 @@ const Project = () => {
                     <picture>
                       <source
                         media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Inverter.jpg"
                       />
                       <source
                         media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Inverter.jpg"
                       />
                       <img
                         alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
@@ -242,7 +242,7 @@ const Project = () => {
                         decoding="async"
                         loading="lazy"
                         media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/upscaled_clean_image.jpeg"
+                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Inverter.jpg"
                       />
                     </picture>
                   </a>

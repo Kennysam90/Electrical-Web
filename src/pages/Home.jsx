@@ -37,16 +37,16 @@ const Home = () => {
       <main className="next_block_sticky">
         <section className="hero bg--dark clipped-bottom next_block_sticky">
           <div className="container color--white">
-            <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop">
+            <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop visible">
               <h1>Our Core Services</h1>
             </div>
-            <div className="nobr-mob title title--xl mw1040 isview textslide trd02">
+            <div className="nobr-mob title title--xl mw1040 isview textslide trd02 visible">
               <h2>
                 Electrical engineering, procurement, {" "}
                 <span>and installation solutions</span>
               </h2>
             </div>
-            <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04">
+            <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04 visible">
               <a
                 className="btn btn--orange hover--white btn--lg-desk arr arr-right"
                 href="#contact-form"
@@ -65,7 +65,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="mt-60 mt-24-mob grid col-2 col-1-mob column-gap-32 row-gap-40 row-gap-24-mob">
-              <div className="col sticky isview slidetop">
+              <div className="col sticky isview slidetop visible">
                 <div className="media_wrap">
                  <video
                   autoPlay
@@ -85,7 +85,7 @@ const Home = () => {
               </div>
               <div className="col pt-32 pt-0-mob pb-32 pb-0-mob flex fd--column">
                 <div
-                  className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit"
+                  className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit visible"
                   style={{
                     width: "100%",
                   }}>
@@ -96,10 +96,10 @@ const Home = () => {
                     </h3>
                   </div>
                 </div>
-                <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
-                  <p>Designing products htmlFor startups backed by</p>
+                <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop visible">
+                   <p>Delivering trusted electrical solutions for organizations</p>
                 </div>
-                <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
+                <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop visible">
                   <div className="logo flex v--center h--center">
                     <img
                       alt="Icon - l_1"
@@ -144,7 +144,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col pc-visible" />
-              <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center">
+              <div className="col pt-32 pt-24-mob pb-32 pb-0-mob text--center visible">
                 <div className="txt txt--caption-m color--white-light text--left mb-24 uppercase fw-600 mt-auto pt-32 pt-0-mob mt-24-mob isview fadein inner-inherit">
                   <div>DAMPECON LTD IN NUMBERS</div>
                 </div>

@@ -57,10 +57,10 @@ const Webdev = () => {
     <main className="next_block_sticky">
       <section className="hero bg--dark clipped-bottom next_block_sticky">
         <div className="container color--white">
-          <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop">
+          <div className="txt txt--caption-m color--white-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop visible">
             <h1>ELECTRICAL ENGINEERING SERVICES</h1>
           </div>{" "}
-          <div className="nobr-mob title title--xl mw1040 isview textslide trd02">
+          <div className="nobr-mob title title--xl mw1040 isview textslide trd02 visible">
             <h2>
               Delivering high electrical solutions{" "}
               <span>
@@ -71,7 +71,7 @@ const Webdev = () => {
               
             </h2>
           </div>{" "}
-          <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04">
+          <div className="mt-24 flex v--centerh--start gap-8 fd--column-mob isview slidetop trd04 visible">
             <a
               className="btn btn--orange hover--white btn--lg-desk arr arr-right"
               href="#contact-form"
@@ -92,7 +92,7 @@ const Webdev = () => {
             </a>{" "}
           </div>
           <div className="mt-60 mt-24-mob grid col-2 col-1-mob column-gap-32 row-gap-40 row-gap-24-mob">
-            <div className="col sticky isview slidetop">
+            <div className="col sticky isview slidetop visible">
              <div className="media_wrap">
                  <video
                   autoPlay
@@ -112,17 +112,17 @@ const Webdev = () => {
             </div>
             <div className="col pt-32 pt-0-mob pb-32 pb-0-mob flex fd--column">
               <div
-                className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit"
+                className="txt--lead inner-inherit font1 isview slidetop fullw inner-inherit visible"
                 style={{ width: "100%" }}
               >
                 <div>
                   From industrial power systems to renewable energy installations, and reliable performance across every project.
                 </div>
               </div>
-              <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop">
+              <div className="txt txt--caption-m color--white-light uppercase fw-600 mt-auto pt-32 pt-0-mob mt-40-mob pt-8-mob isview slidetop visible">
                 <p>Delivering trusted electrical solutions for organizations</p>
               </div>
-              <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop">
+              <div className="mt-24 logos_wrap grid col-4 col-2-tablet isview slidetop visible">
                   <div className="logo flex v--center h--center">
                     <img
                       alt="Icon - l_1"
@@ -289,7 +289,7 @@ const Webdev = () => {
         </div>
       </section>
       <Benefits />
-      <section className="problems_we_solve pt-200 pb-200 pt-100-mob pb-100-mob bg--white">
+      <section className="problems_we_solve pt-200  pt-100-mob pb-100-mob bg--white" style={{marginBottom:"-8em"}}>
         <div className="container">
           <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
             Process
@@ -530,9 +530,6 @@ const Webdev = () => {
                     <div className="txt txt--l mb-24">
                       <p>Maintenance</p>
                     </div>
-                    <div className="num mt-auto h6 color--dark-tertiary mob-hidden">
-                      08{" "}
-                    </div>
                     {/* <div class="icon icon--xl mt-auto">
                                                       </div> */}
                   </div>
@@ -540,7 +537,6 @@ const Webdev = () => {
                     <div className="txt txt--lead">
                       <p>
                         After installation, we provide continuous maintenance and responsive technical support — ensuring every system operates efficiently and remains compliant with your operational needs.
-                        
                       </p>
                     </div>
                   </div>

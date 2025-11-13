@@ -13,7 +13,7 @@ const Topnav = () => {
             <nav>
               <ul className="flex v--center h--center gap-40 gap-16-tablet">
                 <li className="menu-item-has-children">
-                  <a className="" href="services/index.html" target="_self">
+                  <a className="" href="#" target="_self">
                     <span>
                       <b>Services</b>
                     </span>
@@ -77,7 +77,7 @@ const Topnav = () => {
                                         to="/web-development"
                                         target="_self">
                                         <span>
-                                          <b>Web development</b>
+                                          <b>Repairs/maintenance</b>
                                         </span>
                                       </Link>
                                     </li>
@@ -87,7 +87,7 @@ const Topnav = () => {
                                         to="/mobile-app-development"
                                         target="_self">
                                         <span>
-                                          <b>Mobile app development</b>
+                                          <b>Engineering Procurement</b>
                                         </span>
                                       </Link>
                                     </li>
@@ -192,7 +192,7 @@ const Topnav = () => {
                     </div>
                   </div>
                 </li>
-                <li className="">
+                {/* <li className="">
                   <a
                     className=""
                     href=""
@@ -201,7 +201,7 @@ const Topnav = () => {
                       <b>Career</b>
                     </span>
                   </a>
-                </li>
+                </li> */}
                 <li className="">
                   <Link className="" to="/contact" target="_self">
                     <span>
@@ -233,9 +233,9 @@ const Topnav = () => {
                 <div className="title title--s color--dark">
                   <a
                     className="color--inherit"
-                    href="services/index.html"
+                    href="#"
                     target="_self">
-                    Services <span className="color--dark-tertiary">25</span>
+                    Services <span className="color--dark-tertiary">4</span>
                   </a>
                 </div>
               </div>
@@ -280,7 +280,7 @@ const Topnav = () => {
                           to="/web-development"
                           target="_self">
                           <span>
-                            <b>Web development</b>
+                            <b>Repairs/maintenance</b>
                           </span>
                         </Link>
                       </li>
@@ -290,191 +290,9 @@ const Topnav = () => {
                           to="/mobile-app-development"
                           target="_self">
                           <span>
-                            <b>Mobile app development</b>
+                            <b>Engineering Procurement</b>
                           </span>
                         </Link>
-                      </li>
-                      <li></li>
-                    </ul>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                      Research
-                    </div>
-                    <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/ux-design-audit/index.html"
-                          target="_self">
-                          <span>
-                            <b>Electrical System Audit</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/product-discovery/index.html"
-                          target="_self">
-                          <span>
-                            <b>Product discovery</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/tech-workshop/index.html"
-                          target="_self">
-                          <span>
-                            <b>Technical workshop</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li></li>
-                    </ul>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                      Validate
-                    </div>
-                    <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/design-prototype/index.html"
-                          target="_self">
-                          <span>
-                            <b>Design prototype</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/product-discovery/index.html"
-                          target="_self">
-                          <span>
-                            <b>Product discovery</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/website-development-agency/index.html"
-                          target="_self">
-                          <span>
-                            <b>Website development </b>
-                          </span>
-                        </a>
-                      </li>
-                      <li></li>
-                    </ul>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                      Build
-                    </div>
-                    <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/Procurement & Supply-and-identity-agency/index.html"
-                          target="_self">
-                          <span>
-                            <b>Procurement & Supply </b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/tech-workshop/index.html"
-                          target="_self">
-                          <span>
-                            <b>Technical workshop</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/custom-mvp-software-development/index.html"
-                          target="_self">
-                          <span>
-                            <b>Custom MVP development</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/rapid-mvp-development/index.html"
-                          target="_self">
-                          <span>
-                            <b>Rapid MVP development</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/dedicated-software-developmen-team/index.html"
-                          target="_self">
-                          <span>
-                            <b>Dedicated team</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li></li>
-                    </ul>
-                  </div>
-                  <div className="col">
-                    <div className="txt txt--control-m color--dark-light fw-600 uppercase">
-                      Scale
-                    </div>
-                    <ul className="grid gap-24 gap-20-tablet mt-24-tablet pl-16-tablet">
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/ux-design-audit/index.html"
-                          target="_self">
-                          <span>
-                            <b>Electrical System Audit</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/product-redesign/index.html"
-                          target="_self">
-                          <span>
-                            <b>Product redesign</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/team-extension/index.html"
-                          target="_self">
-                          <span>
-                            <b>Team extension</b>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="btn btn--simple arr dark"
-                          href="service/website-redesign-services/index.html"
-                          target="_self">
-                          <span>
-                            <b>Website redesign</b>
-                          </span>
-                        </a>
                       </li>
                       <li></li>
                     </ul>
@@ -523,7 +341,7 @@ const Topnav = () => {
                       <li>
                         <Link
                           className="btn btn--simple arr dark"
-                          to="teams"
+                          to="/teams"
                           target="_self">
                           <span>
                             <b>Team and Advisors</b>
@@ -537,20 +355,20 @@ const Topnav = () => {
               </div>
             </div>
           </div>
-          <div className="accordion">
+          {/* <div className="accordion">
             <div className="container">
               <div className="top">
                 <div className="title title--s color--dark">
-                  <a
+                  <Link
                     className="color--inherit"
-                    href=""
+                    to=""
                     target="_blank">
                     Career
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="accordion">
             <div className="container">
               <div className="top">
@@ -576,7 +394,7 @@ const Topnav = () => {
                 <b>Get in touch</b>
               </span>
             </Link>
-            <div className="grid col-2 gap-8 mt-8 socs">
+            {/* <div className="grid col-2 gap-8 mt-8 socs">
               <a href="/wa.me/48574758959" target="_blank">
                 <img
                   alt=""
@@ -593,7 +411,7 @@ const Topnav = () => {
                   src="/cdn.phenomenonstudio.com/wp-content/themes/phnmn/assets/images/icons/telegram.svg"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

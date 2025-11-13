@@ -34,15 +34,15 @@ const Explain = () => {
                   </li>
                 </ul>
                 <div className="btn-wrap mt-auto pt-32 pc-visible isview slidetop">
-                  <a
+                  <Link
                     className="btn btn--orange arr hover--white"
-                    href="../services/index.html"
+                    to="/contact"
                     target="_self"
                   >
                     <span>
                       <b>Explore All</b>
                     </span>
-                  </a>{" "}
+                  </Link>{" "}
                 </div>
               </div>
               <div className="right color--white gap-100 flex fd--column gap-80-mob mt-40-mob pt-8-mob isview fadein">

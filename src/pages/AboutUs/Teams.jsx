@@ -56,16 +56,16 @@ const Teams = () => {
       <section className="about-hero bg--dark color--white section-bottom-rounded-pc">
         <div className="container">
           <div className="about-hero__holder">
-            <div className="nobr-mob title title--xxl isview textslide">
+            <div className="nobr-mob title title--xxl isview textslide visible">
              Dampecon Engineering Team
                <span>s</span>{" "}
             </div>
-            <div className="about-hero__description txt txt--m mt-24 mt-20-mob isview slidetop">
+            <div className="about-hero__description txt txt--m mt-24 mt-20-mob isview slidetop visible">
               <p>
                 Meet our team of experienced engineers and project specialists dedicated to delivering reliable electrical and engineering solutions with precision and quality.
               </p>
             </div>
-            <div className="mt-32 mt-24-mob isview slidetop">
+            <div className="mt-32 mt-24-mob isview slidetop visible">
               <a
                 className="btn btn--lg-desk btn--orange arr arr-right hover--white"
                 href="#contact-form"
@@ -84,7 +84,7 @@ const Teams = () => {
         id="our-team"
       >
         <div className="container">
-          <div className="title title--xl isview textslide">
+          <div className="title title--xl isview textslide visible">
             Our leadership <span>team</span>
           </div>
           <div className="team-flex-wrap grid col-3 col-1-mob gap-20-mob gap-40 mt-64 mt-40-mob">
@@ -1588,15 +1588,6 @@ const Teams = () => {
                   <p className="position txt txt--m mt-16 color--dark-light">
                     CBDO, CDTO, Commercial Director, Board Advisor
                   </p>
-                  <a
-                    className="btn btn--dark hover--orange arr arr-45 revert mt-32"
-                    href="/www.linkedin.com/in/Engr. Kehinde Adeyemi/"
-                    target="_blank"
-                  >
-                    <span>
-                      <b>Visit website</b>
-                    </span>
-                  </a>{" "}
                   <div className="description mt-32" data-min-height={150}>
                     <div className="text-block">
                       <div className="txt txt--m">
@@ -1666,15 +1657,6 @@ const Teams = () => {
                   <p className="position txt txt--m mt-16 color--dark-light">
                     Co-founder &amp; CEO of Polyform/Global Mentor at Techstars
                   </p>
-                  <a
-                    className="btn btn--dark hover--orange arr arr-45 revert mt-32"
-                    href="/www.polyform.co/"
-                    target="_blank"
-                  >
-                    <span>
-                      <b>Visit website</b>
-                    </span>
-                  </a>{" "}
                   <div className="description mt-32" data-min-height={150}>
                     <div className="text-block">
                       <div className="txt txt--m">
@@ -1749,15 +1731,6 @@ const Teams = () => {
                     XR Product Manager / Lead Designer, XR Consultant @ DDD
                     Visions,Co-Organizer @ VRC Toronto
                   </p>
-                  <a
-                    className="btn btn--dark hover--orange arr arr-45 revert mt-32"
-                    href="/www.linkedin.com/in/diegopavan/"
-                    target="_blank"
-                  >
-                    <span>
-                      <b>Visit website</b>
-                    </span>
-                  </a>{" "}
                   <div className="description mt-32" data-min-height={150}>
                     <div className="text-block">
                       <div className="txt txt--m">

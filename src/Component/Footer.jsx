@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="footer_center pt-100 pt-48-mob">
           <div className="container">
             <div className="flex v--center h--between pb-6 menus_wrap isview slidetop">
-              <div className="left uppercase">
+              {/* <div className="left uppercase">
                 <ul
                   className="flex v--center h--start h--wrap gap-12 fw-600"
                   id="menu-legacy">
@@ -111,7 +111,7 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="right">
                 <div className="txt txt--control-m fw-600 uppercase font2">
                   Dampecon LTD © 2025

@@ -31,17 +31,17 @@ const AboutUs = () => {
       <section className="about-hero bg--dark color--white section-bottom-rounded">
         <div className="container">
           <div className="about-hero__holder">
-            <div className="nobr-mob title title--xxl isview textslide">
+            <div className="nobr-mob title title--xxl isview textslide visible">
               Trusted  <span>Electrical Engineering </span> & Procurement Experts{" "}
               <span></span>{" "}
             </div>
-            <div className="about-hero__description txt txt--m mt-24 mt-20-mob isview slidetop">
+            <div className="about-hero__description txt txt--m mt-24 mt-20-mob isview slidetop visible">
               <p>
                 Powering industries with precision-engineered electrical installations and world-class procurement services. From hospitals to farms and factories — we bring reliability, safety, and performance to every project. their expertise in
                 
               </p>
             </div>
-            <div className="mt-32 mt-24-mob isview slidetop">
+            <div className="mt-32 mt-24-mob isview slidetop visible">
               <a
                 className="btn btn--orange arr arr-right hover--white btn--lg-desk w-full-mob"
                 href="#contact-form"

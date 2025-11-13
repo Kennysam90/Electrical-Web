@@ -9,10 +9,10 @@ const Chat = () => {
         style={{marginTop:"4em", marginBottom:"-10em"}} 
       >
         <div className="container">
-          <div className="txt txt--caption-m color--white-light uppercase fw-600 isview slidetop">
+          <div className="txt txt--caption-m color--white-light uppercase fw-600 isview slidetop visible">
             DAMPECON Ltd. Lets Deal {" "}
           </div>
-          <h2 className="title title--xxl mt-16 color--white mw1040 nobr-mob isview textslide trd02">
+          <h2 className="title title--xxl mt-16 color--white mw1040 nobr-mob isview textslide trd02 visible">
             Let’s talk!<br />
             <span></span>
           </h2>
@@ -39,7 +39,7 @@ const Chat = () => {
                       name="source_page"
                       defaultValue="index.html"
                     />{" "}
-                    <div className="input-wrap w50 isview slidetop">
+                    <div className="input-wrap w50 isview slidetop visible">
                       <div className="txt txt--control-s color--white-light uppercase fw-600">
                         Your Name{" "}
                       </div>
@@ -55,7 +55,7 @@ const Chat = () => {
                         Enter your name <sup>*</sup>
                       </p>
                     </div>
-                    <div className="input-wrap w50 isview slidetop">
+                    <div className="input-wrap w50 isview slidetop visible">
                       <div className="txt txt--control-s color--white-light uppercase fw-600">
                         Your Email{" "}
                       </div>
@@ -71,7 +71,7 @@ const Chat = () => {
                         Enter your email <sup>*</sup>
                       </p>
                     </div>
-                    <div className="input-wrap isview slidetop">
+                    <div className="input-wrap isview slidetop visible">
                       <div className="txt txt--control-s color--white-light uppercase fw-600">
                         Message{" "}
                       </div>
@@ -84,7 +84,7 @@ const Chat = () => {
                       />
                       <p>Tell us about your project</p>
                     </div>
-                    <div className="attach_wrap mt--8 mt-0-mob isview slidetop">
+                    <div className="attach_wrap mt--8 mt-0-mob isview slidetop visible">
                       <input
                         type="file"
                         accept=".jpg, .png, .webp, .doc, .docx, .pdf, .csv, .xlsx"
@@ -110,7 +110,7 @@ const Chat = () => {
                         - 5 mb
                       </div>
                     </div>
-                    <div className="budget_wrap mt-8-mob isview slidetop">
+                    <div className="budget_wrap mt-8-mob isview slidetop visible">
                       <div className="txt txt--control-s color--white-light uppercase fw-600">
                         Your budget for this project?{" "}
                       </div>
@@ -172,7 +172,7 @@ const Chat = () => {
                         </label>
                       </div>
                     </div>
-                    <div className="btn_wrap flex v--center h--start pt-8 flex--block-mob isview slidetop w-full-mob">
+                    <div className="btn_wrap flex v--center h--start pt-8 flex--block-mob isview slidetop w-full-mob visible">
                       <button className="btn btn--orange btn--lg-desk arr fullw-mob hover--white">
                         <span>
                           <b>Submit</b>
@@ -262,7 +262,7 @@ const Chat = () => {
                 </div>
               </form>
               <div className="contacts ov-hidden">
-                <div className="contact_wrap color--white flex fd--column isview slidetop">
+                <div className="contact_wrap color--white flex fd--column isview slidetop visible">
                   <div className="title title--s nobr-mob">
                     Have a project to <br />
                     discuss?
@@ -315,7 +315,7 @@ const Chat = () => {
                     </div>
                   </div>
                 </div>
-                <div className="contact_wrap color--white flex fd--column isview slidetop">
+                <div className="contact_wrap color--white flex fd--column isview slidetop visible">
                   <div className="title title--s nobr-mob">
                     Have a partnership in <br />
                     mind?

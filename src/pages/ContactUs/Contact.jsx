@@ -31,18 +31,18 @@ const Contact = () => {
       <Chat />
       <section className="locations_section pt-200 pt-100-mob">
         <div className="container">
-          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop">
+          <div className="txt txt--caption-m color--dark-light uppercase fw-600 isview slidetop visible">
             Worldwide, Where You Need Us
           </div>{" "}
-          <div className="mt-24 mw1040 title title--xl nobr-mob isview textslide trd02">
+          <div className="mt-24 mw1040 title title--xl nobr-mob isview textslide trd02 visible">
             Collaborating across borders to deliver seamless solutions —{" "}
             <span>wherever you are</span>
           </div>{" "}
-          <div className="map_wrap pc-visible mt-100 mt-60-mob isview fadein">
+          <div className="map_wrap pc-visible mt-100 mt-60-mob isview fadein ">
            
           </div>
           <div className="locations_wrap mt-32-mob">
-            <div className="row flex v--start h--between isview slidetop h--wrap">
+            <div className="row flex v--start h--between isview slidetop h--wrap visible">
               <div className="left">
                 <img
                   className=""
