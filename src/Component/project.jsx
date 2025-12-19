@@ -21,7 +21,7 @@ const Project = () => {
                     <picture>
                       <source
                         media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Asset.webp"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.55 AM (1).jpeg"
                       />
                       <source
                         media="(max-width: 1440px)"
@@ -33,7 +33,7 @@ const Project = () => {
                         decoding="async"
                         loading="lazy"
                         media="(max-width: 768px)"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Asset.webp"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.55 AM (1).jpeg"
                       />
                     </picture>
                   </a>
@@ -114,11 +114,11 @@ const Project = () => {
                     <picture>
                       <source
                         media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/mv2.avif"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.24.20 AM.jpeg"
                       />
                       <source
                         media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/mv2.avif"
+                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/.avif"
                       />
                       <img
                         alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
@@ -126,7 +126,7 @@ const Project = () => {
                         decoding="async"
                         loading="lazy"
                         media="(max-width: 768px)"
-                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/mv2.avif"
+                        src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.24.20 AM.jpeg"
                       />
                     </picture>
                   </a>
@@ -230,11 +230,11 @@ const Project = () => {
                     <picture>
                       <source
                         media="(min-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Inverter.jpg"
+                        srcSet="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.55 AM.jpeg"
                       />
                       <source
                         media="(max-width: 1440px)"
-                        srcSet="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Inverter.jpg"
+                        srcSet="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.55 AM.jpeg"
                       />
                       <img
                         alt="KlickEx – frictionless cross-<wbr>border payments for the Pacific Island communities - image cover"
@@ -242,7 +242,7 @@ const Project = () => {
                         decoding="async"
                         loading="lazy"
                         media="(max-width: 768px)"
-                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Inverter.jpg"
+                        src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.55 AM.jpeg"
                       />
                     </picture>
                   </a>

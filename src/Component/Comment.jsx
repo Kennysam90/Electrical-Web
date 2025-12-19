@@ -45,7 +45,7 @@ const Comment = () => {
                       className="fullw"
                       poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-craig.webp"
                       preload="none"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (1).mp4"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Video 2025-12-09 at 8.23.54 AM.mp4"
                     />
                     <div className="btn-wrap">
                       <button className="btn btn--play" />
@@ -105,7 +105,7 @@ const Comment = () => {
                       className="fullw"
                       poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/klickex-cover.webp"
                       preload="none"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (2).mp4"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Video 2025-12-09 at 8.23.56 AM.mp4"
                     />
                     <div className="btn-wrap">
                       <button className="btn btn--play" />
@@ -165,7 +165,7 @@ const Comment = () => {
                       className="fullw"
                       poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/cover-andre-scaled.webp"
                       preload="none"
-                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/small.mp4"
+                      src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Video 2025-12-09 at 8.53.50 AM.mp4"
                     />
                     <div className="btn-wrap">
                       <button className="btn btn--play" />

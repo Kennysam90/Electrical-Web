@@ -228,7 +228,7 @@ const Home = () => {
                           playsInline
                           poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/polina-team-cover.webp"
                           preload="none"
-                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/small.mp4"
+                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Video 2025-12-09 at 8.23.54 AM.mp4"
                         />
                         <div className="btn-wrap">
                           <button className="btn btn--play" />
@@ -279,7 +279,7 @@ const Home = () => {
                           playsInline
                           poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/Dr. Tola Akinwunmi-cover.webp"
                           preload="none"
-                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (2).mp4"
+                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Video 2025-12-09 at 8.53.50 AM.mp4"
                         />
                         <div className="btn-wrap">
                           <button className="btn btn--play" />
@@ -327,7 +327,7 @@ const Home = () => {
                           playsInline
                           poster="/cdn.phenomenonstudio.com/wp-content/uploads/2025/03/polina-mvp-cover.webp"
                           preload="none"
-                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/STEP-BY-STEP  (1).mp4"
+                          src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Video 2025-12-09 at 8.23.56 AM.mp4"
                         />
                         <div className="btn-wrap">
                           <button className="btn btn--play" />
@@ -652,7 +652,7 @@ Our experienced engineers and project managers are committed to delivering solut
                     className="radius-12"
                     decoding="async"
                     loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/stock.jpg"
+                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.53.49 AM.jpeg"
                     style={{
                       aspectRatio: "0.82323232323232",
                     }}
@@ -665,7 +665,7 @@ Our experienced engineers and project managers are committed to delivering solut
                     className="radius-12"
                     decoding="async"
                     loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/together.png"
+                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.27.08 AM.jpeg"
                     style={{
                       aspectRatio: "1.7070707070707",
                     }}
@@ -677,7 +677,7 @@ Our experienced engineers and project managers are committed to delivering solut
                     className="radius-12"
                     decoding="async"
                     loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/installing.jpg"
+                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 9.09.55 AM.jpeg"
                     style={{
                       aspectRatio: "0.82323232323232",
                     }}
@@ -689,7 +689,7 @@ Our experienced engineers and project managers are committed to delivering solut
                     className="radius-12"
                     decoding="async"
                     loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/Tonya.jpg"
+                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.27.08 AM (1).jpeg"
                     style={{
                       aspectRatio: "0.82323232323232",
                     }}
@@ -702,7 +702,7 @@ Our experienced engineers and project managers are committed to delivering solut
                     className="radius-12"
                     decoding="async"
                     loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/engineer.jpg"
+                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.57 AM (3).jpeg"
                     style={{
                       aspectRatio: "0.82323232323232",
                     }}
@@ -715,7 +715,7 @@ Our experienced engineers and project managers are committed to delivering solut
                     className="radius-12"
                     decoding="async"
                     loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/depositphotos.jpg"
+                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.27.09 AM.jpeg"
                     style={{
                       aspectRatio: "0.75",
                     }}
@@ -727,7 +727,7 @@ Our experienced engineers and project managers are committed to delivering solut
                     className="radius-12"
                     decoding="async"
                     loading="lazy"
-                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/performing.jpg"
+                    src="../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.57 AM (2).jpeg"
                     style={{
                       aspectRatio: "0.82323232323232",
                     }}

@@ -97,7 +97,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (4).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.24.20 AM (2).jpeg"
                     alt="Image - 332025-03-09 21.08.20"
                     loading="lazy"
                     decoding="async"
@@ -132,7 +132,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (2).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.24.21 AM.jpeg"
                     alt="Image - 112025-03-09 20.19.59"
                     loading="lazy"
                     decoding="async"
@@ -165,7 +165,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (3).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.27.08 AM.jpeg"
                     alt="Image - 3"
                     loading="lazy"
                     decoding="async"
@@ -200,7 +200,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (8).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.53.49 AM.jpeg"
                     alt="Image - 4"
                     loading="lazy"
                     decoding="async"
@@ -234,7 +234,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (5).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 9.09.56 AM.jpeg"
                     alt="Image - 2024-12-04 15.18.03-2"
                     loading="lazy"
                     decoding="async"
@@ -271,7 +271,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (6).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.57 AM (1).jpeg"
                     alt="Team and Advisors"
                     loading="lazy"
                     decoding="async"
@@ -308,7 +308,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (15).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.57 AM.jpeg"
                     alt="Image - 1718240946148"
                     loading="lazy"
                     decoding="async"
@@ -342,7 +342,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (19).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.53.50 AM.jpeg"
                     alt="Image - 1719041617069"
                     loading="lazy"
                     decoding="async"
@@ -375,7 +375,7 @@ const Teams = () => {
                 <div className="img-wrap">
                   <img
                     className=""
-                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (17).jpeg"
+                    src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.57 AM (3).jpeg"
                     alt="Team and Advisors"
                     loading="lazy"
                     decoding="async"
@@ -1780,7 +1780,7 @@ const Teams = () => {
               <div className="content">
                 <img
                   className=""
-                  src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (20).jpeg"
+                  src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.55 AM (1).jpeg"
                   alt="Team and Advisors"
                   loading="lazy"
                   decoding="async"
@@ -1798,7 +1798,7 @@ const Teams = () => {
               <div className="content">
                 <img
                   className=""
-                  src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (13).jpeg"
+                  src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.27.09 AM.jpeg"
                   alt="Team and Advisors"
                   loading="lazy"
                   decoding="async"
@@ -1816,7 +1816,7 @@ const Teams = () => {
               <div className="content">
                 <img
                   className=""
-                  src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/11/images (11).jpeg"
+                  src="/cdn.phenomenonstudio.com/wp-content/uploads/2025/main/WhatsApp Image 2025-12-09 at 8.23.57 AM (3).jpeg"
                   alt="Team and Advisors"
                   loading="lazy"
                   decoding="async"

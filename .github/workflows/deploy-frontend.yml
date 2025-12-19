@@ -22,7 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ssh -o StrictHostKeyChecking=no root@162.0.228.253 "
+          ssh -o StrictHostKeyChecking=no root@72.62.51.223 "
             set -e
             cd ~/frontend || git clone https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} ~/frontend
             cd ~/frontend
