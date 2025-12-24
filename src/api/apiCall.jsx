@@ -54,3 +54,10 @@ export const getProjects = async () => {
     throw error;
   }
 };
+
+export const createProject = async (data) => {
+  const res = await axiosInstance.post("/projects", data, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+  return res.data;
+};

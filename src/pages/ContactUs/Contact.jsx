@@ -72,7 +72,7 @@ const Contact = () => {
               <div className="left">
                 <img
                   className=""
-                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeria.png"
+                  src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/11/nigeri.png"
                   alt="Image - estonia"
                   loading="lazy"
                   decoding="async"

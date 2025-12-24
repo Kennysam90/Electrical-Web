@@ -21,6 +21,11 @@ import Explain from './Component/How-it-works';
 import Benefits from './Component/Benefits';
 import Career from './Career';
 import Faq from './Component/Faq';
+import Admin from './pages/Admin';
+import ProjectsTable from './Component/ProjectsTable';
+import TeamsTable from './Component/TeamsTable';
+import HomeProject from './Component/HomeProject';
+import Backup from './Component/backup';
 
 function App() {
 
@@ -51,6 +56,11 @@ function App() {
         <Route path='/benefits' element={<Benefits />} />
         <Route path='/career' element={<Career />} />
         <Route path='/faq' element={<Faq />} />
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/projectsTable' element={<ProjectsTable />} />
+        <Route path='/teamsTable' element={<TeamsTable />} />
+        <Route path='/homeproject' element={<HomeProject />} />
+        <Route path='/backup' element={<Backup />} />
       </Routes>
      </Router>
      </QueryClientProvider>

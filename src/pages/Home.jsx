@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Comment from '../Component/Comment';
 import Chat from '../Component/Chat';
 import Project from '../Component/project';
+import HomeProject from '../Component/HomeProject';
 
 const Home = () => {
   // this stores which tab is active
@@ -631,7 +632,7 @@ Maintain & Expand
             </div>
           </div>
         </section>
-        <Project />
+        <HomeProject />
         <section className="our_team  pt-100-mob pb-200 pb-64-mob">
           <div className="container">
             <div className="txt txt--caption-m color--dark-secondary uppercase fw-600 mb-24 mb-16-mob isview slidetop">

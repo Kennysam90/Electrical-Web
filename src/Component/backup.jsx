@@ -1,6 +1,63 @@
-import React from 'react'
+import React, { useState } from "react";
+import { useMutation } from "@tanstack/react-query";
+import axios from "axios";
 
-const Chat = () => {
+const Backup = () => {
+  const [form, setForm] = useState({
+    full_name: "",
+    email: "",
+    message: "",
+    budget: "",
+    files: [],
+  });
+
+  const mutation = useMutation({
+    mutationFn: async (formData) => {
+      return await axios.post(
+        "https://api.dampecon.com/api/Contact",
+        formData,
+        { headers: { "Content-Type": "multipart/form-data" } }
+      );
+    },
+    onSuccess: () => alert("Message sent!"),
+    onError: () => alert("Error sending message"),
+  });
+
+  const handleChange = (e) => {
+  const { name, value, files } = e.target;
+
+  if (name === "files") {
+    setForm((prev) => ({
+      ...prev,
+      files: Array.from(files),
+    }));
+  } else {
+    setForm((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  }
+};
+
+
+  const handleSubmit = (e) => {
+  e.preventDefault();
+
+  const formData = new FormData();
+  formData.append("full_name", form.full_name);
+  formData.append("email", form.email);
+  formData.append("message", form.message);
+  formData.append("budget", form.budget);
+
+  if (form.files?.length) {
+    form.files.forEach((file) => {
+      formData.append("files", file); // 🔑 MUST be "files"
+    });
+  }
+
+  mutation.mutate(formData);
+};
+
   return (
     <>
        <section
@@ -28,6 +85,7 @@ const Chat = () => {
           <div className="container">
             <div className="flex v--stretch h--between flex--block-mob">
               <form
+                onSubmit={handleSubmit}
                 action="https://phenomenonstudio.com/?form-action=request"
                 autoComplete="off"
                 className="contact-form"
@@ -53,6 +111,8 @@ const Chat = () => {
                       <input
                         type="text"
                         name="your_name"
+                        value={form.full_name}
+                        onChange={handleChange}
                         placeholder=" "
                         className="required"
                         data-max-length={40}
@@ -69,6 +129,8 @@ const Chat = () => {
                       <input
                         type="text"
                         name="your_email"
+                        value={form.email}
+                        onChange={handleChange}
                         placeholder=" "
                         className="required email"
                         data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$"
@@ -85,6 +147,8 @@ const Chat = () => {
                       <textarea
                         name="your_text"
                         className="max-length"
+                        value={form.message}
+                        onChange={handleChange}
                         placeholder=" "
                         data-max-length={1000}
                         defaultValue={""}
@@ -97,8 +161,9 @@ const Chat = () => {
                         accept=".jpg, .png, .webp, .doc, .docx, .pdf, .csv, .xlsx"
                         id="attach_1"
                         className="attach_input"
+                        onChange={handleChange}
                         multiple=""
-                        name="files_arr[]"
+                        name="files"
                       />
                       <label
                         htmlFor="attach_1"
@@ -122,67 +187,38 @@ const Chat = () => {
                         Your budget for this project?{" "}
                       </div>
                       <div className="budgets flex v--start h--start h--wrap mt-20 gap-8">
-                        <input
-                          type="radio"
-                          id="budget_1"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="up to $10k"
-                        />
-                        <label htmlFor="budget_1" className="btn btn--label">
-                          up to $10k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_2"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$10-$20k"
-                        />
-                        <label htmlFor="budget_2" className="btn btn--label">
-                          $10-$20k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_3"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$20-$50k"
-                        />
-                        <label htmlFor="budget_3" className="btn btn--label">
-                          $20-$50k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_4"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue="$50-$100k"
-                        />
-                        <label htmlFor="budget_4" className="btn btn--label">
-                          $50-$100k
-                        </label>
-                        <input
-                          type="radio"
-                          id="budget_5"
-                          name="budget"
-                          className="custom-validate budget"
-                          data-validate-key="budget"
-                          defaultValue=">$100k"
-                        />
-                        <label htmlFor="budget_5" className="btn btn--label">
-                          &gt;$100k
-                        </label>
-                      </div>
+              {[
+                "up to $10k",
+                "$10-$20k",
+                "$20-$50k",
+                "$50-$100k",
+                ">$100k",
+              ].map((b, i) => (
+                <React.Fragment key={i}>
+                  <input
+                    type="radio"
+                    id={`budget_${i + 1}`}
+                    name="budget"
+                    value={b}
+                    checked={form.budget === b}
+                    onChange={handleChange}
+                    className="custom-validate budget"
+                    data-validate-key="budget"
+                  />
+                  <label htmlFor={`budget_${i + 1}`} className="btn btn--label">
+                    {b}
+                  </label>
+                </React.Fragment>
+              ))}
+            </div>
                     </div>
                     <div className="btn_wrap flex v--center h--start pt-8 flex--block-mob isview slidetop w-full-mob visible">
-                      <button className="btn btn--orange btn--lg-desk arr fullw-mob hover--white">
+                      <button
+                        className="btn btn--orange btn--lg-desk arr fullw-mob hover--white"
+                        disabled={mutation.isLoading}
+                      >
                         <span>
-                          <b>Submit</b>
+                          <b>{mutation.isLoading ? "Sending…" : "Submit"}</b>
                         </span>
                       </button>
                     </div>
@@ -384,4 +420,4 @@ const Chat = () => {
   )
 }
 
-export default Chat
+export default Backup
