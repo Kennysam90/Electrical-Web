@@ -517,7 +517,7 @@ const handleDelete = (id) => {
                     {p.clientName}
                  </td>
 
-                  <td style={td}>{p.timeLine}</td>
+                  <td style={{ ...td, ...truncateText }} >{p.timeLine}</td>
                   <td style={td}>{p.state}</td>
                  <td style={td}>
                 <div style={borderedScrollBox}>

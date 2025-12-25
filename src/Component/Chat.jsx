@@ -28,7 +28,6 @@ const Chat = () => {
           <div className="container">
             <div className="flex v--stretch h--between flex--block-mob">
               <form
-                action="https://phenomenonstudio.com/?form-action=request"
                 autoComplete="off"
                 className="contact-form"
               >
@@ -191,7 +190,7 @@ const Chat = () => {
                     <div className="icon">
                       <img
                         className=""
-                        src="https://cdn.phenomenonstudio.com/wp-content/uploads/2025/10/circle-check-svgrepo-com-1.svg"
+                        src=""
                         alt="Icon - circle-check-svgrepo-com 1"
                         loading="lazy"
                         decoding="async"
