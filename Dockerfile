@@ -10,7 +10,6 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
-# ---- Production stage (Nginx) ----
 # Production stage (serve)
 FROM node:20-alpine
 WORKDIR /app
