@@ -28,8 +28,8 @@ jobs:
             cd ~/frontend
             git fetch --all
             git reset --hard origin/main
-            docker stop frontend || true
-            docker rm frontend || true
-            docker build -t frontend .
-            docker run -d -p 5173:5173 --name frontend frontend
+            docker stop dampecon-frontend || true
+            docker rm dampecon-frontend || true
+            docker build -t dampecon-frontend .
+            docker run -d -p 5173:5173 --name dampecon-frontend dampecon-frontend:latest
           "
