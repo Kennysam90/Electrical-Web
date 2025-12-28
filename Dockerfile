@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 
-# Copy source and build Vite app
+# Copy source and build Vite
 COPY . .
 RUN yarn build
 
