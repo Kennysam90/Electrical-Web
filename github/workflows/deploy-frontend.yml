@@ -1,0 +1,35 @@
+# name: Deploy Frontend to Ubuntu Server
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v4
+
+#       - name: Setup SSH agent
+#         uses: webfactory/ssh-agent@v0.9.0
+#         with:
+#           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+#       - name: Pull & deploy on server
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           ssh -o StrictHostKeyChecking=no root@72.62.51.223 "
+#             set -e
+#             cd ~/frontend || git clone https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} ~/frontend
+#             cd ~/frontend
+#             git fetch --all
+#             git reset --hard origin/main
+#             docker stop dampecon-frontend || true
+#             docker rm dampecon-frontend || true
+#             docker build -t dampecon-frontend .
+#             docker run -d -p 5173:5173 --name dampecon-frontend dampecon-frontend:latest
+#           "
