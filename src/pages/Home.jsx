@@ -43,7 +43,7 @@ const Home = () => {
             </div>
             <div className="nobr-mob title title--xl mw1040 isview textslide trd02 visible">
               <h2>
-                Electrical engineering, procurementp, {" "}
+                Electrical engineering, procurement, {" "}
                 <span>and installation solutions</span>
               </h2>
             </div>
