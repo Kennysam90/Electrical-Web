@@ -274,14 +274,14 @@ const Chat = () => {
                     discuss?
                   </div>
                   <div className="contact flex v--stretch h--between mt-auto mt-32-mob">
-                    <img
+                    {/* <img
                       className="radius-6 photo"
                       src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/accountant.jpeg"
                       alt="Image - ksenia"
                       loading="lazy"
                       decoding="async"
                       style={{ aspectRatio: "0.75555555555556" }}
-                    />{" "}
+                    />{" "} */}
                     <div className="bio flex fd--column v--start">
                       <a
                         href="https://www.linkedin.com/in/kseniia-shalia-a21921240/"
@@ -327,14 +327,14 @@ const Chat = () => {
                     mind?
                   </div>
                   <div className="contact flex v--stretch h--between mt-auto mt-32-mob">
-                    <img
+                    {/* <img
                       className="radius-6 photo"
                       src="../../cdn.phenomenonstudio.com/wp-content/uploads/2025/main/founderimg.jpeg"
                       alt="Image - polina"
                       loading="lazy"
                       decoding="async"
                       style={{ aspectRatio: "0.75555555555556" }}
-                    />{" "}
+                    />{" "} */}
                     <div className="bio flex fd--column v--start">
                       <a
                         href="https://www.linkedin.com/in/polina-chebanova/" 
