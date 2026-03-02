@@ -69,7 +69,7 @@ const AboutUs = () => {
           </div>
           <div className="about-objective__txt-cols grid col-2 col-1-mob gap-40 gap-28-mob txt txt--m mt-40 mt-24-mob isview slidetop">
             <p>
-              Since 2019, we’ve grown from a small team of skilled engineers into a trusted electrical contracting partner serving clients across multiple sectors. Through dedication, technical expertise, and integrity, we’ve earned our reputation for delivering projects on time, on budget, and to the highest standards.
+              Since 2017, we’ve grown from a small team of skilled engineers into a trusted electrical contracting partner serving clients across multiple sectors. Through dedication, technical expertise, and integrity, we’ve earned our reputation for delivering projects on time, on budget, and to the highest standards.
             
             </p>
             <p>
