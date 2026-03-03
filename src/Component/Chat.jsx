@@ -127,54 +127,58 @@ const Chat = () => {
                           name="budget"
                           className="custom-validate budget"
                           data-validate-key="budget"
-                          defaultValue="up to $10k"
+                          defaultValue="up to ₦10k"
                         />
                         <label htmlFor="budget_1" className="btn btn--label">
-                          up to $10k
+                          up to ₦10k
                         </label>
+
                         <input
                           type="radio"
                           id="budget_2"
                           name="budget"
                           className="custom-validate budget"
                           data-validate-key="budget"
-                          defaultValue="$10-$20k"
+                          defaultValue="₦10k-₦20k"
                         />
                         <label htmlFor="budget_2" className="btn btn--label">
-                          $10-$20k
+                          ₦10k-₦20k
                         </label>
+
                         <input
                           type="radio"
                           id="budget_3"
                           name="budget"
                           className="custom-validate budget"
                           data-validate-key="budget"
-                          defaultValue="$20-$50k"
+                          defaultValue="₦20k-₦50k"
                         />
                         <label htmlFor="budget_3" className="btn btn--label">
-                          $20-$50k
+                          ₦20k-₦50k
                         </label>
+
                         <input
                           type="radio"
                           id="budget_4"
                           name="budget"
                           className="custom-validate budget"
                           data-validate-key="budget"
-                          defaultValue="$50-$100k"
+                          defaultValue="₦50k-₦100k"
                         />
                         <label htmlFor="budget_4" className="btn btn--label">
-                          $50-$100k
+                          ₦50k-₦100k
                         </label>
+
                         <input
                           type="radio"
                           id="budget_5"
                           name="budget"
                           className="custom-validate budget"
                           data-validate-key="budget"
-                          defaultValue=">$100k"
+                          defaultValue=">₦100k"
                         />
                         <label htmlFor="budget_5" className="btn btn--label">
-                          &gt;$100k
+                          &gt;₦100k
                         </label>
                       </div>
                     </div>
