@@ -217,7 +217,7 @@ const TeamsTable = () => {
 
         <input
           type="text"
-          placeholder="Role"
+          placeholder="occupation"
           value={form.role}
           style={input}
           onChange={(e) => setForm({ ...form, role: e.target.value })}
@@ -289,7 +289,7 @@ const TeamsTable = () => {
         <thead>
           <tr>
             <th style={th}>Name</th>
-            <th style={th}>Role</th>
+            <th style={th}>Occupation</th>
             <th style={th}>Email</th>
             <th style={th}>Image</th>
             <th style={th}>Actions</th>
