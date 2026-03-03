@@ -239,7 +239,7 @@ const TeamsTable = () => {
           onChange={(e) => setForm({ ...form, bio: e.target.value })}
         />
 
-        <div style={sectionLabel}>Social Medias</div>
+        {/* <div style={sectionLabel}>Social Medias</div> */}
 
         {/* <input
           type="text"
